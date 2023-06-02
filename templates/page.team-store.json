@@ -1,0 +1,388 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "c5347cc7-db55-4951-acf5-089f7ca618ed": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--14757993644137__c5347cc7-db55-4951-acf5-089f7ca618ed-1685428431bb7129bf-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team-store-image2.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Team store",
+            "content": "<p>Your Simplified Apparel Solution for the Entire League<\/p>",
+            "link_text": "GET STARTED",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "template--14757993644137__c5347cc7-db55-4951-acf5-089f7ca618ed-1685428431bb7129bf-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "spacing": "none"
+      }
+    },
+    "f4185f01-c4b0-4d19-a3f7-a20d96ace8db": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14757985976425__f4185f01-c4b0-4d19-a3f7-a20d96ace8db-1685354769989d7620-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>An Easy, Efficient Platform for Your Apparel Needs Get uniforms, team gear, and spirit wear—all in one place. Our Team Store provides a streamlined solution for outfitting your entire team. Say goodbye to the hassle of managing multiple suppliers and orders.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14757985976425__f4185f01-c4b0-4d19-a3f7-a20d96ace8db-1685354769989d7620-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "f9b327b6-df36-4a87-a437-f509e00a49f5": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "Stand out. Gear up. Succeed.",
+        "text_size": "small",
+        "text_style": "outline",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
+    },
+    "eb0962e7-9271-474b-af6c-db65ddbff240": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--14757993644137__eb0962e7-9271-474b-af6c-db65ddbff240-1685428431bb7129bf-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team-store-convenience.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Solutions for Your Convenience",
+            "content": "<p>At our Team Store, we take care of everything from store creation to product design. Once you submit a store creation request, our team gets to work, crafting a customized store just for you. We bring your vision to life with designs and products that align with your organization's branding.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14757993644137__eb0962e7-9271-474b-af6c-db65ddbff240-1685428431bb7129bf-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "none"
+      }
+    },
+    "3c34db94-d6cc-4e6b-8256-89f20dc2df1e": {
+      "type": "media-with-text",
+      "blocks": {
+        "2d2c43be-7f46-4164-9bda-06d497974724": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team-store-mockup-image.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Curated Selection & Custom Designs",
+            "content": "<p>We offer an extensive range of products to choose from. Whether it's uniforms, accessories, or spirit wear, we have you covered. Additionally, our talented design team can create custom designs that truly reflect your organization's identity. Stand out from the crowd with unique and eye-catching apparel.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "2d2c43be-7f46-4164-9bda-06d497974724"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "none"
+      }
+    },
+    "aa654c48-cc24-46c6-b764-bcee9e779014": {
+      "type": "media-with-text",
+      "blocks": {
+        "66a9b0c2-1f72-4b8e-8f7f-a51191a475b7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fundraise.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Fundraising Opportunity",
+            "content": "<p>Team Store goes beyond outfitting your organization; it also serves as a powerful fundraising tool. With each purchase made through the store, a portion of the proceeds can be allocated to support your fundraising initiatives. Engage your community, rally support, and achieve your financial goals while providing high-quality apparel.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "66a9b0c2-1f72-4b8e-8f7f-a51191a475b7"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "none"
+      }
+    },
+    "0024e7a0-894d-4d3b-86d5-16eade0939bf": {
+      "type": "media-with-text",
+      "blocks": {
+        "c27ac029-f351-432e-a3cf-3384778e451a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/seamless-fulfilmetn.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Seamless Order Fulfillment",
+            "content": "<p>Once an order is placed through your Team Store, our dedicated team ensures that it is processed promptly. We work diligently to prepare and ship the products, ensuring that they reach your members and supporters within the timeframe.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "c27ac029-f351-432e-a3cf-3384778e451a"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "none"
+      }
+    },
+    "cacc2c18-1bdc-40b3-9634-17f893dc95da": {
+      "type": "multi-column",
+      "blocks": {
+        "45014207-0d89-46f9-a3de-2d4dc5960e4f": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "<h2>Advanced Printing Techniques<\/h2>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "67576b75-48a6-4f9a-890a-6a818903e5a1": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "Sublimation",
+            "heading_tag": "h4",
+            "content": "<p>We offer top-quality sublimation printing, delivering vibrant and long-lasting designs.<\/p><p>Experience the unmatched color clarity, sharpness, and durability that sublimation brings to your team uniforms, jerseys, and performance gear.<\/p><p>Stand out on the field with eye-catching sublimated apparel that represents your team's spirit and style.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "455a027a-3f58-480d-9dc6-51b05728a827": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "Embroidery",
+            "heading_tag": "h4",
+            "content": "<p>We provide high-quality embroidery options for items like bags, hats, polos, and outerwear. <\/p><p>Add a touch of sophistication and professionalism to your team's apparel. <\/p><p>Stand out with custom embroidered gear that showcases your team's commitment to excellence.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "45014207-0d89-46f9-a3de-2d4dc5960e4f",
+        "67576b75-48a6-4f9a-890a-6a818903e5a1",
+        "455a027a-3f58-480d-9dc6-51b05728a827"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#f5f5f5",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "6f560ed2-8bfc-463c-a6c5-a22df6a2cbf9": {
+      "type": "contact",
+      "blocks": {
+        "4a726ddd-6cf6-4ae3-b667-21afd3dcc868": {
+          "type": "text",
+          "settings": {
+            "title": "Team\/Organization Name",
+            "use_long_text": false,
+            "required": false
+          }
+        },
+        "83c88ace-4a89-4219-91be-cbfd99ec508c": {
+          "type": "text",
+          "settings": {
+            "title": "Briefly Describe Your Team's Brand and Goals",
+            "use_long_text": true,
+            "required": false
+          }
+        }
+      },
+      "block_order": [
+        "4a726ddd-6cf6-4ae3-b667-21afd3dcc868",
+        "83c88ace-4a89-4219-91be-cbfd99ec508c"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "Team store signup",
+        "content": "<p>Ready to take the first step in creating your own personalized team store? Fill out the signup form below.<\/p><p><em>Please Note: The information you provide below WILL NOT be used or sold for mailing lists or solicitation.<\/em><\/p>",
+        "text_position": "center",
+        "contact_form_size": "small",
+        "background": "#f5f5f5",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "#f5f5f5",
+        "contact_text_color": "#000000",
+        "button_background": "#000000",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "f10e7509-5bb7-4205-8d43-2ea6497349ad": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--14757985976425__f10e7509-5bb7-4205-8d43-2ea6497349ad-16853606026aac5b67-0": {
+          "type": "item",
+          "settings": {
+            "title": "Request Store Creation",
+            "content": "<p>Submit a simple request form to initiate the process of creating your team store. Provide us with your organization's details, branding preferences, and any specific requirements.<\/p>"
+          }
+        },
+        "template--14757985976425__f10e7509-5bb7-4205-8d43-2ea6497349ad-16853606026aac5b67-1": {
+          "type": "item",
+          "settings": {
+            "title": "Customization and Design",
+            "content": "<p>We'll design products, select appropriate apparel options, and incorporate your logos and branding elements.<\/p>"
+          }
+        },
+        "template--14757985976425__f10e7509-5bb7-4205-8d43-2ea6497349ad-16853606026aac5b67-2": {
+          "type": "item",
+          "settings": {
+            "title": "Place Orders and Fundraise",
+            "content": "<p>Once your store is ready, team members and fans can easily place orders for their desired apparel and gear. They can support the team while fundraising by purchasing merchandise directly from the store.<\/p>"
+          }
+        },
+        "6e8135aa-4c65-4ef8-9004-a1fb915576ec": {
+          "type": "item",
+          "settings": {
+            "title": "Ongoing Support",
+            "content": "<p>We provide ongoing support to ensure a seamless ordering experience. Team coordinators can manage orders, track sales, and inventory through our dedicated dashboard.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14757985976425__f10e7509-5bb7-4205-8d43-2ea6497349ad-16853606026aac5b67-0",
+        "template--14757985976425__f10e7509-5bb7-4205-8d43-2ea6497349ad-16853606026aac5b67-1",
+        "template--14757985976425__f10e7509-5bb7-4205-8d43-2ea6497349ad-16853606026aac5b67-2",
+        "6e8135aa-4c65-4ef8-9004-a1fb915576ec"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Getting Started",
+        "content": "<p>Ready to take your team to the next level with a personalized online store? Sign up today, and our dedicated team will work closely with you to build a store that reflects your team's unique identity and supports your fundraising efforts.<\/p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#ffffff",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c5347cc7-db55-4951-acf5-089f7ca618ed",
+    "f4185f01-c4b0-4d19-a3f7-a20d96ace8db",
+    "f9b327b6-df36-4a87-a437-f509e00a49f5",
+    "eb0962e7-9271-474b-af6c-db65ddbff240",
+    "3c34db94-d6cc-4e6b-8256-89f20dc2df1e",
+    "aa654c48-cc24-46c6-b764-bcee9e779014",
+    "0024e7a0-894d-4d3b-86d5-16eade0939bf",
+    "cacc2c18-1bdc-40b3-9634-17f893dc95da",
+    "6f560ed2-8bfc-463c-a6c5-a22df6a2cbf9",
+    "f10e7509-5bb7-4205-8d43-2ea6497349ad"
+  ]
+}

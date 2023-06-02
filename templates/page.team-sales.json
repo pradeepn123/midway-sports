@@ -1,0 +1,276 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "7172c86a-59f9-44c8-a7b3-be122773aff2": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--14757985976425__7172c86a-59f9-44c8-a7b3-be122773aff2-1685348141419869a0-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Team Sales",
+            "heading_tag": "h1"
+          }
+        },
+        "330efc71-5ee5-493c-8ab3-964f0f1212d6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Welcome to Team Sales Program! Ready to take your team's style and performance to new heights?<\/p>"
+          }
+        },
+        "f3258f0f-05ee-4b6c-b839-a868d25af863": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "REQUEST A QUOTE",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14757985976425__7172c86a-59f9-44c8-a7b3-be122773aff2-1685348141419869a0-1",
+        "330efc71-5ee5-493c-8ab3-964f0f1212d6",
+        "f3258f0f-05ee-4b6c-b839-a868d25af863"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "lg",
+        "image": "shopify:\/\/shop_images\/team-sales-2.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15
+      }
+    },
+    "f4185f01-c4b0-4d19-a3f7-a20d96ace8db": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14757985976425__f4185f01-c4b0-4d19-a3f7-a20d96ace8db-1685354769989d7620-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We are thrilled to offer our expertise and services to organizations, school teams, and sports teams looking to order uniforms or accessories in bulk. At Midway Sports, we understand the importance of a unified team look and the impact it can have on team morale and performance. Whether you're outfitting an entire organization or a single team, our team sales program is designed to meet your needs and exceed your expectations.<\/p>"
+          }
+        },
+        "58b26df0-f404-44b2-afde-5aff6ffd393a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/All_logos.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--14757985976425__f4185f01-c4b0-4d19-a3f7-a20d96ace8db-1685354769989d7620-2",
+        "58b26df0-f404-44b2-afde-5aff6ffd393a"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "6eac2c14-e754-49a8-ac97-da9d61d2c7e6": {
+      "type": "scrolling-text",
+      "settings": {
+        "full_width": true,
+        "text": "FEATURES & BENEFITS",
+        "text_size": "small",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
+    },
+    "5803913a-ad0e-4920-85e9-77db0cf3b411": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "template--14757985976425__5803913a-ad0e-4920-85e9-77db0cf3b411-16853589694b6ccaa5-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team-store-image1_1.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "CUSTOMIZATION OPTIONS",
+            "content": "<p>At Midway Sports, we understand that every team is unique, and that's why we offer a wide range of customization options. From team logos and player names to numbers and special designs, we can bring your vision to life.<\/p>"
+          }
+        },
+        "template--14757985976425__5803913a-ad0e-4920-85e9-77db0cf3b411-16853589694b6ccaa5-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cost-savings.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Cost Savings",
+            "content": "<p>Bulk orders often come with discounted pricing, allowing you to save money while outfitting your entire team. Our team sales specialists will provide you with competitive pricing options tailored to your specific requirements.<\/p>"
+          }
+        },
+        "15ae69c9-a6c9-4a02-9f04-3d0b9e9cfc18": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/consistency.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "CONSISTENCY & UNIFORMITY",
+            "content": "<p>Ensuring that every team member is wearing the same high-quality uniform promotes a sense of unity and professionalism. Our team ensures that all your team uniforms and accessories are consistent in design, materials, and fit.<\/p>"
+          }
+        },
+        "f816e7f3-c469-4f1c-ab72-1eaa4c5b8b2e": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/quick-shipping.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "QUICK TURNAROUND TIMES",
+            "content": "<p>Our efficient order processing and production systems allow us to deliver your bulk orders within reasonable turnaround times, ensuring that you receive your products when you need them.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14757985976425__5803913a-ad0e-4920-85e9-77db0cf3b411-16853589694b6ccaa5-0",
+        "template--14757985976425__5803913a-ad0e-4920-85e9-77db0cf3b411-16853589694b6ccaa5-1",
+        "15ae69c9-a6c9-4a02-9f04-3d0b9e9cfc18",
+        "f816e7f3-c469-4f1c-ab72-1eaa4c5b8b2e"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "6f560ed2-8bfc-463c-a6c5-a22df6a2cbf9": {
+      "type": "contact",
+      "blocks": {
+        "4a726ddd-6cf6-4ae3-b667-21afd3dcc868": {
+          "type": "text",
+          "settings": {
+            "title": "Product Description",
+            "use_long_text": false,
+            "required": false
+          }
+        },
+        "eeb32da8-8da4-4d61-8f1b-0d5954716c0e": {
+          "type": "text",
+          "settings": {
+            "title": "Quantity",
+            "use_long_text": false,
+            "required": false
+          }
+        },
+        "05ac77f3-c86a-4b61-a651-c2c7362ed906": {
+          "type": "text",
+          "settings": {
+            "title": "Date Needed",
+            "use_long_text": false,
+            "required": false
+          }
+        }
+      },
+      "block_order": [
+        "4a726ddd-6cf6-4ae3-b667-21afd3dcc868",
+        "eeb32da8-8da4-4d61-8f1b-0d5954716c0e",
+        "05ac77f3-c86a-4b61-a651-c2c7362ed906"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "Request a quote",
+        "content": "<p>Our dedicated team will respond to your submission within 24 business hours.<\/p><p><em>Please Note: The information you provide below WILL NOT be used or sold for mailing lists or solicitation.<\/em><\/p>",
+        "text_position": "center",
+        "contact_form_size": "small",
+        "background": "#f5f5f5",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "#f5f5f5",
+        "contact_text_color": "#000000",
+        "button_background": "#000000",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "f10e7509-5bb7-4205-8d43-2ea6497349ad": {
+      "type": "accordion-content",
+      "blocks": {
+        "template--14757985976425__f10e7509-5bb7-4205-8d43-2ea6497349ad-16853606026aac5b67-0": {
+          "type": "item",
+          "settings": {
+            "title": "Fill out the contact form below",
+            "content": "<p>Enter your comments, questions, or specific product requirements in the provided space. If you're looking for a quote, please include a detailed product description, quantities needed, and the date you require the items by.<\/p>"
+          }
+        },
+        "template--14757985976425__f10e7509-5bb7-4205-8d43-2ea6497349ad-16853606026aac5b67-1": {
+          "type": "item",
+          "settings": {
+            "title": "Submit the form",
+            "content": "<p>Once you've filled in all the necessary details, click the submit button to send your request to our team sales department.<\/p>"
+          }
+        },
+        "template--14757985976425__f10e7509-5bb7-4205-8d43-2ea6497349ad-16853606026aac5b67-2": {
+          "type": "item",
+          "settings": {
+            "title": "Receive a response",
+            "content": "<p>We understand the urgency of your team's needs. That's why we guarantee to get back to you within 24 business hours. Our dedicated team will review your request and provide you with a personalized response, including pricing details, customization options, and any additional information you may require.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14757985976425__f10e7509-5bb7-4205-8d43-2ea6497349ad-16853606026aac5b67-0",
+        "template--14757985976425__f10e7509-5bb7-4205-8d43-2ea6497349ad-16853606026aac5b67-1",
+        "template--14757985976425__f10e7509-5bb7-4205-8d43-2ea6497349ad-16853606026aac5b67-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "Order Process",
+        "content": "<p>You can submit your team's requirements and specifications directly to our team sales department.<\/p><p>Follow these simple steps to get started:<\/p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#ffffff",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "7172c86a-59f9-44c8-a7b3-be122773aff2",
+    "f4185f01-c4b0-4d19-a3f7-a20d96ace8db",
+    "6eac2c14-e754-49a8-ac97-da9d61d2c7e6",
+    "5803913a-ad0e-4920-85e9-77db0cf3b411",
+    "6f560ed2-8bfc-463c-a6c5-a22df6a2cbf9",
+    "f10e7509-5bb7-4205-8d43-2ea6497349ad"
+  ]
+}

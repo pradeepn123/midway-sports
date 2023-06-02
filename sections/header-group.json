@@ -1,0 +1,209 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message": {
+          "type": "message",
+          "settings": {
+            "text": "FREE SHIPPING On all orders above $150",
+            "url": ""
+          }
+        },
+        "96e614cc-5ce4-4e4d-8524-41bb2ce0df62": {
+          "type": "message",
+          "settings": {
+            "text": "HASSLE-FREE Returns within 14 days of your delivery",
+            "url": "shopify:\/\/policies\/refund-policy"
+          }
+        }
+      },
+      "block_order": [
+        "message",
+        "96e614cc-5ce4-4e4d-8524-41bb2ce0df62"
+      ],
+      "custom_css": [
+        ".announcement-bar {padding-block-start: 0.5rem; padding-block-end: 0.5rem;}"
+      ],
+      "settings": {
+        "enable_sticky": false,
+        "text_size": "text-xs",
+        "navigation_mode": "scrolling",
+        "scrolling_speed": 10,
+        "background": "#1a1a1a",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "0006a5c8-78e5-43a0-a3d3-e6664dcda52e": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Men",
+            "layout": "horizontal_center",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify:\/\/shop_images\/AURORA_DH8920-010_PHSYM002-2000.jpg",
+            "image_heading_1": "Popular Gifts For Men",
+            "image_link_1": "shopify:\/\/collections\/gifts-hell-love",
+            "image_text_color_1": "#ffffff",
+            "image_2": "shopify:\/\/shop_images\/Stock_Uniforms_thumbnail.webp",
+            "image_heading_2": "Uniforms",
+            "image_link_2": "shopify:\/\/collections\/baseball-uniforms",
+            "image_text_color_2": "#ffffff",
+            "image_3": "shopify:\/\/shop_images\/jordangwhite7.jpg",
+            "image_heading_3": "Air Jordan 1",
+            "image_link_3": "shopify:\/\/products\/air-jordan-1-low-g-golf-shoes-1",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "collage",
+            "stretch_promo": true,
+            "drawer_link_image": "hide"
+          }
+        },
+        "6fab94bf-67f0-463a-a11d-057f2b2bc162": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Women",
+            "layout": "horizontal_center",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify:\/\/shop_images\/DQ6027-010-PHSYM002.jpg",
+            "image_heading_1": "Popular Gifts For Women",
+            "image_link_1": "shopify:\/\/collections\/gifts-for-women",
+            "image_text_color_1": "#ffffff",
+            "image_2": "shopify:\/\/shop_images\/Stock_Uniforms_thumbnail_women.jpg",
+            "image_heading_2": "Uniforms",
+            "image_link_2": "shopify:\/\/collections\/basketball-uniforms",
+            "image_text_color_2": "#ffffff",
+            "image_3": "shopify:\/\/shop_images\/AURORA_DJ6015-602_PHSYD001-2000.jpg",
+            "image_heading_3": "Air Zoom",
+            "image_link_3": "shopify:\/\/products\/nike-air-zoom-g-t-cut-2-basketball-shoes-1",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "collage",
+            "stretch_promo": true,
+            "drawer_link_image": "hide"
+          }
+        },
+        "c97f9116-55eb-4285-964c-8d370d7fdb43": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Kids",
+            "layout": "horizontal_center",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify:\/\/shop_images\/gifts_thumbnail_kid.jpg",
+            "image_heading_1": "Popular Gifts For Kids",
+            "image_link_1": "shopify:\/\/collections\/gifts-for-kids",
+            "image_text_color_1": "#ffffff",
+            "image_2": "shopify:\/\/shop_images\/Stock_Uniforms_thumbnail_kids.jpg",
+            "image_heading_2": "Uniforms",
+            "image_link_2": "shopify:\/\/collections\/basketball-uniforms",
+            "image_text_color_2": "#ffffff",
+            "image_3": "shopify:\/\/shop_images\/AURORA_CZ0907-102_PHSYD001-2000.jpg",
+            "image_heading_3": "Air Zoom",
+            "image_link_3": "shopify:\/\/products\/air-jordan-11-cmft-low-gs",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "collage",
+            "stretch_promo": true,
+            "drawer_link_image": "hide"
+          }
+        },
+        "c3bdeb67-fa1c-475d-b13b-be1a18ba9841": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Sports",
+            "layout": "horizontal_center",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
+        "44af808d-a037-468a-80a7-0cf490a9e921": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Uniforms",
+            "layout": "horizontal_center",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify:\/\/shop_images\/team-sales2.jpg",
+            "image_heading_1": "Team Sales",
+            "image_link_1": "shopify:\/\/pages\/team-sales",
+            "image_text_color_1": "#ffffff",
+            "image_2": "shopify:\/\/shop_images\/team-store-image2.jpg",
+            "image_heading_2": "Team Store",
+            "image_link_2": "shopify:\/\/pages\/hc-team",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        }
+      },
+      "block_order": [
+        "0006a5c8-78e5-43a0-a3d3-e6664dcda52e",
+        "6fab94bf-67f0-463a-a11d-057f2b2bc162",
+        "c97f9116-55eb-4285-964c-8d370d7fdb43",
+        "c3bdeb67-fa1c-475d-b13b-be1a18ba9841",
+        "44af808d-a037-468a-80a7-0cf490a9e921"
+      ],
+      "custom_css": [
+        ".header__wrapper {padding: 10px 48px;}",
+        ".header__icon-list .header__link-list .contents li:last-child .bold.link-faded-reverse {background: red; color: #fff; height: 30px; width: 49px; text-align: center; display: flex; align-items: center; justify-content: center;}"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "hide_on_scroll": false,
+        "logo": "shopify:\/\/shop_images\/midway-logo-spacing.png",
+        "logo_max_width": 50,
+        "logo_mobile_max_width": 30,
+        "menu": "main-menu-2",
+        "sidebar_menu": "",
+        "secondary_menu": "",
+        "menu_open_trigger": "hover",
+        "opening_from": "left",
+        "layout": "logo_left_navigation_center",
+        "show_social_media": true,
+        "show_locale_selector": true,
+        "show_country_selector": true,
+        "show_country_flag": true,
+        "show_country_name": false,
+        "transparent_header_text_color": "#ffffff",
+        "reduce_padding": false,
+        "background_opacity": 100,
+        "background_blur_radius": 0
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

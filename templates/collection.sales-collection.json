@@ -1,0 +1,411 @@
+{
+  "sections": {
+    "76afba04-1bc8-4eaf-8d17-4262c4398a62": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14756469506153__76afba04-1bc8-4eaf-8d17-4262c4398a62-1684908343980886d9-0": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 1",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "template--14756469506153__76afba04-1bc8-4eaf-8d17-4262c4398a62-1684908343980886d9-1": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14756469506153__76afba04-1bc8-4eaf-8d17-4262c4398a62-1684908343980886d9-0",
+        "template--14756469506153__76afba04-1bc8-4eaf-8d17-4262c4398a62-1684908343980886d9-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h0",
+        "image_size": "sm",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "filter_layout": "sidebar",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false
+      }
+    },
+    "72f9345e-6fb3-4593-bd98-aeab553b4702": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "activewear-sale",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Featured Sale",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "42d9f3a7-ec24-4cea-a7f7-e22fc4e51863": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--14756469506153__42d9f3a7-ec24-4cea-a7f7-e22fc4e51863-1684916954f461361c-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--14756469506153__42d9f3a7-ec24-4cea-a7f7-e22fc4e51863-1684916954f461361c-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "template--14756469506153__42d9f3a7-ec24-4cea-a7f7-e22fc4e51863-1684916954f461361c-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14756469506153__42d9f3a7-ec24-4cea-a7f7-e22fc4e51863-1684916954f461361c-0",
+        "template--14756469506153__42d9f3a7-ec24-4cea-a7f7-e22fc4e51863-1684916954f461361c-1",
+        "template--14756469506153__42d9f3a7-ec24-4cea-a7f7-e22fc4e51863-1684916954f461361c-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "a0d6b5c4-091a-4eba-8cf3-a379404254ac": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "mens-sale",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Mens Sale",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "d3dbce62-e027-45d0-b1b3-bea011acc7b2": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "0475defd-6839-41a2-bb8b-9dd904f5c889": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "739f39ce-eb9d-4d0b-9d57-e60d1a3d2f07": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "8a31d5f8-a09a-410c-b7e0-6cef53fb3c75": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "0475defd-6839-41a2-bb8b-9dd904f5c889",
+        "739f39ce-eb9d-4d0b-9d57-e60d1a3d2f07",
+        "8a31d5f8-a09a-410c-b7e0-6cef53fb3c75"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "e326020a-48c1-463b-bb0e-8dda6320e597": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "womens-sale",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Women's Sale",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "c2180fb9-84d9-44e5-9104-ab29c3949303": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "7cc2ced6-10ae-4a6e-bf9e-265cb91705df": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "5f459301-0751-45da-b1de-3eb8246cbde0": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "6aa77811-eaf3-4b83-be1c-fa05816ccc4e": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "7cc2ced6-10ae-4a6e-bf9e-265cb91705df",
+        "5f459301-0751-45da-b1de-3eb8246cbde0",
+        "6aa77811-eaf3-4b83-be1c-fa05816ccc4e"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "80317b2d-d8bb-454e-b257-784809b20d82": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "on-sale-footwear",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Footwear Sale",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "3e1751cb-ddcc-449d-bf57-2e0a16a0aff1": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "5d337abe-bf0d-47e5-8648-f76acbf0f9de": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "05a12496-da48-4f45-844e-af331bb3b718": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "819555f9-7d4b-40a2-9c27-18d2d018100e": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "5d337abe-bf0d-47e5-8648-f76acbf0f9de",
+        "05a12496-da48-4f45-844e-af331bb3b718",
+        "819555f9-7d4b-40a2-9c27-18d2d018100e"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "7e68418b-451f-433a-bf8b-059ee5f860ce": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "on-sale-equipment",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Equipments Sale",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "76afba04-1bc8-4eaf-8d17-4262c4398a62",
+    "banner",
+    "main",
+    "72f9345e-6fb3-4593-bd98-aeab553b4702",
+    "42d9f3a7-ec24-4cea-a7f7-e22fc4e51863",
+    "a0d6b5c4-091a-4eba-8cf3-a379404254ac",
+    "d3dbce62-e027-45d0-b1b3-bea011acc7b2",
+    "e326020a-48c1-463b-bb0e-8dda6320e597",
+    "c2180fb9-84d9-44e5-9104-ab29c3949303",
+    "80317b2d-d8bb-454e-b257-784809b20d82",
+    "3e1751cb-ddcc-449d-bf57-2e0a16a0aff1",
+    "7e68418b-451f-433a-bf8b-059ee5f860ce"
+  ]
+}

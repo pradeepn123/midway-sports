@@ -1,0 +1,141 @@
+{
+  "sections": {
+    "7a5e6370-86a6-4c5d-98ec-ed7453f159e7": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "template--14754144518249__7a5e6370-86a6-4c5d-98ec-ed7453f159e7-16848248421edb52ad-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-nike.jpg",
+            "stretch_image": false,
+            "link_text": "NIKE",
+            "link_url": "shopify:\/\/collections\/nike",
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "2f713873-2b41-4de5-8571-69435324d5c4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-jordan.jpg",
+            "stretch_image": false,
+            "link_text": "JORDAN",
+            "link_url": "shopify:\/\/collections\/jordan",
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "8d7b7df2-e9d0-4604-93c0-11a46c6391b9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-underarmor.jpg",
+            "stretch_image": false,
+            "link_text": "UNDER ARMOUR",
+            "link_url": "shopify:\/\/collections\/under-armour",
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "ae41ba9b-040d-4798-a516-e9e1ff04cdd9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-newera.jpg",
+            "stretch_image": false,
+            "link_text": "NEW ERA",
+            "link_url": "shopify:\/\/collections\/new-era",
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "8c2ae78b-b006-49a1-aa38-9f9e16fbd83b": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-oakley.jpg",
+            "stretch_image": false,
+            "link_text": "OAKLEY",
+            "link_url": "shopify:\/\/collections\/oakley",
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "5bcd31ee-0e68-4bc3-bcf2-5edc0144db5b": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand-wilson.jpg",
+            "stretch_image": false,
+            "link_text": "WILSON",
+            "link_url": "shopify:\/\/collections\/wilson",
+            "background": "#ffffff",
+            "text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--14754144518249__7a5e6370-86a6-4c5d-98ec-ed7453f159e7-16848248421edb52ad-0",
+        "2f713873-2b41-4de5-8571-69435324d5c4",
+        "8d7b7df2-e9d0-4604-93c0-11a46c6391b9",
+        "ae41ba9b-040d-4798-a516-e9e1ff04cdd9",
+        "8c2ae78b-b006-49a1-aa38-9f9e16fbd83b",
+        "5bcd31ee-0e68-4bc3-bcf2-5edc0144db5b"
+      ],
+      "settings": {
+        "full_width": false,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "SHOP BY BRAND",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "settings": {
+        "collections": [
+          "mens-apparel",
+          "mens-footwear",
+          "womens-apparel",
+          "womens-footwear",
+          "kids-apparel",
+          "equipment",
+          "stock-uniforms",
+          "baseball",
+          "basketball",
+          "football",
+          "golf",
+          "lacrosse",
+          "pickleball",
+          "softball",
+          "soccer",
+          "training",
+          "volleyball"
+        ],
+        "collections_per_row": 3,
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15
+      }
+    }
+  },
+  "order": [
+    "7a5e6370-86a6-4c5d-98ec-ed7453f159e7",
+    "main"
+  ]
+}

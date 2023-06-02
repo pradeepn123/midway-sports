@@ -1,0 +1,110 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "12659b45-1546-4698-a963-7d27bc57deff": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--14754144551017__12659b45-1546-4698-a963-7d27bc57deff-1685348141419869a0-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Contact Us",
+            "heading_tag": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "template--14754144551017__12659b45-1546-4698-a963-7d27bc57deff-1685348141419869a0-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/185975271_2980601762213358_4624765217586991285_n.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "26bc45d0-67ce-4e42-9f29-65c9d0aa80e7": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--14754144551017__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-16853530036a5c9203-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Speak with Our Team",
+            "content": "<h4><a href=\"tel:+1 786-353-2005\" title=\"tel:+1 786-353-2005\">+1 786-353-2005<\/a><\/h4><p>(9:00 am to 6:00 pm, Monday–Friday, EST)<\/p>"
+          }
+        },
+        "template--14754144551017__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-16853530036a5c9203-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-chat",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Chat with Us",
+            "content": "<h4>Chat Now!<\/h4><p>9:00 am - 6:00 pm (EST)<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14754144551017__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-16853530036a5c9203-0",
+        "template--14754144551017__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-16853530036a5c9203-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h6",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "contact": {
+      "type": "contact",
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "We are here to help",
+        "content": "<p>For general inquiries or questions regarding sales or press, please leave your contact information below and we will get back to you as soon as possible.<\/p>",
+        "text_position": "center",
+        "contact_form_size": "small",
+        "background": "#f5f5f5",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "#f5f5f5",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "12659b45-1546-4698-a963-7d27bc57deff",
+    "26bc45d0-67ce-4e42-9f29-65c9d0aa80e7",
+    "contact"
+  ]
+}

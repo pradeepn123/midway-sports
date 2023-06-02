@@ -1,0 +1,377 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "7126ff7f-e394-4471-9985-2a083b372192": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--14756554965097__7126ff7f-e394-4471-9985-2a083b372192-1685348141419869a0-1": {
+          "type": "heading",
+          "settings": {
+            "text": "About us",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--14756554965097__7126ff7f-e394-4471-9985-2a083b372192-1685348141419869a0-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/73318789_2486214398318766_2556001562598047744_n.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "30843989-0283-4c89-a696-85fc229ee4f9": {
+      "type": "scrolling-text",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "full_width": true,
+        "text": "Welcome to midway sports",
+        "text_size": "small",
+        "text_style": "outline",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 20,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "text_gradient": ""
+      }
+    },
+    "d6eb0caf-8cee-48e0-943c-117a5cd0684c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14756554965097__d6eb0caf-8cee-48e0-943c-117a5cd0684c-1685354769989d7620-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Where passion meets exceptional quality and style.",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--14756554965097__d6eb0caf-8cee-48e0-943c-117a5cd0684c-1685354769989d7620-2": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>As the ultimate sporting goods boutique and authorized dealer of top brands like Nike and Under Armour, we bring you a curated collection of high-quality team uniforms, shoes, apparel, and sporting goods. Get ready to elevate your sports experience with Midway Sports.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14756554965097__d6eb0caf-8cee-48e0-943c-117a5cd0684c-1685354769989d7620-1",
+        "template--14756554965097__d6eb0caf-8cee-48e0-943c-117a5cd0684c-1685354769989d7620-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "3b1b3728-6741-4f35-9b8d-1a441a1419f8": {
+      "type": "media-with-text",
+      "blocks": {
+        "cc52c01c-f231-4a60-806b-4e169f8216ee": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/185975271_2980601762213358_4624765217586991285_n.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Our mission",
+            "content": "<p>At Midway Sports, our mission is to empower athletes and sports enthusiasts to embrace their true potential. We strive to provide you with exceptional products that elevate your performance, while our dedicated team delivers personalized service and guidance throughout your journey. With Midway Sports, you're not just part of a community; you're part of a winning team.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "cc52c01c-f231-4a60-806b-4e169f8216ee"
+      ],
+      "settings": {
+        "full_width": true,
+        "spacing": "none"
+      }
+    },
+    "73c387c0-4eb9-4af2-9193-706422c711ca": {
+      "type": "media-with-text",
+      "blocks": {
+        "69e7913c-2258-41c0-afa3-2db499c47eff": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/204546829_3011433532463514_2209148886191148915_n.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Sporting Goods & Apparel",
+            "content": "<p>Gear up for greatness with our wide range of sporting goods, shoes, and apparel. We curate only the best products from renowned brands, ensuring unmatched quality and performance. From professional athletes to sports enthusiasts, our collection caters to all levels and passions. Discover the perfect equipment and apparel that aligns with your goals and fuels your passion for the game at Midway Sports.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "69e7913c-2258-41c0-afa3-2db499c47eff"
+      ],
+      "settings": {
+        "full_width": true,
+        "spacing": "none"
+      }
+    },
+    "5e0c0cb7-7fbc-4d1c-b19b-42eb23c80d24": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--14756554965097__5e0c0cb7-7fbc-4d1c-b19b-42eb23c80d24-1685354995d5995dbd-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/87260580_2603336706606534_9175155398255050752_n.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Team Uniforms",
+            "content": "<p>Unlock the power of team unity and style with our premium team uniforms. We offer a vast selection of the latest styles and designs from the most popular brands in the industry. Whether you're a school, club, or recreational team, our experts will work closely with you to create custom uniforms that embody your team's spirit and make a lasting impression. Experience the thrill of looking and performing your best with Midway Sports team uniforms.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14756554965097__5e0c0cb7-7fbc-4d1c-b19b-42eb23c80d24-1685354995d5995dbd-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "spacing": "none"
+      }
+    },
+    "c7f1c41a-a216-4cfe-8fdc-5885e87ef507": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--14756554965097__c7f1c41a-a216-4cfe-8fdc-5885e87ef507-1685448790d8c8c75c-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/founder.png",
+            "media_width": 30,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<h4>A Note from Our President<\/h4><p>\"Empowering athletes of all levels with high-quality gear and exceptional service, our team is dedicated to fueling your passion for sports and helping you achieve your goals.\"<strong> <\/strong><\/p><p><strong>Miguel Tosar<\/strong><\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14756554965097__c7f1c41a-a216-4cfe-8fdc-5885e87ef507-1685448790d8c8c75c-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "none"
+      }
+    },
+    "2a65616d-f0d8-4a9e-9618-2a45219f0c77": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--14756554965097__2a65616d-f0d8-4a9e-9618-2a45219f0c77-1685428431bb7129bf-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/73318789_2486214398318766_2556001562598047744_n.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Our retail store",
+            "content": "<p>6400 S Dixie Hwy<br\/>South Miami, FL<\/p>",
+            "link_text": "GET DIRECTIONS",
+            "link_url": "",
+            "background": "#f5f5f5",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14756554965097__2a65616d-f0d8-4a9e-9618-2a45219f0c77-1685428431bb7129bf-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "none"
+      }
+    },
+    "1522b287-6bfe-456e-b686-a26514f47fc3": {
+      "type": "media-grid",
+      "blocks": {
+        "f48283bf-88d1-47dc-b9a5-2777508e7fbb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/72697181_2471566599783546_1876590220871204864_n.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--14756554965097__1522b287-6bfe-456e-b686-a26514f47fc3-1685531928415a79ce-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/73071969_2471566543116885_3527415833720520704_n.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--14756554965097__1522b287-6bfe-456e-b686-a26514f47fc3-1685531928415a79ce-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/72572520_2471566489783557_4912339462928728064_n.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--14756554965097__1522b287-6bfe-456e-b686-a26514f47fc3-1685531928415a79ce-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/72879429_2471566643116875_3734508702783242240_n.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "f48283bf-88d1-47dc-b9a5-2777508e7fbb",
+        "template--14756554965097__1522b287-6bfe-456e-b686-a26514f47fc3-1685531928415a79ce-1",
+        "template--14756554965097__1522b287-6bfe-456e-b686-a26514f47fc3-1685531928415a79ce-2",
+        "template--14756554965097__1522b287-6bfe-456e-b686-a26514f47fc3-1685531928415a79ce-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "7126ff7f-e394-4471-9985-2a083b372192",
+    "30843989-0283-4c89-a696-85fc229ee4f9",
+    "d6eb0caf-8cee-48e0-943c-117a5cd0684c",
+    "3b1b3728-6741-4f35-9b8d-1a441a1419f8",
+    "73c387c0-4eb9-4af2-9193-706422c711ca",
+    "5e0c0cb7-7fbc-4d1c-b19b-42eb23c80d24",
+    "c7f1c41a-a216-4cfe-8fdc-5885e87ef507",
+    "2a65616d-f0d8-4a9e-9618-2a45219f0c77",
+    "1522b287-6bfe-456e-b686-a26514f47fc3"
+  ]
+}
