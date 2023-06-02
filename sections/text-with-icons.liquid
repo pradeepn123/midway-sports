@@ -1,3 +1,4 @@
+{{ 'contact-us.css' | asset_url | stylesheet_tag }}
 {%- if section.blocks.size > 0 -%}
   {%- render 'section-spacing-collapsing' -%}
 
@@ -66,26 +67,42 @@
                 {%- endif -%}
               {%- endcapture -%}
 
-              {%- if icon != blank -%}
-                {%- if block.settings.icon_background_type == 'none' -%}
-                  <div {% render 'surface', text_color: block.settings.icon_color %}>
-                    {{- icon -}}
-                  </div>
-                {%- else -%}
-                  {%- capture surface_class -%}icon-block {% if block.settings.icon_background_type == 'circle' %}rounded-full{% endif %}{%- endcapture -%}
-                  <div {% render 'surface', class: surface_class, background: block.settings.icon_background, text_color: block.settings.icon_color, background_fallback: 'bg-secondary' %}>
-                    {{- icon -}}
-                  </div>
-                {%- endif -%}
-              {%- endif -%}
-
               <div class="text-with-icons__text-wrapper">
                 <div class="prose">
-                  {%- if block.settings.title != blank -%}
-                    <p class="{{ section.settings.heading_tag }}">{{ block.settings.title | escape }}</p>
-                  {%- endif -%}
+                  <div class="text-icon-wrapper">
+                    <div class="icon-part-wrap">
+                      {%- if icon != blank -%}
+                        {%- if block.settings.icon_background_type == 'none' -%}
+                          <div {% render 'surface', text_color: block.settings.icon_color %}>
+                            {{- icon -}}
+                          </div>
+                        {%- else -%}
+                        {%- capture surface_class -%}icon-block {% if block.settings.icon_background_type == 'circle' %}rounded-full{% endif %}{%- endcapture -%}
+                          <div {% render 'surface', class: surface_class, background: block.settings.icon_background, text_color: block.settings.icon_color, background_fallback: 'bg-secondary' %}>
+                            {{- icon -}}
+                          </div>
+                        {%- endif -%}
+                      {%- endif -%}
+                    </div>
 
-                  {{- block.settings.content -}}
+                    <div class="image-part-wrap">
+                      {%- if block.settings.title != blank -%}
+                        <p class="{{ section.settings.heading_tag }}">{{ block.settings.title | escape }}</p>
+                      {%- endif -%}
+                      {{- block.settings.content -}}
+                      
+                      {%- if block.settings.url != blank -%}
+                        {% render 'button', content: block.settings.text, href: block.settings.url, size: block.settings.size, style: block.settings.style, background: block.settings.background, text_color: block.settings.text_color, block: block %}
+                      {%- endif -%}
+
+                      {%- if block.settings.urls != blank -%}
+                        {% render 'button', content: block.settings.texts, href: block.settings.urls, size: block.settings.sizes, style: block.settings.styles, background: block.settings.backgrounds, text_color: block.settings.text_colors, block: block %}
+                      {%- endif -%}
+                      
+                      {{ block.settings.content-button }}
+                    
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -451,7 +468,134 @@
           "id": "content",
           "label": "Content",
           "default": "<p>Short content about your store</p>"
-        }
+        },
+        {
+              "type": "select",
+              "id": "style",
+              "label": "Style",
+              "options": [
+                {
+                  "value": "outline",
+                  "label": "Outline"
+                },
+                {
+                  "value": "fill",
+                  "label": "Fill"
+                }
+              ],
+              "default": "fill"
+            },
+            {
+              "type": "select",
+              "id": "size",
+              "label": "Size",
+              "options": [
+                {
+                  "value": "sm",
+                  "label": "Small"
+                },
+                {
+                  "value": "base",
+                  "label": "Medium"
+                },
+                {
+                  "value": "lg",
+                  "label": "Large"
+                },
+                {
+                  "value": "xl",
+                  "label": "X-Large"
+                }
+              ],
+              "default": "lg"
+            },
+            {
+              "type": "text",
+              "id": "text",
+              "label": "Text",
+              "default": "Button text"
+            },
+            {
+              "type": "url",
+              "id": "url",
+              "label": "Link"
+            },
+            {
+              "type": "color",
+              "id": "background",
+              "label": "Background"
+            },
+            {
+              "type": "color",
+              "id": "text_color",
+              "label": "Text"
+            },
+            {
+              "type": "select",
+              "id": "styles",
+              "label": "Style",
+              "options": [
+                {
+                  "value": "outline",
+                  "label": "Outline"
+                },
+                {
+                  "value": "fill",
+                  "label": "Fill"
+                }
+              ],
+              "default": "fill"
+            },
+            {
+              "type": "select",
+              "id": "sizes",
+              "label": "Size",
+              "options": [
+                {
+                  "value": "sm",
+                  "label": "Small"
+                },
+                {
+                  "value": "base",
+                  "label": "Medium"
+                },
+                {
+                  "value": "lg",
+                  "label": "Large"
+                },
+                {
+                  "value": "xl",
+                  "label": "X-Large"
+                }
+              ],
+              "default": "lg"
+            },
+            {
+              "type": "text",
+              "id": "texts",
+              "label": "Text",
+              "default": "Button text"
+            },
+            {
+              "type": "url",
+              "id": "urls",
+              "label": "Link"
+            },
+            {
+              "type": "color",
+              "id": "backgrounds",
+              "label": "Background"
+            },
+            {
+              "type": "color",
+              "id": "text_colors",
+              "label": "Text"
+            },
+            {
+              "type": "richtext",
+              "id": "content-button",
+              "label": "Content"
+            }
       ]
     }
   ],

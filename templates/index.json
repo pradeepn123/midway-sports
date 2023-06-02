@@ -277,7 +277,20 @@
             "icon_background": "#000000",
             "icon_color": "#ffffff",
             "title": "authorized dealer",
-            "content": "<p>Unlock exclusive access to the latest styles in team uniforms, shoes, and apparel from brands like Nike and Under Armour.<\/p>"
+            "content": "<p>Unlock exclusive access to the latest styles in team uniforms, shoes, and apparel from brands like Nike and Under Armour.<\/p>",
+            "style": "fill",
+            "size": "lg",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": "",
+            "styles": "fill",
+            "sizes": "lg",
+            "texts": "Button text",
+            "urls": "",
+            "backgrounds": "",
+            "text_colors": "",
+            "content-button": ""
           }
         },
         "template--14754144485481__d1f6cd81-fd38-4328-95a6-9af841336c2f-168447975561c5ff62-1": {
@@ -290,7 +303,20 @@
             "icon_background": "#000000",
             "icon_color": "#ffffff",
             "title": "Customization expertise",
-            "content": "<p>Our team of experts specializes in designing custom uniforms that reflect your team's unique style and personality.<\/p>"
+            "content": "<p>Our team of experts specializes in designing custom uniforms that reflect your team's unique style and personality.<\/p>",
+            "style": "fill",
+            "size": "lg",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": "",
+            "styles": "fill",
+            "sizes": "lg",
+            "texts": "Button text",
+            "urls": "",
+            "backgrounds": "",
+            "text_colors": "",
+            "content-button": ""
           }
         },
         "template--14754144485481__d1f6cd81-fd38-4328-95a6-9af841336c2f-168447975561c5ff62-2": {
@@ -303,7 +329,20 @@
             "icon_background": "#000000",
             "icon_color": "#ffffff",
             "title": "Commitment to quality",
-            "content": "<p>We carefully curate our inventory to offer items that deliver durability, reliability, and performance to athletes nationwide.<\/p>"
+            "content": "<p>We carefully curate our inventory to offer items that deliver durability, reliability, and performance to athletes nationwide.<\/p>",
+            "style": "fill",
+            "size": "lg",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": "",
+            "styles": "fill",
+            "sizes": "lg",
+            "texts": "Button text",
+            "urls": "",
+            "backgrounds": "",
+            "text_colors": "",
+            "content-button": ""
           }
         }
       },
@@ -592,7 +631,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3>⚾ <a href=\"\/collections\/baseball\" title=\"Baseball\">Baseball<\/a><\/h3>",
+            "content": "<h3>⚾ Baseball<\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -604,7 +643,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3>🏀 <a href=\"\/collections\/basketball\" title=\"Basketball\">Basketball<\/a><\/h3>",
+            "content": "<h3>🏀 Basketball<\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -616,7 +655,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3>🏈 <a href=\"\/collections\/football\" title=\"Football\">Football<\/a><\/h3>",
+            "content": "<h3>🏈 Football<\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -628,7 +667,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3>🏌🏻<a href=\"\/collections\/golf\" title=\"Golf\">Golf<\/a><\/h3>",
+            "content": "<h3>🏌🏻Golf<\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -640,7 +679,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3>🥍 <a href=\"\/collections\/lacrosse\" title=\"Lacrosse\">Lacrosse<\/a><\/h3>",
+            "content": "<h3>🥍 Lacrosse<\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -649,10 +688,11 @@
         "1cc51d11-aa87-4e70-8186-bad91cbb28fb": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Group.svg",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3>🏓 <a href=\"\/collections\/pickleball\" title=\"Pickleball\">Pickleball<\/a><\/h3>",
+            "content": "<h3><span style=\"text-decoration:underline\"> Pickleball<\/span><\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -664,7 +704,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3>⚽ <a href=\"\/collections\/soccer\" title=\"Soccer\">Soccer<\/a><\/h3>",
+            "content": "<h3>⚽ Soccer<\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -676,7 +716,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3>🥎 <a href=\"\/collections\/softball\" title=\"Softball\">Softball<\/a><\/h3>",
+            "content": "<h3>🥎 softball<\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -688,7 +728,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3>🎾 <a href=\"\/collections\/tennis\" title=\"Tennis\">Tennis<\/a><\/h3>",
+            "content": "<h3>🎾 Tennis<\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -700,7 +740,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3>🤸🏻 <a href=\"\/collections\/training\" title=\"Training\">Training<\/a><\/h3>",
+            "content": "<h3>🤸🏻 Training<\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -712,7 +752,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3>🏐 <a href=\"\/collections\/volleyball\" title=\"Volleyball\">Volleyball<\/a><\/h3>",
+            "content": "<h3>🏐  Volleyball<\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -724,7 +764,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3>👉🏻 <a href=\"\/collections\/equipment\" title=\"Equipment\">More<\/a><\/h3>",
+            "content": "<h3>👉🏻 More<\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
