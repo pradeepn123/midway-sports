@@ -1,0 +1,21 @@
+.header__icon-list
+.header__link-list
+.contents
+li:last-child
+.bold.link-faded-reverse {
+  height: 30px;
+  width: 49px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shopify-section .header .header__wrapper {
+    padding: 10px 48px;
+  }
+
+ .shopify-section .announcement-bar {
+    padding-block-start: 0.5rem;
+    padding-block-end: 0.5rem;
+  }

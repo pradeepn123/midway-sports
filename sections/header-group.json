@@ -25,7 +25,7 @@
         "96e614cc-5ce4-4e4d-8524-41bb2ce0df62"
       ],
       "custom_css": [
-        ".announcement-bar {padding-block-start: 0.5rem; padding-block-end: 0.5rem;}"
+
       ],
       "settings": {
         "enable_sticky": false,
@@ -175,8 +175,7 @@
         "44af808d-a037-468a-80a7-0cf490a9e921"
       ],
       "custom_css": [
-        ".header__wrapper {padding: 10px 48px;}",
-        ".header__icon-list .header__link-list .contents li:last-child .bold.link-faded-reverse {background: red; color: #fff; height: 30px; width: 49px; text-align: center; display: flex; align-items: center; justify-content: center;}"
+
       ],
       "settings": {
         "enable_sticky": true,
@@ -198,7 +197,9 @@
         "transparent_header_text_color": "#ffffff",
         "reduce_padding": false,
         "background_opacity": 100,
-        "background_blur_radius": 0
+        "background_blur_radius": 0,
+        "link_bg--color": "#e30712",
+        "link_color": "#fff"
       }
     }
   },
