@@ -117,7 +117,7 @@ the underlying logic of the menu.
 
                   <li>
                     {%- if link.levels == 0 and mega_menu_block == '' -%}
-                      <a href="{{ link.url }}" class="bold link-faded-reverse" {% if link.current %}aria-current="page"{% endif %}>{{- link.title -}}</a>
+                      <a href="{{ link.url }}" style="background :{{ section.settings.link_bg--color }}; color:{{ section.settings.link_color }};" class="bold link-faded-reverse"  {% if link.current %}aria-current="page"{% endif %}>{{- link.title -}}</a>
                     {%- else -%}
                       {%- if mega_menu_block != '' -%}
                         {%- comment -%}
@@ -540,6 +540,18 @@ the underlying logic of the menu.
       "unit": "px",
       "label": "Background blur radius",
       "default": 4
+    },
+    {
+      "type": "color",
+      "id": "link_bg--color",
+      "label":"Button Background",
+      "default":"#e30712"
+    },
+    {
+      "type": "color",
+      "id": "link_color",
+      "label":"Button color",
+      "default": "#fff"
     }
   ],
   "blocks": [
