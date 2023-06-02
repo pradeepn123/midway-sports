@@ -19,3 +19,8 @@ li:last-child
     padding-block-start: 0.5rem;
     padding-block-end: 0.5rem;
   }
+  @media(max-width:520px){
+   .section  .collection-banner .hero--banner--text{
+        font-size: 26px;
+    }
+  }
