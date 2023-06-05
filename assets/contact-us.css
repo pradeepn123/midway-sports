@@ -16,27 +16,83 @@
     padding: 48px 50px 43px;
 }
 
+#shopify-section-template--14760187854953__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7 .button {
+    padding: 11px 66px;
+}
+
+#block-template--14760187854953__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-template--14754144551017__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-16853530036a5c9203-1 .image-part-wrap a{
+    margin-right: 4px;
+}
+
 .section-blends .image-part-wrap{
     margin-top: 0 !important ;
     text-align: left;
 }
-.section-blends .image-part-wrap h5{
-    font-size: 28px ;
+
+#shopify-section-template--14760187854953__contact .form-control{
+    background: #FFFFFF;
+    border: 1px solid #B0B0B0;
 }
 
+#shopify-section-template--14760187854953__contact .form .button{
+    width: 100%;
+}
+
+.multi-column img{
+    width: 42px;
+}
+
+.multi-column .text-start{
+    border-bottom: 5px solid black;
+}
+#block-template--14760187854953__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-template--14754144551017__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-16853530036a5c9203-0{
+    height: 100%;
+}
+
+@media (min-width:699px){
+    .section-blends .image-part-wrap h5{
+        font-size: 28px ;
+    }
+}
 @media screen and (min-width: 700px){
     .input-row {
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
 }
 
-#shopify-section-template--14760187854953__contact , .form-control{
-    background: #FFFFFF;
-    border: 1px solid #B0B0B0;
+@media(max-width:698px){
+    #shopify-section-template--14760187854953__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7 .button{
+        padding: 11px 53px;
+    }
+    .section-blends .image-part-wrap h5{
+        font-size: 21px ;
+    }
+}
+@media(min-width:698px) and (max-width:1000px){
+    #shopify-section-template--14760187854953__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7 .section-blends .text-with-icons__list{
+        display: grid;
+        gap:15px !important;
+    }
+    .section-blends .image-part-wrap h5{
+        font-size: 25px ;
+    }
 }
 
+@media(max-width:374px){
+    #block-template--14760187854953__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-template--14754144551017__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-16853530036a5c9203-0 h4 ,
+    #block-template--14760187854953__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-template--14754144551017__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-16853530036a5c9203-1 h5{
+        font-size: 19px;
+    }
+    #block-template--14760187854953__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-template--14754144551017__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-16853530036a5c9203-0 ,
+    #block-template--14760187854953__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-template--14754144551017__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-16853530036a5c9203-1{
+    background: #F3F3F3;
+    padding: 48px 26px 43px;
+}
+}
+
+
 /* homepage css */
-.section-header , .multi-column__item:nth-child(6) {
+.section-header , .multi-column__item {
     flex-direction: row;
     display: flex;
     column-gap: 7px;

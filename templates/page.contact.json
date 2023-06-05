@@ -96,7 +96,7 @@
       ],
       "settings": {
         "full_width": false,
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "title": "",
         "heading_tag": "h6",
         "text_alignment": "center",
