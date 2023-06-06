@@ -34,14 +34,13 @@
     object-fit: contain;
 }
 
-.multi-column .text-start a{
-    background: none;
-    border-bottom: 5px solid #000000;
-    transform: scaleX(0); 
-    transition: transform 250ms ease-in-out;
+.multi-column .text-start a:hover{
+    background-size: 0 5px;
 }
 
-
+.multi-column .text-start a{
+    background: linear-gradient(to right, currentColor, currentColor) 0 min(100%, 1.35em) / 100% 5px no-repeat;
+}
 
 @media (min-width:699px){
     .section-blends .image-part-wrap h5{
