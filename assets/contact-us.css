@@ -10,17 +10,17 @@
     justify-content: center;
 }
 
-#block-template--14760187854953__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-template--14754144551017__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-16853530036a5c9203-0 ,
-#block-template--14760187854953__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-template--14754144551017__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-16853530036a5c9203-1{
+.section-blends .text-with-icons__item {
     background: #F3F3F3;
     padding: 48px 50px 43px;
+    height: 100%;
 }
 
-#shopify-section-template--14760187854953__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7 .button {
+.section-blends .button {
     padding: 11px 66px;
 }
 
-#block-template--14760187854953__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-template--14754144551017__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-16853530036a5c9203-1 .image-part-wrap a{
+.section-blends .image-part-wrap a{
     margin-right: 4px;
 }
 
@@ -29,24 +29,12 @@
     text-align: left;
 }
 
-#shopify-section-template--14760187854953__contact .form-control{
-    background: #FFFFFF;
-    border: 1px solid #B0B0B0;
-}
-
-#shopify-section-template--14760187854953__contact .form .button{
-    width: 100%;
-}
-
 .multi-column img{
     width: 42px;
 }
 
 .multi-column .text-start{
     border-bottom: 5px solid black;
-}
-#block-template--14760187854953__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-template--14754144551017__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-16853530036a5c9203-0{
-    height: 100%;
 }
 
 @media (min-width:699px){
@@ -61,7 +49,7 @@
 }
 
 @media(max-width:698px){
-    #shopify-section-template--14760187854953__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7 .button{
+    .section-blends .button{
         padding: 11px 53px;
     }
     .section-blends .image-part-wrap h5{
@@ -69,7 +57,7 @@
     }
 }
 @media(min-width:698px) and (max-width:1000px){
-    #shopify-section-template--14760187854953__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7 .section-blends .text-with-icons__list{
+    .section-blends .text-with-icons__list{
         display: grid;
         gap:15px !important;
     }
@@ -79,15 +67,9 @@
 }
 
 @media(max-width:374px){
-    #block-template--14760187854953__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-template--14754144551017__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-16853530036a5c9203-0 h4 ,
-    #block-template--14760187854953__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-template--14754144551017__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-16853530036a5c9203-1 h5{
-        font-size: 19px;
+    .section-blends .text-with-icons__item{
+        padding: 48px 26px 43px;
     }
-    #block-template--14760187854953__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-template--14754144551017__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-16853530036a5c9203-0 ,
-    #block-template--14760187854953__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-template--14754144551017__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-16853530036a5c9203-1{
-    background: #F3F3F3;
-    padding: 48px 26px 43px;
-}
 }
 
 
