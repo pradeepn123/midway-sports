@@ -95,7 +95,7 @@
         "template--14754144551017__26bc45d0-67ce-4e42-9f29-65c9d0aa80e7-16853530036a5c9203-1"
       ],
       "custom_css": [
-        "@media(max-width:374px){.text-icon-wrapper h4 , .text-icon-wrapper h5{font-size: 19px; }}"
+        "@media (max-width: 374px) {.text-icon-wrapper h4, .text-icon-wrapper h5 {font-size: 19px; }}"
       ],
       "settings": {
         "full_width": false,
@@ -113,7 +113,8 @@
       "type": "contact",
       "custom_css": [
         ".form-control {background: #ffffff; border: 1px solid #b0b0b0;}",
-        ".form .button {width: 100%;}"
+        ".button-width{width: 100%;}",
+        ".button-width .button {width: 100%;}"
       ],
       "settings": {
         "full_width": false,
