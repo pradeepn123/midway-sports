@@ -83,7 +83,7 @@
             "styles": "fill",
             "sizes": "lg",
             "texts": "email",
-            "urls": "shopify:\/\/pages\/contact-us",
+            "urls": "mailto:Contact@midwaysports.com",
             "backgrounds": "#000000",
             "text_colors": "#ffffff",
             "content-button": "<p>(9:00 am to 6:00 pm, EST)<\/p>"
@@ -113,7 +113,7 @@
       "type": "contact",
       "custom_css": [
         ".form-control {background: #ffffff; border: 1px solid #b0b0b0;}",
-        ".button-width{width: 100%;}",
+        ".button-width {width: 100%;}",
         ".button-width .button {width: 100%;}"
       ],
       "settings": {

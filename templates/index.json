@@ -632,7 +632,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3> Baseball<\/h3>",
+            "content": "<h3><a href=\"\/collections\/baseball\" title=\"Baseball\">Baseball<\/a><\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -645,8 +645,8 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3> Basketball<\/h3>",
-            "link_url": "",
+            "content": "<h3> <a href=\"\/collections\/basketball\" title=\"Basketball\">Basketball<\/a><\/h3>",
+            "link_url": "shopify:\/\/pages\/faqs",
             "link_text": "",
             "link_style": "link"
           }
@@ -658,7 +658,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3> Football<\/h3>",
+            "content": "<h3> <a href=\"\/collections\/football\" title=\"Football\">Football<\/a><\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -671,7 +671,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3>Golf<\/h3>",
+            "content": "<h3><a href=\"\/collections\/golf\" title=\"Golf\">Golf<\/a><\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -684,7 +684,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3> Lacrosse<\/h3>",
+            "content": "<h3> <a href=\"\/collections\/lacrosse\" title=\"Lacrosse\">Lacrosse<\/a><\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -697,7 +697,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3> Pickleball<\/h3>",
+            "content": "<h3> <a href=\"\/collections\/pickleball\" title=\"Pickleball\">Pickleball<\/a><\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -710,7 +710,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3>Soccer<\/h3>",
+            "content": "<h3><a href=\"\/collections\/soccer\" title=\"Soccer\">Soccer<\/a><\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -723,7 +723,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3> softball<\/h3>",
+            "content": "<h3> <a href=\"\/collections\/softball\" title=\"Softball\">softball<\/a><\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -736,7 +736,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3> Tennis<\/h3>",
+            "content": "<h3> <a href=\"\/collections\/tennis\" title=\"Tennis\">Tennis<\/a><\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -749,7 +749,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3> Training<\/h3>",
+            "content": "<h3> <a href=\"\/collections\/training\" title=\"Training\">Training<\/a><\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -762,7 +762,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3> Volleyball<\/h3>",
+            "content": "<h3> <a href=\"\/collections\/volleyball\" title=\"Volleyball\">Volleyball<\/a><\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -775,7 +775,7 @@
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3> More<\/h3>",
+            "content": "<h3> <a href=\"\/collections\/equipment\" title=\"Equipment\">More<\/a><\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
