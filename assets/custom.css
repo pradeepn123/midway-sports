@@ -24,3 +24,10 @@ li:last-child
         font-size: 26px;
     }
   }
+
+
+/* cart drawer */
+.drawer::part(content){
+  border-radius: unset !important;
+  clip-path: none !important;
+}
