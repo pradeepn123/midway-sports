@@ -92,7 +92,7 @@
             {%- render 'input', name: 'contact[body]', label: label, multiline: 4, required: true -%}
           </div>
 
-          <div class="{% if text_position == 'center' %}justify-self-center{% else%}justify-self-start{% endif %}">
+          <div class="{% if text_position == 'center' %}justify-self-center button-width {% else%}justify-self-start{% endif %}">
             {%- capture button_content -%}{{ 'contact.form.submit' | t }}{%- endcapture -%}
             {%- render 'button', content: button_content, type: 'submit', size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}
           </div>

@@ -277,7 +277,20 @@
             "icon_background": "#000000",
             "icon_color": "#ffffff",
             "title": "authorized dealer",
-            "content": "<p>Unlock exclusive access to the latest styles in team uniforms, shoes, and apparel from brands like Nike and Under Armour.<\/p>"
+            "content": "<p>Unlock exclusive access to the latest styles in team uniforms, shoes, and apparel from brands like Nike and Under Armour.<\/p>",
+            "style": "fill",
+            "size": "lg",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": "",
+            "styles": "fill",
+            "sizes": "lg",
+            "texts": "Button text",
+            "urls": "",
+            "backgrounds": "",
+            "text_colors": "",
+            "content-button": ""
           }
         },
         "template--14754144485481__d1f6cd81-fd38-4328-95a6-9af841336c2f-168447975561c5ff62-1": {
@@ -290,7 +303,20 @@
             "icon_background": "#000000",
             "icon_color": "#ffffff",
             "title": "Customization expertise",
-            "content": "<p>Our team of experts specializes in designing custom uniforms that reflect your team's unique style and personality.<\/p>"
+            "content": "<p>Our team of experts specializes in designing custom uniforms that reflect your team's unique style and personality.<\/p>",
+            "style": "fill",
+            "size": "lg",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": "",
+            "styles": "fill",
+            "sizes": "lg",
+            "texts": "Button text",
+            "urls": "",
+            "backgrounds": "",
+            "text_colors": "",
+            "content-button": ""
           }
         },
         "template--14754144485481__d1f6cd81-fd38-4328-95a6-9af841336c2f-168447975561c5ff62-2": {
@@ -303,7 +329,20 @@
             "icon_background": "#000000",
             "icon_color": "#ffffff",
             "title": "Commitment to quality",
-            "content": "<p>We carefully curate our inventory to offer items that deliver durability, reliability, and performance to athletes nationwide.<\/p>"
+            "content": "<p>We carefully curate our inventory to offer items that deliver durability, reliability, and performance to athletes nationwide.<\/p>",
+            "style": "fill",
+            "size": "lg",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": "",
+            "styles": "fill",
+            "sizes": "lg",
+            "texts": "Button text",
+            "urls": "",
+            "backgrounds": "",
+            "text_colors": "",
+            "content-button": ""
           }
         }
       },
@@ -589,10 +628,11 @@
         "template--14754144485481__2ef28333-a0dc-4cfe-9c6b-5f57fed9563c-1684405405ddba36b0-0": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/emoji-baseball_59cad1dd-ae91-4976-bade-11c4877dd045.png",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3>⚾ <a href=\"\/collections\/baseball\" title=\"Baseball\">Baseball<\/a><\/h3>",
+            "content": "<h3> Baseball<\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -601,10 +641,11 @@
         "5f45f54b-daad-4ace-a4b3-dd48967a8d23": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/emoji-basketball.png",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3>🏀 <a href=\"\/collections\/basketball\" title=\"Basketball\">Basketball<\/a><\/h3>",
+            "content": "<h3> Basketball<\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -613,10 +654,11 @@
         "6e3c5522-dcc1-4d26-9c8d-57d45e692e1b": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/emoji-football.png",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3>🏈 <a href=\"\/collections\/football\" title=\"Football\">Football<\/a><\/h3>",
+            "content": "<h3> Football<\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -625,10 +667,11 @@
         "8a5444ae-080b-4be1-a7ea-c043bd830b9f": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/emoji-golf.png",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3>🏌🏻<a href=\"\/collections\/golf\" title=\"Golf\">Golf<\/a><\/h3>",
+            "content": "<h3>Golf<\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -637,10 +680,11 @@
         "1de3c0a2-5187-464b-84a1-53979b0308b2": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/emoji-lacrosse.png",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3>🥍 <a href=\"\/collections\/lacrosse\" title=\"Lacrosse\">Lacrosse<\/a><\/h3>",
+            "content": "<h3> Lacrosse<\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -649,10 +693,11 @@
         "1cc51d11-aa87-4e70-8186-bad91cbb28fb": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Group.svg",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3>🏓 <a href=\"\/collections\/pickleball\" title=\"Pickleball\">Pickleball<\/a><\/h3>",
+            "content": "<h3> Pickleball<\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -661,10 +706,11 @@
         "dc93b1d5-48a9-4176-862a-ce584270169d": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/emoji-football-1.png",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3>⚽ <a href=\"\/collections\/soccer\" title=\"Soccer\">Soccer<\/a><\/h3>",
+            "content": "<h3>Soccer<\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -673,10 +719,11 @@
         "467b72bf-f5bc-4e39-8663-242562cbeb59": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/emoji-softball.png",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3>🥎 <a href=\"\/collections\/softball\" title=\"Softball\">Softball<\/a><\/h3>",
+            "content": "<h3> softball<\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -685,10 +732,11 @@
         "e2d40d56-c4ef-4aee-b761-9459d43ee9bf": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/emoji-tennis.png",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3>🎾 <a href=\"\/collections\/tennis\" title=\"Tennis\">Tennis<\/a><\/h3>",
+            "content": "<h3> Tennis<\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -697,10 +745,11 @@
         "ff431e5f-dfb3-43bd-9f67-bd0d8c00eec2": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/emoji-training.png",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3>🤸🏻 <a href=\"\/collections\/training\" title=\"Training\">Training<\/a><\/h3>",
+            "content": "<h3> Training<\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -709,10 +758,11 @@
         "844fbc81-ae3c-4a75-8037-75dfb48d92ef": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/emoji-volleyball.png",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3>🏐 <a href=\"\/collections\/volleyball\" title=\"Volleyball\">Volleyball<\/a><\/h3>",
+            "content": "<h3> Volleyball<\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -721,10 +771,11 @@
         "e9a5712a-f3c9-46ab-a836-d1722e3580e2": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/emoji-more_dc551a2f-0efc-4c1c-a22d-7ef76d4b9493.png",
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
-            "content": "<h3>👉🏻 <a href=\"\/collections\/equipment\" title=\"Equipment\">More<\/a><\/h3>",
+            "content": "<h3> More<\/h3>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"

@@ -1,0 +1,85 @@
+.section-blends .text-icon-wrapper{
+    display: flex;
+    justify-content: center;
+    column-gap: 17px;
+    align-self: flex-start;
+}
+
+.bg-custom .icon-part-wrap{
+    display: flex;
+    justify-content: center;
+}
+
+.section-blends .text-with-icons__item {
+    background: #F3F3F3;
+    padding: 48px 50px 43px;
+    height: 100%;
+}
+
+.section-blends .button {
+    padding: 11px 66px;
+}
+
+.section-blends .image-part-wrap a{
+    margin-right: 4px;
+}
+
+.section-blends .image-part-wrap{
+    margin-top: 0 !important ;
+    text-align: left;
+}
+
+.multi-column img{
+    width: 42px;
+}
+
+.multi-column .text-start{
+    border-bottom: 5px solid black;
+}
+
+@media (min-width:699px){
+    .section-blends .image-part-wrap h5{
+        font-size: 28px ;
+    }
+}
+@media screen and (min-width: 700px){
+    .input-row {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+
+@media(max-width:698px){
+    .section-blends .button{
+        padding: 11px 53px;
+    }
+    .section-blends .image-part-wrap h5{
+        font-size: 21px ;
+    }
+}
+@media(min-width:698px) and (max-width:1000px){
+    .section-blends .text-with-icons__list{
+        display: grid;
+        gap:15px !important;
+    }
+    .section-blends .image-part-wrap h5{
+        font-size: 25px ;
+    }
+}
+
+@media(max-width:374px){
+    .section-blends .text-with-icons__item{
+        padding: 48px 26px 43px;
+    }
+}
+
+
+/* homepage css */
+.section-header , .multi-column__item {
+    flex-direction: row;
+    display: flex;
+    column-gap: 7px;
+}
+
+
+
+
