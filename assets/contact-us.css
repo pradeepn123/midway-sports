@@ -31,10 +31,15 @@
 
 .multi-column img{
     width: 42px;
+    object-fit: contain;
 }
 
-.multi-column .text-start{
-    border-bottom: 5px solid black;
+.multi-column .text-start a:hover{
+    background-size: 0 5px;
+}
+
+.multi-column .text-start a{
+    background: linear-gradient(to right, currentColor, currentColor) 0 min(100%, 1.35em) / 100% 5px no-repeat;
 }
 
 @media (min-width:699px){
