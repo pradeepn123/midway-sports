@@ -13,3 +13,6 @@
     object-fit: contain;
  
 }
+.product-list .product-card__figure a img{
+    width: 100%;
+}

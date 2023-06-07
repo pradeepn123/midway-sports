@@ -65,7 +65,7 @@ Supported variables
                   <span class="circle-chevron group-hover:colors group-expanded:colors">{%- render 'icon' with 'chevron-right-small', direction_aware: true -%}</span>
                 </button>
               {%- else -%}
-                <a href="{{ link.url }}" class="group block w-full">
+                <a href="{{ link.url }}" class="group block w-full fit--btn" style="background :{{ section.settings.link_bg--color }}; color:{{ section.settings.link_color }};"> 
                   <span><span class="reversed-link">{{ link.title }}</span></span>
                 </a>
               {%- endif -%}
