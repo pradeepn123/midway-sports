@@ -991,8 +991,8 @@
           "settings": {
             "style": "fill",
             "size": "lg",
-            "text": "EXPLORE STORE",
-            "url": "",
+            "text": "ABOUT US",
+            "url": "shopify:\/\/pages\/about-us",
             "background": "#f5f5f5",
             "text_color": "#1a1a1a"
           }
