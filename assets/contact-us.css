@@ -85,6 +85,12 @@
     column-gap: 7px;
 }
 
+.section-stack .text-with-icons{
+    justify-content: unset;
+}
+.section-stack .text-with-icons .text-with-icons__list{
+    justify-content: space-between;
+}
 
 
 

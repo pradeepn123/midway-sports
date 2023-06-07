@@ -31,3 +31,9 @@ li:last-child
   border-radius: unset !important;
   clip-path: none !important;
 }
+
+/* the below css is for mobile menu */
+.panel__wrapper .panel__scroller .v-stack .group.block.w-full.fit--btn{
+  max-width: fit-content;
+  padding: 5px 15px;
+}
