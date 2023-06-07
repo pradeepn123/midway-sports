@@ -46,7 +46,7 @@
         "enable_parallax": false,
         "image_size": "lg",
         "image": "shopify:\/\/shop_images\/landing-5.jpg",
-        "mobile_text_position": "place-self-center text-center",
+        "mobile_text_position": "place-self-center-start text-start",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
@@ -61,7 +61,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/air_jordan_1_low_g_-_2.webp",
             "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
+            "mobile_text_position": "place-self-center-start text-start",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "Feel Unbeatable",
             "title": "Air Jordan 1 low g golf shoes",
@@ -82,7 +82,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/world-series-cap-banner.jpg",
             "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
+            "mobile_text_position": "place-self-center-start text-start",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "Represent Your Team",
             "title": "World baseball classic",
@@ -230,7 +230,7 @@
         "enable_parallax": false,
         "image_size": "md",
         "image": "shopify:\/\/shop_images\/baseball-glove-banner.jpg",
-        "mobile_text_position": "place-self-center text-center",
+        "mobile_text_position": "place-self-center-start text-start",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
@@ -981,7 +981,7 @@
             "style": "fill",
             "size": "lg",
             "text": "GET DIRECTIONS",
-            "url": "",
+            "url": "https:\/\/www.google.com\/maps?daddr=6400+S+Dixie+Hwy+South+Miami,+FL",
             "background": "",
             "text_color": ""
           }
@@ -1011,7 +1011,7 @@
         "enable_parallax": false,
         "image_size": "sm",
         "image": "shopify:\/\/shop_images\/store_image.jpg",
-        "mobile_text_position": "place-self-center text-center",
+        "mobile_text_position": "place-self-center-start text-start",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
