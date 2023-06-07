@@ -186,7 +186,7 @@
         "menu": "main-menu-2",
         "sidebar_menu": "",
         "secondary_menu": "",
-        "menu_open_trigger": "hover",
+        "menu_open_trigger": "click",
         "opening_from": "left",
         "layout": "logo_left_navigation_center",
         "show_social_media": true,
@@ -199,7 +199,7 @@
         "background_opacity": 100,
         "background_blur_radius": 0,
         "link_bg--color": "#e30712",
-        "link_color": "#fff"
+        "link_color": "#ffffff"
       }
     }
   },

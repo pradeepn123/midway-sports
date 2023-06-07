@@ -1,3 +1,5 @@
+{{ 'mega-menu.css' | asset_url | stylesheet_tag }}
+
 {%- if link.links.size > 0 -%}
   <style>
     @media screen and (min-width: 1150px) {
@@ -7,7 +9,7 @@
         --mega-menu-nav-gap: {% if mega_menu_block.settings.stretch_promo %}var(--spacing-12){% else %}var(--spacing-8){% endif %};
 
         {% if link.links.size > 3 %}
-          --column-list-max-width: 75%;
+          --column-list-max-width: 100%;
         {% endif %}
       }
     }
@@ -18,7 +20,7 @@
         --mega-menu-nav-gap: {% if mega_menu_block.settings.layout == 'horizontal_center' %}var(--spacing-12){% else %}var(--spacing-16){% endif %};
 
         {% if link.links.size > 4 %}
-          --column-list-max-width: 75%;
+          --column-list-max-width: 90%;
         {% else %}
           --column-list-max-width: max-content;
         {% endif %}
