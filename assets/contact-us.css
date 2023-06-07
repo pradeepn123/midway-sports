@@ -88,9 +88,15 @@
 .section-stack .text-with-icons{
     justify-content: unset;
 }
-.section-stack .text-with-icons .text-with-icons__list{
-    justify-content: space-between;
-}
+@media(min-width:1430px){
+    .section-stack .text-with-icons .text-with-icons__list{
+        display: flex;
+        grid-template-columns: repeat(2,1fr);
+    }
 
+    .text-with-icons__item.snap-center{
+        width: 50%;
+    }
+}
 
 
