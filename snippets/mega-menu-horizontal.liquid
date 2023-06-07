@@ -7,7 +7,7 @@
         --mega-menu-nav-gap: {% if mega_menu_block.settings.stretch_promo %}var(--spacing-12){% else %}var(--spacing-8){% endif %};
 
         {% if link.links.size > 3 %}
-          --column-list-max-width: 75%;
+          --column-list-max-width: 100%;
         {% endif %}
       }
     }
@@ -18,7 +18,7 @@
         --mega-menu-nav-gap: {% if mega_menu_block.settings.layout == 'horizontal_center' %}var(--spacing-12){% else %}var(--spacing-16){% endif %};
 
         {% if link.links.size > 4 %}
-          --column-list-max-width: 75%;
+          --column-list-max-width: 100%;
         {% else %}
           --column-list-max-width: max-content;
         {% endif %}
@@ -35,6 +35,47 @@
       #mega-menu-{{ mega_menu_block.id }} {
         --mega-menu-nav-gap: var(--spacing-20);
       }
+    }
+
+    .mega-menu{
+      gap: unset;
+    }
+    @media screen and (min-width: 1500px){
+        #mega-menu-{{ mega_menu_block.id }} {
+          {% if link.links.size > 4 %}
+            --column-list-max-width: 95%;
+          {% else %}
+            --column-list-max-width: max-content;
+          {% endif %}
+        }
+    }
+    @media screen and (min-width: 1652px){
+        #mega-menu-{{ mega_menu_block.id }} {
+            {% if link.links.size > 4 %}
+          --column-list-max-width: 90%;
+        {% else %}
+          --column-list-max-width: max-content;
+        {% endif %}
+        }
+    }
+    @media screen and (min-width: 1400px) and (max-width: 1425px) {
+        #mega-menu-{{ mega_menu_block.id }} {
+            --mega-menu-nav-gap: var(--spacing-10);
+        }
+    }
+    @media screen and (min-width: 1275px) and (max-width: 1399px)  {
+        #mega-menu-{{ mega_menu_block.id }} {
+          {% if link.links.size > 4 %}
+            --column-list-max-width: 95%;
+          {% else %}
+            --column-list-max-width: max-content;
+          {% endif %}
+        }
+    }
+    @media screen and (max-width: 1275px) {
+        #mega-menu-{{ mega_menu_block.id }} {
+            --mega-menu-nav-gap: var(--spacing-5);
+        }
     }
   </style>
 {%- endif -%}
