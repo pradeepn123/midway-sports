@@ -385,6 +385,7 @@
           "type": "collection",
           "settings": {
             "collection": "mens-basketball-apparel",
+            "image": "shopify:\/\/shop_images\/basketball-apprel.jpg",
             "subheading": "",
             "title": "Basketball apparel",
             "url": "",
@@ -896,7 +897,7 @@
         "template--14754144485481__15bbc265-4cf0-4f15-972e-b013d778e08d-16844035351a646635-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sale_men_0b7dfaf8-cc65-4fa9-ae42-ba6a3e993f38.jpg",
+            "image": "shopify:\/\/shop_images\/sale_men.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/mens-sale",
@@ -918,7 +919,7 @@
         "template--14754144485481__15bbc265-4cf0-4f15-972e-b013d778e08d-16844035351a646635-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sale_women.jpg",
+            "image": "shopify:\/\/shop_images\/sale_women_e5ac2a2f-18fa-48b3-ae0b-197c4f63ec21.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/womens-sale",
