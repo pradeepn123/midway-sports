@@ -15,7 +15,20 @@
             "icon_background": "",
             "icon_color": "",
             "title": "Free shipping",
-            "content": "<p>Get free shipping on all orders above $150.<\/p>"
+            "content": "<p>Get free shipping on all orders above $150.<\/p>",
+            "style": "fill",
+            "size": "lg",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": "",
+            "styles": "fill",
+            "sizes": "lg",
+            "texts": "Button text",
+            "urls": "",
+            "backgrounds": "",
+            "text_colors": "",
+            "content-button": ""
           }
         },
         "customer-support": {
@@ -28,7 +41,20 @@
             "icon_background": "",
             "icon_color": "",
             "title": "Easy Returns",
-            "content": "<p>Return your unworn items within 14 days of delivery.<\/p>"
+            "content": "<p>Return your unworn items within 14 days of delivery.<\/p>",
+            "style": "fill",
+            "size": "lg",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": "",
+            "styles": "fill",
+            "sizes": "lg",
+            "texts": "Button text",
+            "urls": "",
+            "backgrounds": "",
+            "text_colors": "",
+            "content-button": ""
           }
         },
         "discount": {
@@ -41,7 +67,20 @@
             "icon_background": "",
             "icon_color": "",
             "title": "Quality Assured",
-            "content": "<p>High quality products for your sports endeavors.<\/p>"
+            "content": "<p>High quality products for your sports endeavors.<\/p>",
+            "style": "fill",
+            "size": "lg",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": "",
+            "styles": "fill",
+            "sizes": "lg",
+            "texts": "Button text",
+            "urls": "",
+            "backgrounds": "",
+            "text_colors": "",
+            "content-button": ""
           }
         },
         "payment": {
@@ -54,7 +93,20 @@
             "icon_background": "",
             "icon_color": "",
             "title": "Secure payment",
-            "content": "<p>All your transactions are safe and protected.<\/p>"
+            "content": "<p>All your transactions are safe and protected.<\/p>",
+            "style": "fill",
+            "size": "lg",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": "",
+            "styles": "fill",
+            "sizes": "lg",
+            "texts": "Button text",
+            "urls": "",
+            "backgrounds": "",
+            "text_colors": "",
+            "content-button": ""
           }
         }
       },
