@@ -7,6 +7,9 @@
     --section-stack-intro: {% if text_position == 'center' %}66.6667%{% elsif section.settings.contact_form_size == 'small' %}50%{% else %}41.6667%{% endif %};
     --section-stack-main: {% if section.settings.contact_form_size == 'small' %}50%{% else %}58.3334%{% endif %};
   }
+  #shopify-section-{{ section.id }} .form-control input, #shopify-section-{{ section.id }} .form-control textarea {
+    background: {{ section.settings.form_bg_color }};
+  }
 </style>
 
 <div {% render 'section-properties' %} id="request-quote-scroll">
@@ -202,7 +205,7 @@
     },
     {
       "type": "header",
-      "content": "Contact block colors",
+      "content": "Contact block colors", 
       "info": "Gradient replaces solid colors when set."
     },
     {
@@ -224,6 +227,12 @@
       "type": "color",
       "id": "button_text_color",
       "label": "Button text"
+    },
+    {
+      "type": "color",
+      "id": "form_bg_color",
+      "label": "Form input BG color",
+      "default":"#fff"
     }
   ],
   "blocks": [

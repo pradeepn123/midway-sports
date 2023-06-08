@@ -37,3 +37,11 @@ li:last-child
   max-width: fit-content;
   padding: 5px 15px;
 }
+
+/* form button adjustements */
+.contact-form form .button-width {
+  width: 100%;
+}
+.contact-form form .button-width .button {
+  width: 100%;
+}
