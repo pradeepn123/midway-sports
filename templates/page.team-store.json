@@ -271,7 +271,7 @@
       ],
       "settings": {
         "full_width": false,
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "gap": "small",
         "text_alignment": "start",
         "subheading": "",
@@ -322,7 +322,7 @@
         "contact_text_color": "#000000",
         "button_background": "#000000",
         "button_text_color": "#ffffff",
-        "form_bg_color": "#fff"
+        "form_bg_color": "#ffffff"
       }
     },
     "f10e7509-5bb7-4205-8d43-2ea6497349ad": {
