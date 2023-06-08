@@ -37,6 +37,8 @@
         "template--14757993644137__c5347cc7-db55-4951-acf5-089f7ca618ed-1685428431bb7129bf-0"
       ],
       "settings": {
+        "sec__pad_top": 0,
+        "sec__pad_btm": 40,
         "full_width": true,
         "spacing": "none"
       }
@@ -108,6 +110,8 @@
         "template--14757993644137__eb0962e7-9271-474b-af6c-db65ddbff240-1685428431bb7129bf-0"
       ],
       "settings": {
+        "sec__pad_top": 0,
+        "sec__pad_btm": 0,
         "full_width": false,
         "spacing": "none"
       }
@@ -142,6 +146,8 @@
         "2d2c43be-7f46-4164-9bda-06d497974724"
       ],
       "settings": {
+        "sec__pad_top": 0,
+        "sec__pad_btm": 0,
         "full_width": false,
         "spacing": "none"
       }
@@ -176,6 +182,8 @@
         "66a9b0c2-1f72-4b8e-8f7f-a51191a475b7"
       ],
       "settings": {
+        "sec__pad_top": 0,
+        "sec__pad_btm": 0,
         "full_width": false,
         "spacing": "none"
       }
@@ -210,6 +218,8 @@
         "c27ac029-f351-432e-a3cf-3384778e451a"
       ],
       "settings": {
+        "sec__pad_top": 0,
+        "sec__pad_btm": 0,
         "full_width": false,
         "spacing": "none"
       }
@@ -311,7 +321,8 @@
         "contact_background": "#f5f5f5",
         "contact_text_color": "#000000",
         "button_background": "#000000",
-        "button_text_color": "#ffffff"
+        "button_text_color": "#ffffff",
+        "form_bg_color": "#fff"
       }
     },
     "f10e7509-5bb7-4205-8d43-2ea6497349ad": {
