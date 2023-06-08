@@ -152,8 +152,8 @@
       ],
       "settings": {
         "full_width": true,
-        "stack_on_mobile": false,
-        "show_counter": true,
+        "stack_on_mobile": true,
+        "show_counter": false,
         "desktop_image_effect": "reveal",
         "image_position": "end",
         "background": "",
@@ -211,7 +211,8 @@
         "contact_background": "#f5f5f5",
         "contact_text_color": "#000000",
         "button_background": "#000000",
-        "button_text_color": "#ffffff"
+        "button_text_color": "#ffffff",
+        "form_bg_color": "#fff"
       }
     },
     "f10e7509-5bb7-4205-8d43-2ea6497349ad": {
