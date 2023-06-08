@@ -363,7 +363,7 @@
         "template--14756554965097__1522b287-6bfe-456e-b686-a26514f47fc3-1685531928415a79ce-0"
       ],
       "settings": {
-        "media_sec_top": 0,
+        "media_sec_top": 30,
         "media_sec_btm": 60,
         "full_width": false,
         "reduce_width": false,

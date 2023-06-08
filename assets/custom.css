@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .header__icon-list
 .header__link-list
 .contents
