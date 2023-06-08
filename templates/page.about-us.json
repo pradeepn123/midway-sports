@@ -114,6 +114,8 @@
         "cc52c01c-f231-4a60-806b-4e169f8216ee"
       ],
       "settings": {
+        "sec__pad_top": 0,
+        "sec__pad_btm": 0,
         "full_width": true,
         "spacing": "none"
       }
@@ -148,6 +150,8 @@
         "69e7913c-2258-41c0-afa3-2db499c47eff"
       ],
       "settings": {
+        "sec__pad_top": 0,
+        "sec__pad_btm": 0,
         "full_width": true,
         "spacing": "none"
       }
@@ -182,6 +186,8 @@
         "template--14756554965097__5e0c0cb7-7fbc-4d1c-b19b-42eb23c80d24-1685354995d5995dbd-0"
       ],
       "settings": {
+        "sec__pad_top": 19,
+        "sec__pad_btm": 27,
         "full_width": true,
         "spacing": "none"
       }
@@ -216,6 +222,8 @@
         "template--14756554965097__c7f1c41a-a216-4cfe-8fdc-5885e87ef507-1685448790d8c8c75c-0"
       ],
       "settings": {
+        "sec__pad_top": 0,
+        "sec__pad_btm": 0,
         "full_width": false,
         "spacing": "none"
       }
@@ -250,6 +258,8 @@
         "template--14756554965097__2a65616d-f0d8-4a9e-9618-2a45219f0c77-1685428431bb7129bf-0"
       ],
       "settings": {
+        "sec__pad_top": 0,
+        "sec__pad_btm": 0,
         "full_width": false,
         "spacing": "none"
       }
@@ -353,6 +363,8 @@
         "template--14756554965097__1522b287-6bfe-456e-b686-a26514f47fc3-1685531928415a79ce-0"
       ],
       "settings": {
+        "media_sec_top": 0,
+        "media_sec_btm": 60,
         "full_width": false,
         "reduce_width": false,
         "desktop_row_height": 290,

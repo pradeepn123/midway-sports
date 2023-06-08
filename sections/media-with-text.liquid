@@ -12,7 +12,8 @@ CSS
     --media-with-text-item-grid-template: "media" "content" / auto;
   }
   .section--{{ section.id }} .section{
-      padding-block-start: 0 !important;
+      padding-block-start: {{ section.settings.sec__pad_top }}px ;
+      padding-block-end: {{ section.settings.sec__pad_btm }}px ;
   }
 
   @media screen and (min-width: 1000px) {
@@ -143,6 +144,26 @@ LIQUID
     "groups": ["header", "custom.overlay"]
   },
   "settings": [
+    {
+      "type": "range",
+      "id": "sec__pad_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Section Padding top",
+      "default": 0
+    }, 
+    {
+      "type": "range",
+      "id": "sec__pad_btm",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Section Padding bottom",
+      "default": 0
+    },
     {
       "type": "checkbox",
       "id": "full_width",
