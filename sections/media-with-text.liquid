@@ -11,6 +11,10 @@ CSS
     --media-with-text-gap: {% if section.settings.spacing == 'none' %}0{% else %}var(--grid-gutter){% endif %};
     --media-with-text-item-grid-template: "media" "content" / auto;
   }
+  .section--{{ section.id }} .section{
+      padding-block-start: {{ section.settings.sec__pad_top }}px ;
+      padding-block-end: {{ section.settings.sec__pad_btm }}px ;
+  }
 
   @media screen and (min-width: 1000px) {
     #shopify-section-{{ section.id }} {
@@ -39,7 +43,7 @@ CSS
 LIQUID
 ------------------------------------------------------------------------------------------------------------------------
 {%- endcomment -%}
-
+<div class="section--{{ section.id }}">
 <div {% render 'section-properties' %}>
   <media-with-text class="media-with-text {% if section.settings.spacing == 'none' %}{% if section.settings.full_width %}full-bleed{% else %}rounded{% endif %}{% endif %}">
     {%- for block in section.blocks -%}
@@ -129,7 +133,7 @@ LIQUID
     {%- endfor -%}
   </media-with-text>
 </div>
-
+</div>
 {% schema %}
 {
   "name": "Media with text",
@@ -140,6 +144,26 @@ LIQUID
     "groups": ["header", "custom.overlay"]
   },
   "settings": [
+    {
+      "type": "range",
+      "id": "sec__pad_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Section Padding top",
+      "default": 0
+    }, 
+    {
+      "type": "range",
+      "id": "sec__pad_btm",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Section Padding bottom",
+      "default": 0
+    },
     {
       "type": "checkbox",
       "id": "full_width",

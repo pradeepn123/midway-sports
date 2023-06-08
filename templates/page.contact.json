@@ -112,9 +112,7 @@
     "contact": {
       "type": "contact",
       "custom_css": [
-        ".form-control {background: #ffffff; border: 1px solid #b0b0b0;}",
-        ".button-width {width: 100%;}",
-        ".button-width .button {width: 100%;}"
+
       ],
       "settings": {
         "full_width": false,
@@ -131,7 +129,8 @@
         "contact_background": "#f5f5f5",
         "contact_text_color": "",
         "button_background": "",
-        "button_text_color": ""
+        "button_text_color": "",
+        "form_bg_color": "#fff"
       }
     }
   },
