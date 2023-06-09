@@ -33,7 +33,7 @@ li:last-child
 /* cart drawer */
 .drawer::part(content){
   border-radius: unset !important;
-  clip-path: none !important;
+  clip-path: inset(0px round 0px);
 }
 
 /* the below css is for mobile menu */
