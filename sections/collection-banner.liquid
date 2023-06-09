@@ -1,4 +1,5 @@
 {%- assign show_image = false -%}
+{% assign options = section.settings %}
 
 {%- if section.settings.show_collection_image and collection.image or section.settings.image -%}
   {%- assign show_image = true -%}
@@ -39,11 +40,17 @@
         padding-block-start: max(var(--section-inner-max-spacing-block), var(--header-height));
       }
     {%- endunless -%}
+
+    .section--{{ section.id }} .section{
+      padding-block-start: {{ options.sec--pad-start }}px ;
+      padding-block-end:  {{ options.sec--pad-end }}px ;
+    }
+
   </style>
 
+  <div class="section--{{ section.id }} set--content--main">
   <div {% render 'section-properties' %} {%- if section.settings.allow_transparent_header -%}allow-transparent-header{% endif %}>
-    {%- capture class -%}collection-banner content-over-media content-over-media--{{ section.settings.image_size }} {% if section.settings.full_width %}full-bleed{% else %}shadow-block rounded-lg{% endif %}{%- endcapture -%}
-
+    {%- capture class -%}collection-banner content-over-media content-over-media--{{ section.settings.image_size }}  set--content--{{ options.image_size_mob }} {% if section.settings.full_width %}full-bleed{% else %}shadow-block rounded-lg{% endif %}{%- endcapture -%}
     <image-banner reveal-on-scroll="true" {% if section.settings.enable_parallax %}parallax="0.3"{% endif %} {% render 'surface', class: class, text_color: section.settings.text_color %}>
       {%- assign desktop_image = section.settings.image | default: collection.image -%}
       {%- assign mobile_image = section.settings.mobile_image | default: section.settings.image | default: collection.image -%}
@@ -86,6 +93,7 @@
       {%- endif -%}
     </image-banner>
   </div>
+</div>
 {%- else -%}
   {%- if collection_header != blank -%}
     <div class="collection-header">
@@ -104,6 +112,26 @@
   "class": "shopify-section--collection-banner",
   "tag": "section",
   "settings": [
+    {
+      "type": "range",
+      "id": "sec--pad-start",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Section padding top",
+      "default": 1
+    },
+    {
+      "type": "range",
+      "id": "sec--pad-end",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Section padding bottom",
+      "default": 1
+    },    
     {
       "type": "checkbox",
       "id": "full_width",
@@ -182,6 +210,31 @@
       "type": "select",
       "id": "image_size",
       "label": "Image size",
+      "options": [
+        {
+          "value": "auto",
+          "label": "Original image ratio"
+        },
+        {
+          "value": "sm",
+          "label": "Small"
+        },
+        {
+          "value": "md",
+          "label": "Medium"
+        },
+        {
+          "value": "lg",
+          "label": "Large"
+        }
+      ],
+      "info": "Choose \"Original image ratio\" to avoid image cropping. [Learn more](https://help.shopify.com/en/manual/online-store/images/theme-images#best-practices-for-slideshows-and-full-widtw-images)",
+      "default": "auto"
+    },
+    {
+      "type": "select",
+      "id": "image_size_mob",
+      "label": "Image size Mobile",
       "options": [
         {
           "value": "auto",
