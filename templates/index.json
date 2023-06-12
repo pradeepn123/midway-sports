@@ -160,6 +160,8 @@
         "template--14754144485481__9ea6b81c-dfad-4107-b6bf-0dd8f8434be9-1684400930673bdee8-0"
       ],
       "settings": {
+        "sec__pad_top": 50,
+        "sec__pad_btm": 50,
         "full_width": true,
         "spacing": "none"
       }
@@ -544,6 +546,8 @@
         "29246d34-c6e0-4373-84f6-b15e57736a00"
       ],
       "settings": {
+        "media_sec_top": 1,
+        "media_sec_btm": 1,
         "full_width": true,
         "reduce_width": false,
         "desktop_row_height": 350,
@@ -944,6 +948,8 @@
         "template--14754144485481__15bbc265-4cf0-4f15-972e-b013d778e08d-16844035351a646635-1"
       ],
       "settings": {
+        "media_sec_top": 1,
+        "media_sec_btm": 1,
         "full_width": true,
         "reduce_width": false,
         "desktop_row_height": 290,
