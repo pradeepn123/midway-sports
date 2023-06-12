@@ -1553,13 +1553,13 @@ var Drawer = class extends DialogElement {
   _getClipPathProperties() {
     switch (this.openFrom) {
       case "left":
-        return document.dir === "ltr" ? ["inset(0 100% 0 0 round 8px)", "inset(0 0 0 0 round 8px"] : ["inset(0 0 0 100% round 8px)", "inset(0 0 0 0 round 8px"];
+        return document.dir === "ltr" ? ["inset(0 100% 0 0 round 0px)", "inset(0 0 0 0 round 0px"] : ["inset(0 0 0 100% round 0px)", "inset(0 0 0 0 round 0px"];
       case "right":
-        return document.dir === "ltr" ? ["inset(0 0 0 100% round 8px)", "inset(0 0 0 0 round 8px"] : ["inset(0 100% 0 0 round 8px)", "inset(0 0 0 0 round 8px"];
+        return document.dir === "ltr" ? ["inset(0 0 0 100% round 0px)", "inset(0 0 0 0 round 0px"] : ["inset(0 100% 0 0 round 0px)", "inset(0 0 0 0 round 0px"];
       case "bottom":
-        return ["inset(100% 0 0 0 round 8px)", "inset(0 0 0 0 round 8px"];
+        return ["inset(100% 0 0 0 round 0px)", "inset(0 0 0 0 round 0px"];
       case "top":
-        return ["inset(0 0 100% 0 round 8px)", "inset(0 0 0 0 round 8px"];
+        return ["inset(0 0 100% 0 round 0px)", "inset(0 0 0 0 round 0px"];
     }
   }
   _setInitialPosition() {
@@ -1651,7 +1651,7 @@ var Popover = class extends DialogElement {
       this.style.top = null;
       animationControls = motionTimeline2([
         [this, { opacity: [0, 1], visibility: ["hidden", "visible"] }, { duration: 0.15 }],
-        [content, { clipPath: ["inset(100% 0 0 0 round 8px)", "inset(0 0 0 0 round 8px"] }, { duration: 0.4, easing: [0.86, 0, 0.07, 1] }],
+        [content, { clipPath: ["inset(100% 0 0 0 round 0px)", "inset(0 0 0 0 round 0px"] }, { duration: 0.4, easing: [0.86, 0, 0.07, 1] }],
         [content.children, { opacity: [0, 1] }, { duration: 0.15 }],
         [closeButton, { opacity: [0, 1] }, { at: "<", duration: 0.15 }]
       ]);
@@ -1682,7 +1682,7 @@ var Popover = class extends DialogElement {
       animationControls = motionTimeline2([
         [closeButton, { opacity: [null, 0] }, { duration: 0.15 }],
         [content.children, { opacity: [null, 0] }, { at: "<", duration: 0.15 }],
-        [content, { clipPath: [null, "inset(100% 0 0 0 round 8px)"] }, { duration: 0.4, easing: [0.86, 0, 0.07, 1] }],
+        [content, { clipPath: [null, "inset(100% 0 0 0 round 0px)"] }, { duration: 0.4, easing: [0.86, 0, 0.07, 1] }],
         [this, { opacity: [null, 0], visibility: ["visible", "hidden"] }, { duration: 0.15 }]
       ]);
     } else {
