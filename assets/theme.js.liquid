@@ -528,6 +528,76 @@ if (!window.customElements.get("reveal-items")) {
   window.customElements.define("reveal-items", RevealItems);
 }
 
+var CollectionItems = class extends HTMLElement {
+  constructor() {
+    super();
+    this.nextPageUrl = this.getAttribute("data-next-page")
+    this.parentShopifySection = this.closest(".shopify-section")
+    this.isLoading = false
+  }
+
+  connectedCallback() {
+    document.addEventListener("scroll", this.handleScrollBar.bind(this))
+  }
+
+  disconnectedCallback() {
+    document.removeEventListener("scroll", this.handleScrollBar.bind(this))
+  }
+
+  handleScrollBar(e) {
+    if (this.nextPageUrl && this.elementIsVisibleInViewport(this.querySelector("product-card:last-child")) && !this.isLoading) {
+      this.isLoading = true
+      console.log("here")
+      const sectionId = this.parentShopifySection.id.replace("shopify-section-", ""), url = new URL(location.origin + this.nextPageUrl);
+      url.searchParams.set("section_id", sectionId);
+      this.fetchResults(this, url)
+    }
+  }
+
+  fetchResults = async (context, url) => {
+    if (abortController) {
+      abortController.abort();
+    }
+    abortController = new AbortController();
+    const shopifySection = document.getElementById(`shopify-section-${url.searchParams.get("section_id")}`);
+    shopifySection.classList.add("is-loading");
+    const clonedUrl = new URL(url);
+    clonedUrl.searchParams.delete("section_id");
+    history.replaceState({}, "", clonedUrl.toString());
+    try {
+      const tempContent = new DOMParser().parseFromString(await (await cachedFetch(url.toString(), { signal: abortController.signal })).text(), "text/html");
+      Array.from(tempContent.querySelectorAll("details, facet-dialog")).forEach((item) => {
+        if (openElements.has(item.id)) {
+          item.setAttribute("open", "");
+        }
+      });
+      const productCards = tempContent.querySelectorAll("product-card")
+      const productList = shopifySection.querySelector("product-list")
+      productCards.forEach((productCard) => {
+        productList.appendChild(productCard)
+      })
+      shopifySection.classList.remove("is-loading");
+      context.nextPageUrl = tempContent.querySelector("collection-items").getAttribute("data-next-page")
+      context.isLoading = false
+    } catch (e) {
+    }
+  }
+
+  elementIsVisibleInViewport = (el) => {
+    const { top, left, bottom, right } = el.getBoundingClientRect();
+    const { innerHeight, innerWidth } = window;
+    return true
+      ? ((top > 0 && top < innerHeight) ||
+          (bottom > 0 && bottom < innerHeight)) &&
+          ((left > 0 && left < innerWidth) || (right > 0 && right < innerWidth))
+      : top >= 0 && left >= 0 && bottom <= innerHeight && right <= innerWidth;
+  };
+}
+
+if (!window.customElements.get("collection-items")) {
+  window.customElements.define("collection-items", CollectionItems);
+}
+
 // js/common/behavior/custom-cursor.js
 var _abortController, _onPointerLeave, onPointerLeave_fn, _onPointerMove, onPointerMove_fn;
 var CustomCursor = class extends HTMLElement {
@@ -4223,6 +4293,7 @@ export {
   FacetFloatingFilter,
   FacetForm,
   FacetLink,
+  CollectionItems,
   FacetSortBy,
   FreeShippingBar,
   GestureArea,
