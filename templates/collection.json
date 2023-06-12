@@ -3,6 +3,8 @@
     "banner": {
       "type": "collection-banner",
       "settings": {
+        "sec--pad-start": 1,
+        "sec--pad-end": 1,
         "full_width": false,
         "allow_transparent_header": false,
         "enable_parallax": false,
@@ -11,6 +13,7 @@
         "show_collection_image": true,
         "collection_title_size": "h0",
         "image_size": "sm",
+        "image_size_mob": "auto",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "featured_product": "",
@@ -55,7 +58,7 @@
         "show_color_swatch": true,
         "show_empty_filter_values": false,
         "show_filter_values_count": true,
-        "open_first_filter_group": false
+        "open_first_filter_group": true
       }
     }
   },
