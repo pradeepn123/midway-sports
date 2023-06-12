@@ -53,6 +53,7 @@
         "products_per_row_desktop": 3,
         "filter_layout": "sidebar",
         "show_sort_by": true,
+        "enable_infinite_scroll": true,
         "show_filters": true,
         "show_filter_group_name": false,
         "show_color_swatch": true,
