@@ -160,7 +160,7 @@
         "template--14754144485481__9ea6b81c-dfad-4107-b6bf-0dd8f8434be9-1684400930673bdee8-0"
       ],
       "settings": {
-        "sec__pad_top": 50,
+        "sec__pad_top": 0,
         "sec__pad_btm": 50,
         "full_width": true,
         "spacing": "none"
