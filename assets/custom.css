@@ -49,3 +49,43 @@ li:last-child
 .contact-form form .button-width .button {
   width: 100%;
 }
+
+/* the section is set hero image banner at mobile collection page */
+
+@media(max-width:699px){
+ .set--content--main .content-over-media > :is(img, video, iframe, svg, video-media) {
+    height: var(--set--content-height, auto);
+    min-height: 100%;
+    max-height: 100%;
+    width: 100%;
+    overflow-wrap: anywhere;
+    object-fit: cover;
+    object-position: center;
+    transform-origin: bottom;
+    border-radius: inherit;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    grid-area: 1 / 1 / span 3 / span 3;
+    position: relative;
+  }
+  
+ .set--content--main .content-over-media > :is(img, video, iframe, svg, video-media) > * {
+    border-radius: inherit;
+  }
+  .set--content--sm {
+    --set--content-height: 375px;
+  }
+  
+   .set--content--md {
+    --set--content-height: 480px;
+  }
+  
+   .set--content--lg {
+    ---set--content-height: 560px;
+  }
+ 
+  .set--content--auto{
+    ---set--content-height: unset;
+  }
+}
