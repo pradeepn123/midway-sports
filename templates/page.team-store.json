@@ -290,7 +290,7 @@
         "full_width": false,
         "stack_on_mobile": true,
         "gap": "small",
-        "text_alignment": "start",
+        "text_alignment": "center",
         "subheading": "",
         "title": "Embellishment Techniques",
         "content": "",
