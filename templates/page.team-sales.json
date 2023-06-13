@@ -128,7 +128,7 @@
         "5ec464c4-5569-47e1-b1a8-b8bd16603528": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/cost-savings-wide.jpg",
+            "image": "shopify:\/\/shop_images\/cost-savings-wide_d6a9f95e-8b59-4573-a9f0-327f94e9f042.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
@@ -150,7 +150,7 @@
         "c9c89395-00cf-4311-82c1-184cbb3b6276": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/consistency_1.jpg",
+            "image": "shopify:\/\/shop_images\/consistency_2.jpg",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
