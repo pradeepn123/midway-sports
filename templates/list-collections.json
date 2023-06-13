@@ -110,10 +110,10 @@
       "settings": {
         "collections": [
           "mens-apparel",
-          "mens-footwear",
           "womens-apparel",
-          "womens-footwear",
           "kids-apparel",
+          "mens-footwear",
+          "womens-footwear",
           "kids-footwear",
           "equipment",
           "stock-uniforms",
