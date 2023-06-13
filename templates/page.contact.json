@@ -77,7 +77,7 @@
             "style": "fill",
             "size": "lg",
             "text": "Live Chat",
-            "url": "shopify:\/\/pages\/about-us",
+            "url": "https:\/\/bcrw.apple.com\/urn:biz:f059d2a9-f4f1-4401-a772-e8906339e4e4?biz-intent-id=bc77adaa-870c-4bce-bd48-00c6a835719d",
             "background": "#000000",
             "text_color": "#ffffff",
             "styles": "fill",
@@ -130,7 +130,7 @@
         "contact_text_color": "",
         "button_background": "",
         "button_text_color": "",
-        "form_bg_color": "#fff"
+        "form_bg_color": "#ffffff"
       }
     }
   },
