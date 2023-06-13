@@ -100,67 +100,109 @@
         "text_gradient": ""
       }
     },
-    "5803913a-ad0e-4920-85e9-77db0cf3b411": {
-      "type": "images-with-text-scrolling",
+    "04f99add-80c0-47d8-97d9-a5009e5992ef": {
+      "type": "media-with-text",
       "blocks": {
-        "template--14757985976425__5803913a-ad0e-4920-85e9-77db0cf3b411-16853589694b6ccaa5-0": {
-          "type": "item",
+        "template--14760302444649__04f99add-80c0-47d8-97d9-a5009e5992ef-168663400922bbb5fe-0": {
+          "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/team-store-image1_1.jpg",
+            "image": "shopify:\/\/shop_images\/team-store-image1_2.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
+            "subheading": "",
             "title": "CUSTOMIZATION OPTIONS",
-            "content": "<p>At Midway Sports, we understand that every team is unique, and that's why we offer a wide range of customization options. From team logos and player names to numbers and special designs, we can bring your vision to life.<\/p>"
+            "content": "<p>At Midway Sports, we understand that every team is unique, and that's why we offer a wide range of customization options. From team logos and player names to numbers and special designs, we can bring your vision to life.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#fff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
           }
         },
-        "template--14757985976425__5803913a-ad0e-4920-85e9-77db0cf3b411-16853589694b6ccaa5-1": {
-          "type": "item",
+        "5ec464c4-5569-47e1-b1a8-b8bd16603528": {
+          "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/cost-savings.jpg",
+            "image": "shopify:\/\/shop_images\/cost-savings-wide.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
+            "subheading": "",
             "title": "Cost Savings",
-            "content": "<p>Bulk orders often come with discounted pricing, allowing you to save money while outfitting your entire team. Our team sales specialists will provide you with competitive pricing options tailored to your specific requirements.<\/p>"
+            "content": "<p>Bulk orders often come with discounted pricing, allowing you to save money while outfitting your entire team. Our team sales specialists will provide you with competitive pricing options tailored to your specific requirements.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#fff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
           }
         },
-        "15ae69c9-a6c9-4a02-9f04-3d0b9e9cfc18": {
-          "type": "item",
+        "c9c89395-00cf-4311-82c1-184cbb3b6276": {
+          "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/consistency.jpg",
+            "image": "shopify:\/\/shop_images\/consistency_1.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
+            "subheading": "",
             "title": "CONSISTENCY & UNIFORMITY",
-            "content": "<p>Ensuring that every team member is wearing the same high-quality uniform promotes a sense of unity and professionalism. Our team ensures that all your team uniforms and accessories are consistent in design, materials, and fit.<\/p>"
+            "content": "<p>Ensuring that every team member is wearing the same high-quality uniform promotes a sense of unity and professionalism. Our team ensures that all your team uniforms and accessories are consistent in design, materials, and fit.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#fff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
           }
         },
-        "f816e7f3-c469-4f1c-ab72-1eaa4c5b8b2e": {
-          "type": "item",
+        "9cd061a4-2b79-4f37-816b-dde9fae36616": {
+          "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/quick-shipping.jpg",
+            "image": "shopify:\/\/shop_images\/shipping-times_c8f037a1-d278-4e06-8526-2930e5e107ad.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
+            "subheading": "",
             "title": "QUICK TURNAROUND TIMES",
-            "content": "<p>Our efficient order processing and production systems allow us to deliver your bulk orders within reasonable turnaround times, ensuring that you receive your products when you need them.<\/p>"
+            "content": "<p>Our efficient order processing and production systems allow us to deliver your bulk orders within reasonable turnaround times, ensuring that you receive your products when you need them.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#fff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
           }
         }
       },
       "block_order": [
-        "template--14757985976425__5803913a-ad0e-4920-85e9-77db0cf3b411-16853589694b6ccaa5-0",
-        "template--14757985976425__5803913a-ad0e-4920-85e9-77db0cf3b411-16853589694b6ccaa5-1",
-        "15ae69c9-a6c9-4a02-9f04-3d0b9e9cfc18",
-        "f816e7f3-c469-4f1c-ab72-1eaa4c5b8b2e"
+        "template--14760302444649__04f99add-80c0-47d8-97d9-a5009e5992ef-168663400922bbb5fe-0",
+        "5ec464c4-5569-47e1-b1a8-b8bd16603528",
+        "c9c89395-00cf-4311-82c1-184cbb3b6276",
+        "9cd061a4-2b79-4f37-816b-dde9fae36616"
       ],
       "settings": {
-        "full_width": true,
-        "stack_on_mobile": true,
-        "show_counter": false,
-        "desktop_image_effect": "reveal",
-        "image_position": "end",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
+        "sec__pad_top": 0,
+        "sec__pad_btm": 0,
+        "full_width": false,
+        "spacing": "none"
       }
     },
     "6f560ed2-8bfc-463c-a6c5-a22df6a2cbf9": {
@@ -272,111 +314,6 @@
         "accordion_background": "#ffffff",
         "accordion_text_color": ""
       }
-    },
-    "04f99add-80c0-47d8-97d9-a5009e5992ef": {
-      "type": "media-with-text",
-      "blocks": {
-        "template--14760302444649__04f99add-80c0-47d8-97d9-a5009e5992ef-168663400922bbb5fe-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/team-store-image1_1.jpg",
-            "media_width": 50,
-            "media_position": "end",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "CUSTOMIZATION OPTIONS",
-            "content": "<p>At Midway Sports, we understand that every team is unique, and that's why we offer a wide range of customization options. From team logos and player names to numbers and special designs, we can bring your vision to life.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#fff",
-            "background_gradient": "",
-            "text_color": "#000000",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "5ec464c4-5569-47e1-b1a8-b8bd16603528": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/team-store-image1_1.jpg",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Cost Savings",
-            "content": "<p>Bulk orders often come with discounted pricing, allowing you to save money while outfitting your entire team. Our team sales specialists will provide you with competitive pricing options tailored to your specific requirements.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#fff",
-            "background_gradient": "",
-            "text_color": "#000000",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "c9c89395-00cf-4311-82c1-184cbb3b6276": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/team-store-image1_1.jpg",
-            "media_width": 50,
-            "media_position": "end",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "CONSISTENCY & UNIFORMITY",
-            "content": "<p>Ensuring that every team member is wearing the same high-quality uniform promotes a sense of unity and professionalism. Our team ensures that all your team uniforms and accessories are consistent in design, materials, and fit.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#fff",
-            "background_gradient": "",
-            "text_color": "#000000",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "9cd061a4-2b79-4f37-816b-dde9fae36616": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/team-store-image1_1.jpg",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "QUICK TURNAROUND TIMES",
-            "content": "<p>Our efficient order processing and production systems allow us to deliver your bulk orders within reasonable turnaround times, ensuring that you receive your products when you need them.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#fff",
-            "background_gradient": "",
-            "text_color": "#000000",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--14760302444649__04f99add-80c0-47d8-97d9-a5009e5992ef-168663400922bbb5fe-0",
-        "5ec464c4-5569-47e1-b1a8-b8bd16603528",
-        "c9c89395-00cf-4311-82c1-184cbb3b6276",
-        "9cd061a4-2b79-4f37-816b-dde9fae36616"
-      ],
-      "settings": {
-        "sec__pad_top": 0,
-        "sec__pad_btm": 0,
-        "full_width": false,
-        "spacing": "none"
-      }
     }
   },
   "order": [
@@ -384,9 +321,8 @@
     "7172c86a-59f9-44c8-a7b3-be122773aff2",
     "f4185f01-c4b0-4d19-a3f7-a20d96ace8db",
     "6eac2c14-e754-49a8-ac97-da9d61d2c7e6",
-    "5803913a-ad0e-4920-85e9-77db0cf3b411",
+    "04f99add-80c0-47d8-97d9-a5009e5992ef",
     "6f560ed2-8bfc-463c-a6c5-a22df6a2cbf9",
-    "f10e7509-5bb7-4205-8d43-2ea6497349ad",
-    "04f99add-80c0-47d8-97d9-a5009e5992ef"
+    "f10e7509-5bb7-4205-8d43-2ea6497349ad"
   ]
 }
