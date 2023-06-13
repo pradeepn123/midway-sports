@@ -319,11 +319,57 @@
             "button_background": "",
             "button_text_color": ""
           }
+        },
+        "c9c89395-00cf-4311-82c1-184cbb3b6276": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team-store-image1_1.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "CONSISTENCY & UNIFORMITY",
+            "content": "<p>Ensuring that every team member is wearing the same high-quality uniform promotes a sense of unity and professionalism. Our team ensures that all your team uniforms and accessories are consistent in design, materials, and fit.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#fff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "9cd061a4-2b79-4f37-816b-dde9fae36616": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team-store-image1_1.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "QUICK TURNAROUND TIMES",
+            "content": "<p>Our efficient order processing and production systems allow us to deliver your bulk orders within reasonable turnaround times, ensuring that you receive your products when you need them.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#fff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
         }
       },
       "block_order": [
         "template--14760302444649__04f99add-80c0-47d8-97d9-a5009e5992ef-168663400922bbb5fe-0",
-        "5ec464c4-5569-47e1-b1a8-b8bd16603528"
+        "5ec464c4-5569-47e1-b1a8-b8bd16603528",
+        "c9c89395-00cf-4311-82c1-184cbb3b6276",
+        "9cd061a4-2b79-4f37-816b-dde9fae36616"
       ],
       "settings": {
         "sec__pad_top": 0,
