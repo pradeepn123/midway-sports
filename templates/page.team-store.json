@@ -325,6 +325,51 @@
         "form_bg_color": "#ffffff"
       }
     },
+    "7c4c2343-b9bf-4a87-a374-01a885c9ec5d": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--14760302149737__7c4c2343-b9bf-4a87-a374-01a885c9ec5d-1686638967e32ef80b-0": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-phone",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "",
+            "content": "<h6>+1 786-353-2005<\/h6><h6>CALL NOW<\/h6>",
+            "style": "fill",
+            "size": "lg",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": "",
+            "styles": "fill",
+            "sizes": "lg",
+            "texts": "Button text",
+            "urls": "",
+            "backgrounds": "",
+            "text_colors": "",
+            "content-button": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14760302149737__7c4c2343-b9bf-4a87-a374-01a885c9ec5d-1686638967e32ef80b-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "f10e7509-5bb7-4205-8d43-2ea6497349ad": {
       "type": "accordion-content",
       "blocks": {
@@ -394,6 +439,7 @@
     "0024e7a0-894d-4d3b-86d5-16eade0939bf",
     "cacc2c18-1bdc-40b3-9634-17f893dc95da",
     "6f560ed2-8bfc-463c-a6c5-a22df6a2cbf9",
+    "7c4c2343-b9bf-4a87-a374-01a885c9ec5d",
     "f10e7509-5bb7-4205-8d43-2ea6497349ad"
   ]
 }
