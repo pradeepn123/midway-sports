@@ -272,6 +272,65 @@
         "accordion_background": "#ffffff",
         "accordion_text_color": ""
       }
+    },
+    "04f99add-80c0-47d8-97d9-a5009e5992ef": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--14760302444649__04f99add-80c0-47d8-97d9-a5009e5992ef-168663400922bbb5fe-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team-store-image1_1.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "CUSTOMIZATION OPTIONS",
+            "content": "<p>At Midway Sports, we understand that every team is unique, and that's why we offer a wide range of customization options. From team logos and player names to numbers and special designs, we can bring your vision to life.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#fff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "5ec464c4-5569-47e1-b1a8-b8bd16603528": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/team-store-image1_1.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "CUSTOMIZATION OPTIONS",
+            "content": "<p>At Midway Sports, we understand that every team is unique, and that's why we offer a wide range of customization options. From team logos and player names to numbers and special designs, we can bring your vision to life.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#fff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14760302444649__04f99add-80c0-47d8-97d9-a5009e5992ef-168663400922bbb5fe-0",
+        "5ec464c4-5569-47e1-b1a8-b8bd16603528"
+      ],
+      "settings": {
+        "sec__pad_top": 0,
+        "sec__pad_btm": 0,
+        "full_width": false,
+        "spacing": "none"
+      }
     }
   },
   "order": [
@@ -281,6 +340,7 @@
     "6eac2c14-e754-49a8-ac97-da9d61d2c7e6",
     "5803913a-ad0e-4920-85e9-77db0cf3b411",
     "6f560ed2-8bfc-463c-a6c5-a22df6a2cbf9",
-    "f10e7509-5bb7-4205-8d43-2ea6497349ad"
+    "f10e7509-5bb7-4205-8d43-2ea6497349ad",
+    "04f99add-80c0-47d8-97d9-a5009e5992ef"
   ]
 }
