@@ -305,7 +305,7 @@
             "icon_background": "",
             "icon_color": "",
             "title": "",
-            "content": "<h5><strong>CONTACT@MIDWAYSPORTS.COM<\/strong><\/h5><h6><a href=\"mailto:contact@midwaysports.com\" target=\"_blank\" title=\"mailto:contact@midwaysports.com\">EMAIL<\/a><\/h6>",
+            "content": "<h5><strong>CONTACT@MIDWAYSPORTS.COM<\/strong><\/h5><h6><a href=\"mailto:contact@midwaysports.com\" title=\"mailto:contact@midwaysports.com\">EMAIL<\/a> | LIVE CHAT<\/h6>",
             "style": "fill",
             "size": "lg",
             "text": "Button text",
@@ -318,7 +318,7 @@
             "urls": "",
             "backgrounds": "",
             "text_colors": "",
-            "content-button": "<p>(9:00 am to 6:00 pm, Monday - Friday, EST)<\/p>"
+            "content-button": "<p>(9:00 am to 6:00 pm, EST)<\/p>"
           }
         }
       },
