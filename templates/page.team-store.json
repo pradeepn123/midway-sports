@@ -243,6 +243,7 @@
         "67576b75-48a6-4f9a-890a-6a818903e5a1": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/print-sublimation_1.png",
             "column_size": "4",
             "title": "Sublimation",
             "heading_tag": "h4",
@@ -255,6 +256,7 @@
         "455a027a-3f58-480d-9dc6-51b05728a827": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/print-embroidery_1.png",
             "column_size": "4",
             "title": "Embroidery",
             "heading_tag": "h4",
@@ -267,6 +269,7 @@
         "c278d952-bb81-4a8a-9841-43b638beb569": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/print-vinyl_1.png",
             "column_size": "4",
             "title": "Vinyl Printing",
             "heading_tag": "h4",
