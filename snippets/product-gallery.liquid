@@ -60,7 +60,7 @@ only way to do it on Shopify right now.
       {% assign selected_variant = product.selected_or_first_available_variant %}
       <media-carousel desktop-mode="{{ section.settings.desktop_media_layout }}" adaptive-height initial-index="{{ default_media.position | minus: 1 }}" {% if section.settings.enable_video_autoplay %}autoplay{% endif %} id="{{ product_gallery_id }}" class="product-gallery__media-list {% if section.settings.mobile_media_size == 'expanded' %}full-bleed{% else %}bleed{% endif %} scroll-area md:unbleed">
         {%- assign media_attached_to_variant = selected_variant.featured_media -%}
-        {% if media_attached_to_variant %}
+        {% if media_attached_to_variant and filtered_indexes.size == 0 %}
           {%- case section.settings.desktop_media_layout -%}
             {%- when 'carousel_thumbnails_bottom' -%}
               {%- capture sizes -%}(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), min(760px, 42vw){%- endcapture -%}
@@ -108,7 +108,7 @@ only way to do it on Shopify right now.
             {% when 'grid_highlight' %}
               {%- capture sizes -%}(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), {% if forloop.first and media_attached_to_variant == blank %}min(1200px, 60vw){% else %}min(580px, 30vw){% endif %}{%- endcapture -%}
           {%- endcase -%}
-          {% if media_attached_to_variant and media_attached_to_variant.id == media.id %}
+          {% if media_attached_to_variant and media_attached_to_variant.id == media.id and filtered_indexes.size == 0 %}
             {% continue %}
           {% endif %}
 
