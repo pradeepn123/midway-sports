@@ -57,8 +57,42 @@ only way to do it on Shopify right now.
       MEDIA LIST
       --------------------------------------------------------------------------------------------------------------------
       {%- endcomment -%}
+      {% assign selected_variant = product.selected_or_first_available_variant %}
       <media-carousel desktop-mode="{{ section.settings.desktop_media_layout }}" adaptive-height initial-index="{{ default_media.position | minus: 1 }}" {% if section.settings.enable_video_autoplay %}autoplay{% endif %} id="{{ product_gallery_id }}" class="product-gallery__media-list {% if section.settings.mobile_media_size == 'expanded' %}full-bleed{% else %}bleed{% endif %} scroll-area md:unbleed">
-        {%- assign media_attached_to_variant = product.images | where: 'attached_to_variant?', true | map: 'src' -%}
+        {%- assign media_attached_to_variant = selected_variant.featured_media -%}
+        {% if media_attached_to_variant and filtered_indexes.size == 0 %}
+          {%- case section.settings.desktop_media_layout -%}
+            {%- when 'carousel_thumbnails_bottom' -%}
+              {%- capture sizes -%}(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), min(760px, 42vw){%- endcapture -%}
+
+            {%- when 'carousel_thumbnails_left' -%}
+              {%- capture sizes -%}(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), min(730px, 40vw){%- endcapture -%}
+
+            {%- when 'grid' -%}
+              {%- capture sizes -%}(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), min(580px, 30vw){%- endcapture -%}
+
+            {% when 'grid_highlight' %}
+              {%- capture sizes -%}(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), {% if forloop.first and media_attached_to_variant == blank %}min(1200px, 60vw){% else %}min(580px, 30vw){% endif %}{%- endcapture -%}
+          {%- endcase -%}
+          <div class="product-gallery__media {% if media_attached_to_variant.alt contains '@expand' %}product-gallery__media--expand{% endif %} {% if section.settings.mobile_carousel_control != 'free_scroll' %}snap-center{% endif %}" data-media-type="{{ media_attached_to_variant.media_type }}" data-media-id="{{ media_attached_to_variant.id }}" {% if filtered_indexes contains media_attached_to_variant.position %}hidden{% endif %}>
+            {%- if default_media == media_attached_to_variant -%}
+              {%- assign preload = true -%}
+            {%- else -%}
+              {%- assign preload = false -%}
+            {%- endif -%}
+
+            {%- render 'media', media: media_attached_to_variant, sizes: sizes, preload: preload, autoplay: section.settings.enable_video_autoplay, loop: section.settings.enable_video_looping, group: 'product' -%}
+
+            {%- if section.settings.enable_image_zoom and section.settings.desktop_media_layout contains 'grid' and media_attached_to_variant.media_type == 'image' -%}
+              <div class="product-gallery__zoom hidden md:block">
+                <button type="button" is="product-zoom-button" class="circle-button circle-button--fill ring">
+                  <span class="sr-only">{{ 'product.gallery.zoom' | t }}</span>
+                  {%- render 'icon' with 'image-zoom' -%}
+                </button>
+              </div>
+            {%- endif -%}
+          </div>
+        {% endif %}
 
         {%- for media in product.media -%}
           {%- case section.settings.desktop_media_layout -%}
@@ -72,8 +106,11 @@ only way to do it on Shopify right now.
               {%- capture sizes -%}(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), min(580px, 30vw){%- endcapture -%}
 
             {% when 'grid_highlight' %}
-              {%- capture sizes -%}(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), {% if forloop.first or media_attached_to_variant contains media.src %}min(1200px, 60vw){% else %}min(580px, 30vw){% endif %}{%- endcapture -%}
+              {%- capture sizes -%}(max-width: 740px) calc(100vw - 40px), (max-width: 999px) calc(100vw - 64px), {% if forloop.first and media_attached_to_variant == blank %}min(1200px, 60vw){% else %}min(580px, 30vw){% endif %}{%- endcapture -%}
           {%- endcase -%}
+          {% if media_attached_to_variant and media_attached_to_variant.id == media.id and filtered_indexes.size == 0 %}
+            {% continue %}
+          {% endif %}
 
           <div class="product-gallery__media {% if media.alt contains '@expand' %}product-gallery__media--expand{% endif %} {% if section.settings.mobile_carousel_control != 'free_scroll' %}snap-center{% endif %}" data-media-type="{{ media.media_type }}" data-media-id="{{ media.id }}" {% if filtered_indexes contains media.position %}hidden{% endif %}>
             {%- if default_media == media -%}
