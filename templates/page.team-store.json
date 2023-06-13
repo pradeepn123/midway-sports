@@ -230,10 +230,10 @@
         "45014207-0d89-46f9-a3de-2d4dc5960e4f": {
           "type": "item",
           "settings": {
-            "column_size": "3",
-            "title": "",
+            "column_size": "4",
+            "title": "Screen Printing",
             "heading_tag": "h4",
-            "content": "<h2>Advanced Printing Techniques<\/h2>",
+            "content": "<p>Vibrant and durable designs on your garments.<\/p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -245,7 +245,7 @@
             "column_size": "4",
             "title": "Sublimation",
             "heading_tag": "h4",
-            "content": "<p>We offer top-quality sublimation printing, delivering vibrant and long-lasting designs.<\/p><p>Experience the unmatched color clarity, sharpness, and durability that sublimation brings to your team uniforms, jerseys, and performance gear.<\/p><p>Stand out on the field with eye-catching sublimated apparel that represents your team's spirit and style.<\/p>",
+            "content": "<p>Infuse colors into fabric for a long-lasting and vibrant finish.<\/p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -257,7 +257,19 @@
             "column_size": "4",
             "title": "Embroidery",
             "heading_tag": "h4",
-            "content": "<p>We provide high-quality embroidery options for items like bags, hats, polos, and outerwear. <\/p><p>Add a touch of sophistication and professionalism to your team's apparel. <\/p><p>Stand out with custom embroidered gear that showcases your team's commitment to excellence.<\/p>",
+            "content": "<p>Add texture and sophistication with intricate stitched designs.<\/p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "c278d952-bb81-4a8a-9841-43b638beb569": {
+          "type": "item",
+          "settings": {
+            "column_size": "4",
+            "title": "Vinyl Printing",
+            "heading_tag": "h4",
+            "content": "<p>Create precise and vibrant designs with a professional finish.<\/p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -267,7 +279,8 @@
       "block_order": [
         "45014207-0d89-46f9-a3de-2d4dc5960e4f",
         "67576b75-48a6-4f9a-890a-6a818903e5a1",
-        "455a027a-3f58-480d-9dc6-51b05728a827"
+        "455a027a-3f58-480d-9dc6-51b05728a827",
+        "c278d952-bb81-4a8a-9841-43b638beb569"
       ],
       "settings": {
         "full_width": false,
@@ -275,7 +288,7 @@
         "gap": "small",
         "text_alignment": "start",
         "subheading": "",
-        "title": "",
+        "title": "Embellishment Techniques",
         "content": "",
         "background": "#f5f5f5",
         "background_gradient": "",
@@ -333,12 +346,12 @@
           "settings": {
             "icon": "picto-phone",
             "mobile_icon_width": 24,
-            "icon_width": 32,
+            "icon_width": 28,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
             "title": "",
-            "content": "<h6>+1 786-353-2005<\/h6><h6>CALL NOW<\/h6>",
+            "content": "<h6>+1 786-353-2005<\/h6><h6><a href=\"tel:+1 786-353-2005\" target=\"_blank\" title=\"tel:+1 786-353-2005\">CALL NOW<\/a><\/h6>",
             "style": "fill",
             "size": "lg",
             "text": "Button text",
@@ -351,12 +364,39 @@
             "urls": "",
             "backgrounds": "",
             "text_colors": "",
-            "content-button": ""
+            "content-button": "<p>(9:00 am to 6:00 pm, Monday - Friday, EST)<\/p>"
+          }
+        },
+        "be6ad9b9-262a-4dad-af40-d69a54d25d05": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-envelope",
+            "mobile_icon_width": 24,
+            "icon_width": 28,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "",
+            "content": "<h6><strong>CONTACT@MIDWAYSPORTS.COM<\/strong><\/h6><h6><a href=\"mailto:contact@midwaysports.com\" target=\"_blank\" title=\"mailto:contact@midwaysports.com\">EMAIL<\/a> | LIVE CHAT<\/h6>",
+            "style": "fill",
+            "size": "lg",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": "",
+            "styles": "fill",
+            "sizes": "lg",
+            "texts": "Button text",
+            "urls": "",
+            "backgrounds": "",
+            "text_colors": "",
+            "content-button": "<p>(9:00 am to 6:00 pm, EST)<\/p>"
           }
         }
       },
       "block_order": [
-        "template--14760302149737__7c4c2343-b9bf-4a87-a374-01a885c9ec5d-1686638967e32ef80b-0"
+        "template--14760302149737__7c4c2343-b9bf-4a87-a374-01a885c9ec5d-1686638967e32ef80b-0",
+        "be6ad9b9-262a-4dad-af40-d69a54d25d05"
       ],
       "settings": {
         "full_width": true,
