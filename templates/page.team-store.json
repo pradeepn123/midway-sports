@@ -230,6 +230,7 @@
         "45014207-0d89-46f9-a3de-2d4dc5960e4f": {
           "type": "item",
           "settings": {
+            "image": "shopify:\/\/shop_images\/print-screen_printing_1.png",
             "column_size": "4",
             "title": "Screen Printing",
             "heading_tag": "h4",
