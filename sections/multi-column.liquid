@@ -6,6 +6,14 @@
       --multi-column-grid: {% if section.settings.stack_on_mobile %}none{% else %}auto / auto-flow 73vw{% endif %};
       --multi-column-list-gap: {% if section.settings.gap == 'small' %}var(--grid-gutter){% elsif section.settings.gap == 'medium' %}var(--spacing-12){% elsif section.settings.gap == 'large' %}var(--spacing-20){% else %}var(--spacing-28){% endif %};
     }
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when 'item' -%}
+         .multi-column.scroll-area .aligning--items--format img{
+           width: {{ block.settings.img_width }}px !important;
+        }
+     {% endcase %}
+    {% endfor %}
   </style>
 
   <div {% render 'section-properties' %}>
@@ -16,7 +24,7 @@
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'item' -%}
-              <div class="multi-column__item justify-{{ section.settings.text_alignment }} snap-start" style="--multi-column-item-column-count: span {{ 12.0 | divided_by: block.settings.column_size | round }}" {{ block.shopify_attributes }}>
+              <div class="aligning--items--format multi-column__item justify-{{ section.settings.text_alignment }} snap-start" style="--multi-column-item-column-count: span {{ 12.0 | divided_by: block.settings.column_size | round }}" {{ block.shopify_attributes }}>
                 {%- if block.settings.video != blank -%}
                   <video-media autoplay style="--aspect-ratio: {{ block.settings.video.aspect_ratio }}">
                     {{ block.settings.video | video_tag: playsinline: true, muted: true, loop: true, preload: 'metadata', class: 'rounded' }}
@@ -176,6 +184,16 @@
           "label": "Image",
           "info": "1400 x 1400px .jpg recommended"
         },
+        {
+          "type": "range",
+          "id": "img_width",
+          "min": 100,
+          "max": 200,
+          "step": 1,
+          "unit": "px",
+          "label": "Image width",
+          "default": 156
+        },        
         {
           "type": "video",
           "id": "video",
