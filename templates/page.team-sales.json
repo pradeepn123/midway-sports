@@ -169,7 +169,15 @@
         "4a726ddd-6cf6-4ae3-b667-21afd3dcc868": {
           "type": "text",
           "settings": {
-            "title": "Product Description",
+            "title": "Product Type",
+            "use_long_text": false,
+            "required": false
+          }
+        },
+        "217843e4-cee9-4dc4-b4ca-6c8ea1ce11c1": {
+          "type": "text",
+          "settings": {
+            "title": "Product Color",
             "use_long_text": false,
             "required": false
           }
@@ -193,6 +201,7 @@
       },
       "block_order": [
         "4a726ddd-6cf6-4ae3-b667-21afd3dcc868",
+        "217843e4-cee9-4dc4-b4ca-6c8ea1ce11c1",
         "eeb32da8-8da4-4d61-8f1b-0d5954716c0e",
         "05ac77f3-c86a-4b61-a651-c2c7362ed906"
       ],
@@ -212,7 +221,7 @@
         "contact_text_color": "#000000",
         "button_background": "#000000",
         "button_text_color": "#ffffff",
-        "form_bg_color": "#fff"
+        "form_bg_color": "#ffffff"
       }
     },
     "f10e7509-5bb7-4205-8d43-2ea6497349ad": {
