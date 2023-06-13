@@ -1267,6 +1267,7 @@ var ScrollCarousel = class extends BaseCarousel {
       this._dispatchEvent("carousel:change", index);
       this._transitionTo(fromSlide, toSlide, { animate: animate11 });
     }
+    console.log(this._selectedIndex)
   }
   /**
    * Transition using the scrollTo method. To prevent the intersection observer to caught up the change, we set up
@@ -3288,12 +3289,27 @@ var ProductGallery = class extends HTMLElement {
       this._customCursor.toggleAttribute("hidden", event.detail.slide.getAttribute("data-media-type") !== "image");
     }
   }
+
+  _swapArrayElements = function(arr, indexA, indexB) {
+    var temp = arr[indexA];
+    arr[indexA] = arr[indexB];
+    arr[indexB] = temp;
+    return arr;
+  };
+
   _onVariantChanged(event) {
     const filteredIndexes = this._getFilteredMediaIndexes(event.detail.product, event.detail.variant);
     this._carousels.forEach((carousel) => carousel.dispatchEvent(new CustomEvent("carousel:filter", { detail: { filteredIndexes } })));
     this._pageDots.forEach((pageDots) => pageDots.dispatchEvent(new CustomEvent("control:filter", { detail: { filteredIndexes } })));
+
     if (event.detail.variant["featured_media"] && event.detail.previousVariant["featured_media"] && event.detail.previousVariant["featured_media"]["id"] !== event.detail.variant["featured_media"]["id"] || !event.detail.previousVariant["featured_media"] && event.detail.variant["featured_media"]) {
       this._carousels.forEach((carousel) => carousel.select(event.detail.variant["featured_media"]["position"] - 1, { animate: false }));
+      if (filteredIndexes.length == 0 && event.detail.variant["featured_media"]) {
+        this._carousels.forEach((carousel) => {
+          carousel._items = this._swapArrayElements(carousel.items, 0, event.detail.variant["featured_media"]["position"] - 1)
+          carousel.prepend(carousel.querySelector(`[data-media-id="${event.detail.variant["featured_media"]["id"]}"]`))
+        })
+      }
     }
   }
   _getFilteredMediaIndexes(product, variant) {
