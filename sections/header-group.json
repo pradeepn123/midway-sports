@@ -176,7 +176,8 @@
         "44af808d-a037-468a-80a7-0cf490a9e921"
       ],
       "custom_css": [
-
+        "@media screen and (min-width: 1200px) {.navigation-promo__wrapper.2xl:hidden {display: none; }}",
+        "@media screen and (max-width: 1199px) {.navigation-promo__wrapper.2xl-max:hidden {display: block; }}"
       ],
       "settings": {
         "enable_sticky": true,
