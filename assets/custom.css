@@ -89,3 +89,11 @@ li:last-child
     ---set--content-height: unset;
   }
 }
+
+/* multicolum.liquid css for adjusting imageis  */
+.multi-column.scroll-area .aligning--items--format{
+  display: grid !important;
+}
+.multi-column.scroll-area .aligning--items--format img{
+  margin: 0 auto;
+}
