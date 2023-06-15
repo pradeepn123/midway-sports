@@ -9,7 +9,7 @@
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when 'item' -%}
-         .multi-column.scroll-area .aligning--items--format img{
+        .section-{{ section.id }}.multi-column-store .multi-column.scroll-area .aligning--items--format img{
            width: {{ block.settings.img_width }}px !important;
         }
      {% endcase %}
@@ -17,7 +17,7 @@
   </style>
 
   <div {% render 'section-properties' %}>
-    <div class="section-stack">
+    <div class="section-stack section-{{ section.id }} {% if template.suffix == 'team-store' %} multi-column-store  {% endif %}">
       {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content, text_alignment: section.settings.text_alignment -%}
 
       <div class="multi-column scroll-area bleed md:unbleed">
