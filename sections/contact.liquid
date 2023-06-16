@@ -3,6 +3,9 @@
 {%- assign text_position = section.settings.text_position -%}
 
 <style>
+  .contact--{{ section.id }} .section{
+    margin-bottom: {{ section.settings.cont_mar_btn }}px;
+  }
   #shopify-section-{{ section.id }} {
     --section-stack-intro: {% if text_position == 'center' %}66.6667%{% elsif section.settings.contact_form_size == 'small' %}50%{% else %}41.6667%{% endif %};
     --section-stack-main: {% if section.settings.contact_form_size == 'small' %}50%{% else %}58.3334%{% endif %};
@@ -12,6 +15,7 @@
   }
 </style>
 
+<div class="contact--{{ section.id }}">
 <div {% render 'section-properties' %} id="request-quote-scroll">
   {%- assign text_position = section.settings.text_position -%}
 
@@ -104,6 +108,7 @@
     </div>
   </div>
 </div>
+</div>
 
 {% schema %}
 {
@@ -114,6 +119,16 @@
     "groups": ["header", "custom.overlay"]
   },
   "settings": [
+    {
+      "type": "range",
+      "id": "cont_mar_btn",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Margin Bottom",
+      "default": 40
+    },    
     {
       "type": "checkbox",
       "id": "full_width",

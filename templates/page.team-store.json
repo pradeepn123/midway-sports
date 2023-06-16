@@ -328,6 +328,7 @@
         "83c88ace-4a89-4219-91be-cbfd99ec508c"
       ],
       "settings": {
+        "cont_mar_btn": 0,
         "full_width": false,
         "subheading": "",
         "title": "Team store signup",
@@ -344,6 +345,53 @@
         "button_background": "#000000",
         "button_text_color": "#ffffff",
         "form_bg_color": "#ffffff"
+      }
+    },
+    "6f41cd19-ae6d-468b-a4f2-95755153b8e5": {
+      "type": "reach-out",
+      "blocks": {
+        "946780c3-4c76-438a-a909-da4cc85876e3": {
+          "type": "Contact_block",
+          "settings": {
+            "reach_btn_txt": "Call Now",
+            "reach_btn_color": "#000000",
+            "reach_btn_size": 20,
+            "reach_btn_link": "tel:+1 786-353-2005"
+          }
+        },
+        "8430d973-32c7-460c-991a-b1ca7611d228": {
+          "type": "Contact_block",
+          "settings": {
+            "reach_btn_txt": "Email",
+            "reach_btn_color": "#000000",
+            "reach_btn_size": 20,
+            "reach_btn_link": "mailto:contact@midwaysports.com \""
+          }
+        },
+        "8a7ef698-e2ff-4561-aaaa-45a43b95232c": {
+          "type": "Contact_block",
+          "settings": {
+            "reach_btn_txt": "Live Chat",
+            "reach_btn_color": "#000000",
+            "reach_btn_size": 20,
+            "reach_btn_link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "946780c3-4c76-438a-a909-da4cc85876e3",
+        "8430d973-32c7-460c-991a-b1ca7611d228",
+        "8a7ef698-e2ff-4561-aaaa-45a43b95232c"
+      ],
+      "settings": {
+        "reach_heading": "NEED HELP?",
+        "reach_heading_color": "#000000",
+        "reach_heading_size": 31,
+        "reach_heading_size_mob": 20,
+        "reach_text": "<p>Reach out to our team for any help or inquiries.<\/p>",
+        "reach_text_color": "#565656",
+        "reach_text_size": 16,
+        "reach_text_size_mob": 16
       }
     },
     "7c4c2343-b9bf-4a87-a374-01a885c9ec5d": {
@@ -487,6 +535,7 @@
     "0024e7a0-894d-4d3b-86d5-16eade0939bf",
     "cacc2c18-1bdc-40b3-9634-17f893dc95da",
     "6f560ed2-8bfc-463c-a6c5-a22df6a2cbf9",
+    "6f41cd19-ae6d-468b-a4f2-95755153b8e5",
     "7c4c2343-b9bf-4a87-a374-01a885c9ec5d",
     "f10e7509-5bb7-4205-8d43-2ea6497349ad"
   ]

@@ -1,0 +1,168 @@
+{% assign option = section.settings %}
+
+{{- 'reach-out.css' | asset_url | stylesheet_tag: preload: true -}}
+
+{% style %}
+  .reach--{{ section.id }} .reach_heading h3{
+      font-size: {{ option.reach_heading_size }}px;
+      color : {{ option.reach_heading_color }};
+  }
+  .reach--{{ section.id }} .reach_content p{
+      font-size: {{ option.reach_text_size }}px;
+      color : {{ option.reach_text_color }};
+  }
+  {% for block in section.blocks %}
+    .reach--{{ section.id }}  .reach-btn{
+          font-size: {{ block.settings.reach_btn_size }}px;
+          color: {{ block.settings.reach_btn_color }};
+      }
+      .reach--{{ section.id }} .reach-block-content-main{
+           border: 2px solid {{ block.settings.reach_btn_color }};
+      }
+  {% endfor %}
+  @media(max-width:520px){
+    .reach--{{ section.id }} .reach_heading h3{
+       font-size: {{ option.reach_heading_size_mob }}px;
+  }
+  .reach--{{ section.id }} .reach_content p{
+      font-size: {{ option.reach_text_size_mob }}px;
+  }
+  }
+{% endstyle %}
+<section class="reach--{{ section.id }} reach-section-bg" id="reach-out-section">
+  <div class="container section-stack__main reach--out--main">
+    <div class="reach-section reach-section-bg">
+      <div class="reach-head-content">
+        <div class="reach_heading">
+          <h3>{{ option.reach_heading }}</h3>
+        </div>
+        <div class="reach_content">
+          {{ option.reach_text }}
+        </div>
+      </div>
+      <div class="reach-block-content">
+        {% for block in section.blocks %}
+          <a href="{{ block.settings.reach_btn_link }}">
+            <div class="reach-block-content-main">
+              <div class="reach-block-content-individual">
+                <p class="reach-btn">
+                  {{ block.settings.reach_btn_txt }}
+                </p>
+              </div>
+            </div>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "reach out",
+  "settings": [
+    {
+      "type": "text",
+      "id": "reach_heading",
+      "label": "Heading",
+      "default": "NEED HELP?"
+    },
+    {
+      "type": "color",
+      "id": "reach_heading_color",
+      "label": "Heading color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "reach_heading_size",
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Font size Desktop",
+      "default": 31
+    },
+    {
+      "type": "range",
+      "id": "reach_heading_size_mob",
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Font size Mobile",
+      "default": 20
+    },
+    {
+      "type": "richtext",
+      "id": "reach_text",
+      "label": "Paragraph"
+    },
+    {
+      "type": "color",
+      "id": "reach_text_color",
+      "label": "Para color",
+      "default": "#565656"
+    },
+    {
+      "type": "range",
+      "id": "reach_text_size",
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Font size Desktop",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "reach_text_size_mob",
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Font size Mobile",
+      "default": 16
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Contact block",
+      "type": "Contact_block",
+      "settings": [
+        {
+          "id": "reach_btn_txt",
+          "label": "Button text",
+          "type": "text"
+        },
+        {
+          "type": "color",
+          "id": "reach_btn_color",
+          "label": "Button Text color",
+          "default": "#000000"
+        },
+        {
+          "type": "range",
+          "id": "reach_btn_size",
+          "min": 1,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Font size Desktop",
+          "default": 30
+        },
+        {
+          "type": "url",
+          "id": "reach_btn_link",
+          "label": "Button link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "reach out"
+    }
+  ]
+}
+{% endschema %}

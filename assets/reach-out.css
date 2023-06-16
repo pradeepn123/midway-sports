@@ -1,0 +1,79 @@
+ #reach-out-section .reach-block-content{
+    display: grid;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+#reach-out-section .reach-section{
+    border: 1px solid #565656;
+     padding: 0 25px;
+   }
+#reach-out-section .reach-block-content-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#reach-out-section .reach_heading h3{
+    font-weight: 700;
+    line-height: 1.3;
+}
+#reach-out-section .reach_content p{
+    font-weight: 400;
+    line-height: 1;
+}
+#reach-out-section .reach-head-content{
+    padding: 25px 0 20px 0;
+}
+#reach-out-section .reach-block-content-individual{
+    max-width: fit-content;
+    padding: 12px 0;
+}
+#reach-out-section .reach-btn{
+    font-weight: 700;
+}
+
+#reach-out-section.reach-section-bg{
+    background-color: #F5F5F5;
+    margin: 0 48px;
+    padding-bottom: 5rem;
+}
+#reach-out-section .reach--out--main{
+    margin: 0 auto;
+    padding: 0 4.5rem;
+}
+@media(min-width:1150px) and (max-width:1260px){
+    #reach-out-section .reach--out--main{
+        width: 650px;
+    }
+}
+@media(max-width:1200px){
+    #reach-out-section .reach--out--main{
+        padding: 0 5.5rem;
+    }
+}
+
+@media(max-width:999px){
+    #reach-out-section.reach-section-bg{
+        margin: 0 32px;
+    }
+}
+
+@media(max-width:699px){
+    #reach-out-section .reach--out--main{
+        padding: 0 3rem;
+    }
+    #reach-out-section.reach-section-bg{
+        margin: 0px;
+    }
+}
+@media (max-width: 540px) {
+    #reach-out-section .reach-block-content {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        row-gap: 10px;
+    }
+    #reach-out-section .reach-btn{
+        font-size: 16px !important;
+    }
+}
