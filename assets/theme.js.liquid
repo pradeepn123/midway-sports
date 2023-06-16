@@ -563,7 +563,6 @@ var ListFacetsFilter = class extends HTMLElement {
         element.classList.add('hidden')
       }
     });
-    btn.parentElement.scrollIntoView()
   }
 }
 
@@ -3351,20 +3350,38 @@ var ProductGallery = class extends HTMLElement {
       this._carousels.forEach((carousel) => carousel.select(event.detail.variant["featured_media"]["position"] - 1, { animate: false }));
       if (filteredIndexes.length == 0 && event.detail.variant["featured_media"] && window.innerWidth > 999) {
         if (document.scrollingElement.scrollTop) {
-          document.addEventListener("scrollend", () => this.handleVariantOnScrollEnd(event))
-          document.scrollingElement.scrollIntoView()
+          this.scrollStop(() => this.handleVariantOnScrollEnd(event))
+          document.scrollingElement.scrollIntoView({behavior: "smooth"})
         } else {
           this.handleVariantOnScrollEnd(event)
         }
       }
     }
   }
+
+  scrollStop (callback, refresh = 66) {
+    // Make sure a valid callback was provided
+    if (!callback || typeof callback !== 'function') return;
+
+    // Setup scrolling variable
+    let isScrolling;
+
+    // Listen for scroll events
+    window.addEventListener('scroll', function (event) {
+      // Clear our timeout throughout the scroll
+      window.clearTimeout(isScrolling);
+      // Set a timeout to run after scrolling ends
+      isScrolling = setTimeout(callback, refresh);
+    }, false);
+  }
+
   _handleVariantOnScrollEnd(event) {
+    console.log(this._carousels)
     this._carousels.forEach((carousel) => {
       carousel._items = this._swapArrayElements(carousel.items, 0, event.detail.variant["featured_media"]["position"] - 1)
       carousel.prepend(carousel.querySelector(`[data-media-id="${event.detail.variant["featured_media"]["id"]}"]`))
     })
-    document.removeEventListener('scrollend', this.handleVariantOnScrollEnd)
+    window.removeEventListener('scrollend', this.handleVariantOnScrollEnd)
   }
 
   _getFilteredMediaIndexes(product, variant) {
