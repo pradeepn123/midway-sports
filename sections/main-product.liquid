@@ -129,7 +129,27 @@ quick buy information in a template, that will be extracted in JS, but ensure it
     {%- endfor -%}
   </div>
 </template>
+  
+      {% for variant in product.variants %}
+        <div class="product-variant"
+           data-variant-id="{{ variant.id }}"
+           data-variant-inventory-qty="{{ variant.inventory_quantity }}">
+        </div>
+      {% endfor %}
 
+      <script>
+        const variantElms = document.querySelectorAll('.product-variant');
+        let variantsObj = [];
+        
+        variantElms.forEach(function(variantElm) {
+          variantsObj.push(
+            {
+              id: variantElm.dataset.variantId,
+              inventory_qty: variantElm.dataset.variantInventoryQty
+            })
+        });
+      </script>
+  
 {% schema %}
 {
   "name": "Product page",
