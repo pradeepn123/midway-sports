@@ -248,6 +248,7 @@
         "05ac77f3-c86a-4b61-a651-c2c7362ed906"
       ],
       "settings": {
+        "cont_mar_btn": 0,
         "full_width": false,
         "subheading": "",
         "title": "Request a quote",
@@ -264,6 +265,53 @@
         "button_background": "#000000",
         "button_text_color": "#ffffff",
         "form_bg_color": "#ffffff"
+      }
+    },
+    "09a21c30-5c81-4bda-8cb2-c294886fb662": {
+      "type": "reach-out",
+      "blocks": {
+        "def78949-619e-49e9-8f46-86632346039a": {
+          "type": "Contact_block",
+          "settings": {
+            "reach_btn_txt": "Call Now",
+            "reach_btn_color": "#000000",
+            "reach_btn_size": 20,
+            "reach_btn_link": "tel:+1 786-353-2005"
+          }
+        },
+        "305b5417-09de-4538-8a81-09bf94dcb7a7": {
+          "type": "Contact_block",
+          "settings": {
+            "reach_btn_txt": "Email",
+            "reach_btn_color": "#000000",
+            "reach_btn_size": 20,
+            "reach_btn_link": "mailto:teamsales@midwaysports.com"
+          }
+        },
+        "1fb12acf-070d-4fac-830d-de27c40d85ca": {
+          "type": "Contact_block",
+          "settings": {
+            "reach_btn_txt": "Live Chat",
+            "reach_btn_color": "#000000",
+            "reach_btn_size": 20,
+            "reach_btn_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "def78949-619e-49e9-8f46-86632346039a",
+        "305b5417-09de-4538-8a81-09bf94dcb7a7",
+        "1fb12acf-070d-4fac-830d-de27c40d85ca"
+      ],
+      "settings": {
+        "reach_heading": "NEED HELP?",
+        "reach_heading_color": "#000000",
+        "reach_heading_size": 31,
+        "reach_heading_size_mob": 20,
+        "reach_text": "<p>Reach out to our team for any help or inquiries.<\/p>",
+        "reach_text_color": "#565656",
+        "reach_text_size": 16,
+        "reach_text_size_mob": 16
       }
     },
     "7780ce4b-982c-43c3-aa64-757ecaca6a06": {
@@ -395,6 +443,7 @@
     "6eac2c14-e754-49a8-ac97-da9d61d2c7e6",
     "04f99add-80c0-47d8-97d9-a5009e5992ef",
     "6f560ed2-8bfc-463c-a6c5-a22df6a2cbf9",
+    "09a21c30-5c81-4bda-8cb2-c294886fb662",
     "7780ce4b-982c-43c3-aa64-757ecaca6a06",
     "f10e7509-5bb7-4205-8d43-2ea6497349ad"
   ]
