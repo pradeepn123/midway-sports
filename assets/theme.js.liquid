@@ -3351,8 +3351,8 @@ var ProductGallery = class extends HTMLElement {
       this._carousels.forEach((carousel) => carousel.select(event.detail.variant["featured_media"]["position"] - 1, { animate: false }));
       if (filteredIndexes.length == 0 && event.detail.variant["featured_media"] && window.innerWidth > 999) {
         if (document.scrollingElement.scrollTop) {
-          document.scrollingElement.scrollIntoView()
           document.addEventListener("scrollend", () => this.handleVariantOnScrollEnd(event))
+          document.scrollingElement.scrollIntoView()
         } else {
           this.handleVariantOnScrollEnd(event)
         }
