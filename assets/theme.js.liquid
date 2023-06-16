@@ -3232,6 +3232,7 @@ var ProductGallery = class extends HTMLElement {
   }
   connectedCallback() {
     document.forms[this.getAttribute("form")]?.addEventListener("variant:change", this._onVariantChangedListener);
+    this.handleVariantOnScrollEnd = this._handleVariantOnScrollEnd.bind(this)
     this._carousels = Array.from(this.querySelectorAll("media-carousel"));
     this._pageDots = Array.from(this.querySelectorAll("page-dots"));
     this._viewInSpaceButton = this.querySelector("[data-shopify-xr]");
@@ -3348,14 +3349,24 @@ var ProductGallery = class extends HTMLElement {
 
     if (event.detail.variant["featured_media"] && event.detail.previousVariant["featured_media"] && event.detail.previousVariant["featured_media"]["id"] !== event.detail.variant["featured_media"]["id"] || !event.detail.previousVariant["featured_media"] && event.detail.variant["featured_media"]) {
       this._carousels.forEach((carousel) => carousel.select(event.detail.variant["featured_media"]["position"] - 1, { animate: false }));
-      if (filteredIndexes.length == 0 && event.detail.variant["featured_media"]) {
-        this._carousels.forEach((carousel) => {
-          carousel._items = this._swapArrayElements(carousel.items, 0, event.detail.variant["featured_media"]["position"] - 1)
-          carousel.prepend(carousel.querySelector(`[data-media-id="${event.detail.variant["featured_media"]["id"]}"]`))
-        })
+      if (filteredIndexes.length == 0 && event.detail.variant["featured_media"] && window.innerWidth > 999) {
+        if (document.scrollingElement.scrollTop) {
+          document.scrollingElement.scrollIntoView()
+          document.addEventListener("scrollend", () => this.handleVariantOnScrollEnd(event))
+        } else {
+          this.handleVariantOnScrollEnd(event)
+        }
       }
     }
   }
+  _handleVariantOnScrollEnd(event) {
+    this._carousels.forEach((carousel) => {
+      carousel._items = this._swapArrayElements(carousel.items, 0, event.detail.variant["featured_media"]["position"] - 1)
+      carousel.prepend(carousel.querySelector(`[data-media-id="${event.detail.variant["featured_media"]["id"]}"]`))
+    })
+    document.removeEventListener('scrollend', this.handleVariantOnScrollEnd)
+  }
+
   _getFilteredMediaIndexes(product, variant) {
     const filteredMediaIds = [];
     product["media"].forEach((media) => {
