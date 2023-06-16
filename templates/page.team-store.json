@@ -374,7 +374,7 @@
             "reach_btn_txt": "Live Chat",
             "reach_btn_color": "#000000",
             "reach_btn_size": 20,
-            "reach_btn_link": "shopify:\/\/collections"
+            "reach_btn_link": "https:\/\/bcrw.apple.com\/urn:biz:f059d2a9-f4f1-4401-a772-e8906339e4e4?biz-intent-id=bc77adaa-870c-4bce-bd48-00c6a835719d"
           }
         }
       },
@@ -396,6 +396,7 @@
     },
     "7c4c2343-b9bf-4a87-a374-01a885c9ec5d": {
       "type": "text-with-icons",
+      "disabled": true,
       "blocks": {
         "template--14760302149737__7c4c2343-b9bf-4a87-a374-01a885c9ec5d-1686638967e32ef80b-0": {
           "type": "item",
