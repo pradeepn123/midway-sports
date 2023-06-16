@@ -9867,3 +9867,10 @@ split-lines {
   display: -webkit-box;
   overflow: hidden;
 }
+.stock_available{
+    color: rgb(var(--warning-text));
+    gap: var(--spacing-3);
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+}

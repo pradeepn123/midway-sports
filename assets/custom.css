@@ -91,9 +91,9 @@ li:last-child
 }
 
 /* multicolum.liquid css for adjusting imageis  */
-.multi-column-store .multi-column.scroll-area .aligning--items--format{
+.multi-column.scroll-area .aligning--items--format{
   display: grid !important;
 }
-.multi-column-store .multi-column.scroll-area .aligning--items--format img{
+.multi-column.scroll-area .aligning--items--format img{
   margin: 0 auto;
 }

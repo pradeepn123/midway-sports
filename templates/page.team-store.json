@@ -230,7 +230,7 @@
         "45014207-0d89-46f9-a3de-2d4dc5960e4f": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/print-sublimation_1.png",
+            "image": "shopify:\/\/shop_images\/print-screen_printing_1.png",
             "img_width": 156,
             "column_size": "4",
             "title": "Screen Printing",
@@ -244,7 +244,7 @@
         "67576b75-48a6-4f9a-890a-6a818903e5a1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/print-sublimation2.png",
+            "image": "shopify:\/\/shop_images\/print-sublimation_1.png",
             "img_width": 156,
             "column_size": "4",
             "title": "Sublimation",
@@ -272,10 +272,10 @@
         "c278d952-bb81-4a8a-9841-43b638beb569": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/print-heat-press.png",
+            "image": "shopify:\/\/shop_images\/print-vinyl_1.png",
             "img_width": 156,
             "column_size": "4",
-            "title": "HEAT PRESS",
+            "title": "Vinyl Printing",
             "heading_tag": "h4",
             "content": "<p>Create precise and vibrant designs with a professional finish.<\/p>",
             "link_url": "",

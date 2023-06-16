@@ -3604,12 +3604,72 @@ var VariantPicker = class extends HTMLElement {
    * returning true only if the variant is actually available
    */
   _isVariantSelectable(variant) {
-    if (!variant) {
-      return false;
-    } else {
-      return variant["available"] || !this.hideSoldOutVariants && !variant["available"];
-    }
+      if(!variant){
+        return false;
+      } else {
+          $(".buy-buttons button").attr('disabled', false);
+          $(".buy-buttons button").removeClass("button--subdued");
+          $("#pre_order").attr("name"," ");
+          $("#pre_order").val(" ");
+          $(".buy-buttons button").text("Add to cart");
+          $(".stock_available").text(" ");
+          var variant_id = variant.id;
+          var available = variant.available;
+          var variantElms = document.querySelectorAll('.product-variant');
+          let variantsObj = [];
+          
+          variantElms.forEach(function(variantElm) {
+     
+          var variant_id_now =  variantElm.dataset.variantId;
+          var variant_id_stock =  variantElm.dataset.variantInventoryQty;
+            
+          if( variant_id_now == variant_id ){
+            if( variant_id_stock <= 0 ){
+              var form_data = new FormData();
+              form_data.append('variant_id', variant_id);
+              $(".stock_available").text(" ");
+              $.ajax({
+              type: 'POST',
+              url: "https://primegearbox.com/api-midway/api/product/get_data_stock_available",
+              data: form_data,
+              processData: false,
+              contentType: false,
+              dataType: "json",
+              success: function(response){
+                if(response != "0" ){ 
+                      var stock = response.quantity;
+                      var date = response.available;
+                         if(available){
+                           $(".buy-buttons button").text("Pre-order");
+                         }  
+                         if(stock != "0" ){
+                           $(".stock_available").text("Out of Stock - "+stock+" item available on "+date); 
+                           $("#pre_order").attr("name","properties[Pre Order]");
+                           $("#pre_order").val("This preorder has an estimated ship date of "+date+", but it is subject to change");
+                         }else{
+                           $(".stock_available").text("Out of stock - No restock date is available");
+                           $("#pre_order").attr("name"," ");
+                         }
+                }else{
+                       if(available){
+                          $(".stock_available").text("Out of stock - No restock date is available");  
+                          $(".buy-buttons button").text("Sold Out");
+                          $(".buy-buttons button").addClass("button--subdued");
+                          $(".buy-buttons button").attr('disabled', true);
+                       }  
+                 }
+              }
+            });
+              return false;
+          }
+          }
+          
+        });
+        
+        return variant["available"] || !this.hideSoldOutVariants && !variant["available"];
+      }
   }
+  
   /**
    * This method is used internally to select an available or selectable variant, when the current choice does not
    * match the requirements. For instance, if sold out variants are configured to be hidden, but that the choices end
