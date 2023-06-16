@@ -528,6 +528,50 @@ if (!window.customElements.get("reveal-items")) {
   window.customElements.define("reveal-items", RevealItems);
 }
 
+var ListFacetsFilter = class extends HTMLElement {
+  constructor() {
+    super()
+    this.showMoreFilters = this.querySelectorAll('.filters__more');
+    this.showLessFilters = this.querySelectorAll('.filters__less');
+  }
+
+  connectedCallback() {
+    this.showMoreFilters.forEach((btn) => btn.addEventListener("click", this.showMore.bind(this)))
+    this.showLessFilters.forEach((btn) => btn.addEventListener("click", this.showLess.bind(this)))
+  }
+
+  disconnectedCallback() {
+    this.showMoreFilters.forEach((btn) => btn.removeEventListener("click", this.showMore.bind(this)))
+    this.showLessFilters.forEach((btn) => btn.removeEventListener("click", this.showLess.bind(this)))
+  }
+
+  showMore = (e) => {
+    var btn = e.currentTarget;
+    let checkboxContainers = btn.parentElement.querySelectorAll('.checkbox-container');
+    btn.classList.add("hidden");
+    btn.parentElement.querySelector('.filters__less').classList.remove("hidden");
+    checkboxContainers.forEach((element) => element.classList.remove('hidden'));
+  }
+
+  showLess = (e) => {
+    var btn = e.currentTarget;
+    let checkboxContainers = btn.parentElement.querySelectorAll('.checkbox-container');
+    btn.classList.add("hidden");
+    btn.parentElement.querySelector(".filters__more").classList.remove("hidden");
+    checkboxContainers.forEach((element, index) => {
+      if (index > 7) {
+        element.classList.add('hidden')
+      }
+    });
+    btn.parentElement.scrollIntoView()
+  }
+}
+
+
+if (!window.customElements.get("list-facets-filter")) {
+  window.customElements.define("list-facets-filter", ListFacetsFilter);
+}
+
 var CollectionItems = class extends HTMLElement {
   constructor() {
     super();
@@ -537,7 +581,7 @@ var CollectionItems = class extends HTMLElement {
   }
 
   connectedCallback() {
-    document.addEventListener("scroll", this.handleScrollBar.bind(this))
+    document.addEventListener("scroll", this.handleScrollBar.bind(this));
   }
 
   disconnectedCallback() {
@@ -4286,6 +4330,7 @@ import { Delegate as Delegate4 } from "{{ 'vendor.min.js' | asset_url }}";
   setScrollbarWidth();
   window.addEventListener("resize", throttle(setScrollbarWidth));
 })();
+
 export {
   AccordionDisclosure,
   AnimatedDetails,
@@ -4374,5 +4419,6 @@ export {
   getHeadingKeyframe,
   imageLoaded,
   throttle,
-  waitForEvent
+  waitForEvent,
+  ListFacetsFilter
 };

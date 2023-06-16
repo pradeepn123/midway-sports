@@ -48,7 +48,7 @@
         "6f814250-f322-4d80-8328-8d2e517e1549"
       ],
       "settings": {
-        "products_per_page": 26,
+        "products_per_page": 40,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 3,
         "filter_layout": "sidebar",
@@ -57,7 +57,7 @@
         "show_filters": true,
         "show_filter_group_name": false,
         "show_color_swatch": true,
-        "show_empty_filter_values": false,
+        "show_empty_filter_values": true,
         "show_filter_values_count": true,
         "open_first_filter_group": true
       }
