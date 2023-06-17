@@ -81,7 +81,7 @@
         {%- render 'price-list', product: product, variant: product.selected_or_first_available_variant, form_id: product_form_id -%}
       </div>
 
-      <buy-buttons template="{{ product.template_suffix }}" form="{{ product_form_id }}" force-secondary-button>
+      <buy-buttons template="{{ product.template_suffix }}" form="{{ product_form_id }}" force-secondary-button uyuyuyuyu>
         {%- render 'button', type: 'submit', content: button_label, form: product_form_id, background: buy_buttons_block.settings.atc_button_background, text_color: buy_buttons_block.settings.atc_button_text_color, secondary: true -%}
       </buy-buttons>
     </div>
@@ -114,7 +114,6 @@ quick buy information in a template, that will be extracted in JS, but ensure it
 
   <div class="quick-buy-drawer__info">
     {%- comment -%}We only show a limited set of information in the quick buy{%- endcomment -%}
-
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when '@app' -%}
