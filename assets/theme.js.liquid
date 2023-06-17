@@ -3679,11 +3679,11 @@ var VariantPicker = class extends HTMLElement {
       if(!variant){
         return false;
       } else {
-          $(".buy-buttons button").attr('disabled', false);
-          $(".buy-buttons button").removeClass("button--subdued");
+          $(".apolo_buy  button").attr('disabled', false);
+          $(".apolo_buy  button").removeClass("button--subdued");
           $("#pre_order").attr("name"," ");
           $("#pre_order").val(" ");
-          $(".buy-buttons button").text("Add to cart");
+          $(".apolo_buy  button").text("Add to cart");
           $(".stock_available").text(" ");
           var variant_id = variant.id;
           var available = variant.available;
@@ -3712,7 +3712,7 @@ var VariantPicker = class extends HTMLElement {
                       var stock = response.quantity;
                       var date = response.available;
                          if(available){
-                           $(".buy-buttons button").text("Pre-order");
+                           $(".apolo_buy button").text("Pre-order");
                          }  
                          if(stock != "0" ){
                            $(".stock_available").text("Out of Stock - "+stock+" item available on "+date); 
@@ -3725,9 +3725,9 @@ var VariantPicker = class extends HTMLElement {
                 }else{
                        if(!available){
                           $(".stock_available").text("Out of stock - No restock date is available");  
-                          $(".buy-buttons button").text("Sold Out");
-                          $(".buy-buttons button").addClass("button--subdued");
-                          $(".buy-buttons button").attr('disabled', true);
+                          $(".apolo_buy  button").text("Sold Out");
+                          $(".apolo_buy  button").addClass("button--subdued");
+                          $(".apolo_buy  button").attr('disabled', true);
                        }  
                  }
               }
