@@ -3723,7 +3723,7 @@ var VariantPicker = class extends HTMLElement {
                            $("#pre_order").attr("name"," ");
                          }
                 }else{
-                       if(available){
+                       if(!available){
                           $(".stock_available").text("Out of stock - No restock date is available");  
                           $(".buy-buttons button").text("Sold Out");
                           $(".buy-buttons button").addClass("button--subdued");
