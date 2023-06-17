@@ -76,7 +76,7 @@ Supported variables
 {%- endcapture -%}
 
 {%- capture attributes -%}
-  {% if class_attribute != blank %}class="{{ class_attribute | strip_newlines | strip }}"{% endif %}
+  {% if class_attribute != blank %}class="apolo_button {{ class_attribute | strip_newlines | strip }}"{% endif %}
   {% if style_attribute != blank %}style="{{ style_attribute | strip_newlines | strip }}"{% endif %}
   {% if aria_controls %}aria-controls="{{ aria_controls }}" aria-expanded="false"{% endif %}
   {% if disabled %}{% if href %}role="link" aria-disabled="true"{% else %}disabled{% endif %}{% endif %}
@@ -103,7 +103,7 @@ Supported variables
     {{- button_content -}}
   </a>
 {%- else -%}
-  <button drr type="{{ type | default: 'button' }}" {{ attributes }} {{ block.shopify_attributes }}>
+  <button   type="{{ type | default: 'button' }}" {{ attributes }} {{ block.shopify_attributes }}>
     {{- button_content -}}
   </button>
 {%- endif -%}
