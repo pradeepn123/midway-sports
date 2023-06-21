@@ -42,6 +42,7 @@
     "social_facebook": "https:\/\/www.facebook.com\/midwaysports\/",
     "social_twitter": "https:\/\/twitter.com\/midwaysports",
     "social_instagram": "https:\/\/www.instagram.com\/midwaysportinggoods\/",
+    "favicon": "shopify:\/\/shop_images\/midway-logo-spacing.png",
     "checkout_accent_color": "#bcbcbc",
     "checkout_button_color": "#1a1a1a",
     "content_for_index": [
