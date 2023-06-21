@@ -477,7 +477,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/home-uniform-basketball.jpg",
             "title": "Basketball uniforms",
-            "heading_tag": "h4",
+            "heading_tag": "h5",
             "link_url": "shopify:\/\/collections\/basketball-uniforms",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
@@ -499,7 +499,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/home-uniform-soccer.jpg",
             "title": "Soccer uniforms",
-            "heading_tag": "h4",
+            "heading_tag": "h5",
             "link_url": "shopify:\/\/collections\/soccer-uniforms",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
@@ -634,6 +634,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/emoji-baseball_59cad1dd-ae91-4976-bade-11c4877dd045.png",
+            "img_width": 156,
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -647,6 +648,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/emoji-basketball.png",
+            "img_width": 156,
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -660,6 +662,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/emoji-football.png",
+            "img_width": 156,
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -673,6 +676,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/emoji-golf.png",
+            "img_width": 156,
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -686,6 +690,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/emoji-lacrosse.png",
+            "img_width": 156,
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -699,6 +704,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/Group.svg",
+            "img_width": 156,
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -712,6 +718,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/emoji-football-1.png",
+            "img_width": 156,
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -725,6 +732,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/emoji-softball.png",
+            "img_width": 156,
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -738,6 +746,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/emoji-tennis.png",
+            "img_width": 156,
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -751,6 +760,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/emoji-training.png",
+            "img_width": 156,
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -764,6 +774,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/emoji-volleyball.png",
+            "img_width": 156,
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
@@ -777,6 +788,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/emoji-more_dc551a2f-0efc-4c1c-a22d-7ef76d4b9493.png",
+            "img_width": 156,
             "column_size": "3",
             "title": "",
             "heading_tag": "h4",
