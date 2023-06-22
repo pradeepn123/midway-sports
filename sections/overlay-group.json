@@ -9,7 +9,7 @@
         "apparition_delay": 5,
         "show_only_on_index": true,
         "show_only_for_visitors": true,
-        "show_only_once": true,
+        "show_only_once": false,
         "image": "shopify:\/\/shop_images\/subscribe_popup.jpg",
         "title": "Enjoy 10% off",
         "button_text": "SUBSCRIBE",
