@@ -94,7 +94,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Solutions for Your Convenience",
-            "content": "<p>At our Team Store, we take care of everything from store creation to product design. Once you submit a store creation request, our team gets to work, crafting a customized store just for you. We bring your vision to life with designs and products that align with your organization's branding.<\/p>",
+            "content": "<p>When starting your Team Store journey, we take care of everything from store creation to product design. Once you submit a store creation request, our team gets to work, crafting a customized store just for you. We bring your vision to life with designs and products that align with your organization's branding.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -230,12 +230,12 @@
         "45014207-0d89-46f9-a3de-2d4dc5960e4f": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/print-screen_printing_1.png",
+            "image": "shopify:\/\/shop_images\/print-sublimation2.png",
             "img_width": 156,
             "column_size": "4",
-            "title": "Screen Printing",
+            "title": "Sublimation",
             "heading_tag": "h4",
-            "content": "<p>Vibrant and durable designs on your garments.<\/p>",
+            "content": "<p>Infuse colors into fabric for a long-lasting and vibrant finish.<\/p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -247,9 +247,9 @@
             "image": "shopify:\/\/shop_images\/print-sublimation_1.png",
             "img_width": 156,
             "column_size": "4",
-            "title": "Sublimation",
+            "title": "Screen printing",
             "heading_tag": "h4",
-            "content": "<p>Infuse colors into fabric for a long-lasting and vibrant finish.<\/p>",
+            "content": "<p>Vibrant and durable designs on your garments.<\/p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
