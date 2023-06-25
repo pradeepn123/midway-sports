@@ -21,7 +21,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Team store",
-            "content": "<p>Your Simplified Apparel Solution for the Entire League<\/p>",
+            "content": "<p>Elevate your team's spirit and fundraising efforts! Offer personalized merchandise while generating funds for your organization.<\/p>",
             "link_text": "GET STARTED",
             "link_url": "#request-quote-scroll",
             "background": "#000000",
@@ -49,7 +49,7 @@
         "template--14757985976425__f4185f01-c4b0-4d19-a3f7-a20d96ace8db-1685354769989d7620-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>An Easy, Efficient Platform for Your Apparel Needs Get uniforms, team gear, and spirit wear—all in one place. Our Team Store provides a streamlined solution for outfitting your entire team. Say goodbye to the hassle of managing multiple suppliers and orders.<\/p>"
+            "content": "<p>An Easy, Efficient Platform for Your Apparel Needs. Get uniforms, team gear, and spirit wear—all in one place. Our Team Store provides a streamlined solution for outfitting your entire team. Say goodbye to the hassle of managing multiple suppliers and orders.<\/p>"
           }
         }
       },
