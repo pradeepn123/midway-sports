@@ -275,44 +275,47 @@
             {%- render 'button', content: block.settings.text, href: block.settings.link, size: block.settings.size, style: block.settings.style, stretch: block.settings.stretch, background: block.settings.background, text_color: block.settings.text_color -%}
           </div>
           <script>
-            
             // Get the button element
-            var button = document.querySelector('.product-info__button.call-button a');
-            
-            // Add a click event listener to the button
-            button.addEventListener('click', function(event) {
-              event.preventDefault(); // Prevent the default action of following the link
-            
-              // Hide the button
-              button.style.display = 'none';
-            
-              // Create the popup container
-              var popupContainer = document.createElement('div');
-              popupContainer.className = 'popup-container';
-            
-              // Create the popup content
-              var popupContent = document.createElement('div');
-              popupContent.className = 'popup-content';
-              popupContent.textContent = 'Contact Us: {{ block.settings.link | replace:'tel:+1','' | replace: '-',' ' }} <br> ABC';
-            
-              // Create the close button
-              var closeButton = document.createElement('button');
-              closeButton.className = 'popup-close-button';
-              closeButton.innerHTML = '&times;';
-            
-              // Append the popup content and close button to the container
-              popupContainer.appendChild(popupContent);
-              popupContainer.appendChild(closeButton);
-            
-              // Append the container to the body
-              document.body.appendChild(popupContainer);
-            
-              // Add a click event listener to close the popup
-              closeButton.addEventListener('click', function() {
-                document.body.removeChild(popupContainer); // Remove the popup container from the DOM
-                button.style.display = 'block'; // Show the button again
+              var button = document.querySelector('.product-info__button.call-button a');
+              
+              // Add a click event listener to the button
+              button.addEventListener('click', function(event) {
+                
+              
+                // Check if the device is desktop
+                if (window.innerWidth > 768) {
+                  event.preventDefault(); // Prevent the default action of following the link
+                  // Hide the button
+                  button.style.display = 'none';
+              
+                  // Create the popup container
+                  var popupContainer = document.createElement('div');
+                  popupContainer.className = 'popup-container';
+              
+                  // Create the popup content
+                  var popupContent = document.createElement('div');
+                  popupContent.className = 'popup-content';
+                  popupContent.innerHTML = 'Contact Us: {{ block.settings.link | replace:'tel:+1','' | replace: '-',' ' }}';
+              
+                  // Create the close button
+                  var closeButton = document.createElement('button');
+                  closeButton.className = 'popup-close-button';
+                  closeButton.innerHTML = '&times;';
+              
+                  // Append the popup content and close button to the container
+                  popupContainer.appendChild(popupContent);
+                  popupContainer.appendChild(closeButton);
+              
+                  // Append the container to the body
+                  document.body.appendChild(popupContainer);
+              
+                  // Add a click event listener to close the popup
+                  closeButton.addEventListener('click', function() {
+                    document.body.removeChild(popupContainer); // Remove the popup container from the DOM
+                    button.style.display = 'block'; // Show the button again
+                  });
+                }
               });
-            });
           </script>
         {%- endif -%}
 
