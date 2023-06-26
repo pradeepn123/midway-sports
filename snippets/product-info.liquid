@@ -255,6 +255,7 @@
           padding: 20px;
           border: 1px solid #ccc;
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+          z-index: 9;
         }
       </style>
         {%- if block.settings.text != blank -%}
@@ -262,12 +263,17 @@
             {%- render 'button', content: block.settings.text, href: block.settings.link, size: block.settings.size, style: block.settings.style, stretch: block.settings.stretch, background: block.settings.background, text_color: block.settings.text_color -%}
           </div>
           <script>
+            
+
             // Get the button element
             var button = document.querySelector('.product-info__button.call-button a');
             
             // Add a click event listener to the button
             button.addEventListener('click', function(event) {
               event.preventDefault(); // Prevent the default action of following the link
+            
+              // Hide the button
+              button.style.display = 'none';
             
               // Display the popup
               var popup = document.createElement('div');
@@ -278,6 +284,7 @@
               // Add a click event listener to close the popup
               popup.addEventListener('click', function() {
                 document.body.removeChild(popup); // Remove the popup from the DOM
+                button.style.display = 'block'; // Show the button again
               });
             });
           </script>
