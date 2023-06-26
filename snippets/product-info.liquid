@@ -258,7 +258,7 @@
           z-index:9;
         }
         .popup-content {
-            font-size: 2rem;
+            font-size: 3rem;
         }
         .popup-close-button {
           position: absolute;
@@ -295,7 +295,7 @@
                   // Create the popup content
                   var popupContent = document.createElement('div');
                   popupContent.className = 'popup-content';
-                  popupContent.innerHTML = '<b>Contact Us:</b> <span>{{ block.settings.link | replace:'tel:+1','' | replace: '-',' ' }}</span>';
+                  popupContent.innerHTML = '<b>CONTACT US:</b> <span>{{ block.settings.link | replace:'tel:+1','' | replace: '-',' ' }}</span>';
               
                   // Create the close button
                   var closeButton = document.createElement('button');
