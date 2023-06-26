@@ -246,7 +246,7 @@
 
       {%- when 'button' -%}
         {%- if block.settings.text != blank -%}
-          <div class="product-info__button" {{ block.shopify_attributes }}>
+          <div class="product-info__button {% if product.template_suffix contains 'call-button' %}telephone-btn{% endif %}" {{ block.shopify_attributes }}>
             {%- render 'button', content: block.settings.text, href: block.settings.link, size: block.settings.size, style: block.settings.style, stretch: block.settings.stretch, background: block.settings.background, text_color: block.settings.text_color -%}
           </div>
         {%- endif -%}
