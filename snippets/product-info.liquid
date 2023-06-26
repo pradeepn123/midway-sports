@@ -246,7 +246,7 @@
 
       {%- when 'button' -%}
       <style>
-        .popup {
+        .popup-container {
           position: fixed;
           top: 50%;
           left: 50%;
@@ -255,7 +255,21 @@
           padding: 20px;
           border: 1px solid #ccc;
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-          z-index: 9;
+          z-index:9;
+        }
+        
+        .popup-content {
+          margin-bottom: 10px;
+        }
+        
+        .popup-close-button {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          font-size: 20px;
+          background: none;
+          border: none;
+          cursor: pointer;
         }
       </style>
         {%- if block.settings.text != blank -%}
@@ -264,7 +278,6 @@
           </div>
           <script>
             
-
             // Get the button element
             var button = document.querySelector('.product-info__button.call-button a');
             
@@ -275,15 +288,30 @@
               // Hide the button
               button.style.display = 'none';
             
-              // Display the popup
-              var popup = document.createElement('div');
-              popup.className = 'popup';
-              popup.textContent = 'Contact Us: {{ block.settings.link | replace:'tel:+1','' | replace: '-',' ' }} <br> ABC';
-              document.body.appendChild(popup);
+              // Create the popup container
+              var popupContainer = document.createElement('div');
+              popupContainer.className = 'popup-container';
+            
+              // Create the popup content
+              var popupContent = document.createElement('div');
+              popupContent.className = 'popup-content';
+              popupContent.textContent = 'Contact Us: {{ block.settings.link | replace:'tel:+1','' | replace: '-',' ' }} <br> ABC';
+            
+              // Create the close button
+              var closeButton = document.createElement('button');
+              closeButton.className = 'popup-close-button';
+              closeButton.innerHTML = '&times;';
+            
+              // Append the popup content and close button to the container
+              popupContainer.appendChild(popupContent);
+              popupContainer.appendChild(closeButton);
+            
+              // Append the container to the body
+              document.body.appendChild(popupContainer);
             
               // Add a click event listener to close the popup
-              popup.addEventListener('click', function() {
-                document.body.removeChild(popup); // Remove the popup from the DOM
+              closeButton.addEventListener('click', function() {
+                document.body.removeChild(popupContainer); // Remove the popup container from the DOM
                 button.style.display = 'block'; // Show the button again
               });
             });
