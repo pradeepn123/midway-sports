@@ -295,7 +295,7 @@
                   // Create the popup content
                   var popupContent = document.createElement('div');
                   popupContent.className = 'popup-content';
-                  popupContent.innerHTML = 'Contact Us: {{ block.settings.link | replace:'tel:+1','' | replace: '-',' ' }}';
+                  popupContent.innerHTML = '<b>Contact Us:</b> <span>{{ block.settings.link | replace:'tel:+1','' | replace: '-',' ' }}</span>';
               
                   // Create the close button
                   var closeButton = document.createElement('button');
