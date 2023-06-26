@@ -246,6 +246,15 @@
 
       {%- when 'button' -%}
       <style>
+        .overlay {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.6);
+          z-index: 9999;
+        }
         .popup-container {
           position: fixed;
           top: 50%;
@@ -276,46 +285,51 @@
           </div>
           <script>
             // Get the button element
-              var button = document.querySelector('.product-info__button.call-button a');
-              
-              // Add a click event listener to the button
-              button.addEventListener('click', function(event) {
-                
-              
-                // Check if the device is desktop
-                if (window.innerWidth > 768) {
-                  event.preventDefault(); // Prevent the default action of following the link
-                  // Hide the button
-                  button.style.display = 'none';
-              
-                  // Create the popup container
-                  var popupContainer = document.createElement('div');
-                  popupContainer.className = 'popup-container';
-              
-                  // Create the popup content
-                  var popupContent = document.createElement('div');
-                  popupContent.className = 'popup-content';
-                  popupContent.innerHTML = '<b>CONTACT US:</b> <span>{{ block.settings.link | replace:'tel:+1','' | replace: '-',' ' }}</span>';
-              
-                  // Create the close button
-                  var closeButton = document.createElement('button');
-                  closeButton.className = 'popup-close-button';
-                  closeButton.innerHTML = '&times;';
-              
-                  // Append the popup content and close button to the container
-                  popupContainer.appendChild(popupContent);
-                  popupContainer.appendChild(closeButton);
-              
-                  // Append the container to the body
-                  document.body.appendChild(popupContainer);
-              
-                  // Add a click event listener to close the popup
-                  closeButton.addEventListener('click', function() {
-                    document.body.removeChild(popupContainer); // Remove the popup container from the DOM
-                    button.style.display = 'block'; // Show the button again
-                  });
-                }
-              });
+            var button = document.querySelector('.product-info__button.call-button a');
+            
+            // Add a click event listener to the button
+            button.addEventListener('click', function(event) {
+              event.preventDefault(); // Prevent the default action of following the link
+            
+              // Check if the device is desktop
+              if (window.innerWidth > 768) {
+                // Hide the button
+                button.style.display = 'none';
+            
+                // Create the overlay element
+                var overlay = document.createElement('div');
+                overlay.className = 'overlay';
+            
+                // Create the popup container
+                var popupContainer = document.createElement('div');
+                popupContainer.className = 'popup-container';
+            
+                // Create the popup content
+                var popupContent = document.createElement('div');
+                popupContent.className = 'popup-content';
+                popupContent.innerHTML = '<b>CONTACT US:</b> <span>{{ block.settings.link | replace:'tel:+1','' | replace: '-',' ' }}</span>';
+            
+                // Create the close button
+                var closeButton = document.createElement('button');
+                closeButton.className = 'popup-close-button';
+                closeButton.innerHTML = '&times;';
+            
+                // Append the popup content and close button to the container
+                popupContainer.appendChild(popupContent);
+                popupContainer.appendChild(closeButton);
+            
+                // Append the overlay and container to the body
+                document.body.appendChild(overlay);
+                document.body.appendChild(popupContainer);
+            
+                // Add a click event listener to close the popup
+                closeButton.addEventListener('click', function() {
+                  document.body.removeChild(overlay); // Remove the overlay from the DOM
+                  document.body.removeChild(popupContainer); // Remove the popup container from the DOM
+                  button.style.display = 'block'; // Show the button again
+                });
+              }
+            });
           </script>
         {%- endif -%}
 
