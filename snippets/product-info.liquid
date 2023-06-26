@@ -245,10 +245,42 @@
         {%- endif -%}
 
       {%- when 'button' -%}
+      <style>
+        .popup {
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background: white;
+          padding: 20px;
+          border: 1px solid #ccc;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+      </style>
         {%- if block.settings.text != blank -%}
           <div class="product-info__button {{ product.template_suffix }}" {{ block.shopify_attributes }}>
             {%- render 'button', content: block.settings.text, href: block.settings.link, size: block.settings.size, style: block.settings.style, stretch: block.settings.stretch, background: block.settings.background, text_color: block.settings.text_color -%}
           </div>
+          <script>
+            // Get the button element
+            var button = document.querySelector('.product-info__button.call-button a');
+            
+            // Add a click event listener to the button
+            button.addEventListener('click', function(event) {
+              event.preventDefault(); // Prevent the default action of following the link
+            
+              // Display the popup
+              var popup = document.createElement('div');
+              popup.className = 'popup';
+              popup.textContent = '{{ block.settings.text }}';
+              document.body.appendChild(popup);
+            
+              // Add a click event listener to close the popup
+              popup.addEventListener('click', function() {
+                document.body.removeChild(popup); // Remove the popup from the DOM
+              });
+            });
+          </script>
         {%- endif -%}
 
       {%- when 'liquid' -%}
@@ -354,3 +386,4 @@
     {%- endform -%}
   {%- endunless -%}
 </safe-sticky>
+
