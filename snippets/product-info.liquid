@@ -289,10 +289,11 @@
             
             // Add a click event listener to the button
             button.addEventListener('click', function(event) {
-              event.preventDefault(); // Prevent the default action of following the link
+              
             
               // Check if the device is desktop
               if (window.innerWidth > 768) {
+                event.preventDefault(); // Prevent the default action of following the link
                 // Hide the button
                 button.style.display = 'none';
             
