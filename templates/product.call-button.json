@@ -56,7 +56,7 @@
           "type": "button",
           "settings": {
             "link": "tel:+1 786-353-2005",
-            "text": "Call Us to Get a Quote",
+            "text": "Call to Order",
             "size": "xl",
             "style": "fill",
             "stretch": true,
