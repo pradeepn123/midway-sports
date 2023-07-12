@@ -14,10 +14,21 @@
             "heading_tag": "h2"
           }
         },
+        "8f2d42f4-3ad9-4d02-89df-38103b58afab": {
+          "type": "sku",
+          "settings": {
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
             "show_taxes_notice": false
+          }
+        },
+        "6b6a0a1b-ff55-479a-968a-d7dcc1953a8d": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{% for tag in product.tags %}\n{% if tag contains 'Stock uniform' %}\n<p>*This item ships directly from the manufacturer. All sales are final.<\/p>\n{% break %}\n{% endif %}\n\n{% if tag contains 'stock uniform' %}\n<p>*This item ships directly from the manufacturer. All sales are final.<\/p>\n{% break %}\n{% endif %}\n\n\n{% if tag contains 'Team Apparel' %}\n<p>*This item ships directly from the manufacturer. All sales are final.<\/p>\n{% break %}\n{% endif %}\n\n{% if tag contains 'team apparel' %}\n<p>*This item ships directly from the manufacturer. All sales are final.<\/p>\n{% break %}\n{% endif %}\n{% endfor %}"
           }
         },
         "rating": {
@@ -99,7 +110,9 @@
       "block_order": [
         "vendor",
         "title",
+        "8f2d42f4-3ad9-4d02-89df-38103b58afab",
         "price",
+        "6b6a0a1b-ff55-479a-968a-d7dcc1953a8d",
         "rating",
         "badges",
         "95d29843-51c3-488e-bf64-8fe636036f3e",
