@@ -18,7 +18,7 @@ Supported variables
   {%- when 'product' -%}
     {%- assign product = item -%}
 
-    <a href="{{ product.url }}" data-instant class="predictive-search-result group">
+    <a href="{{ product.url }}" sku="{{ product.selected_or_first_available_variant.sku }}" data-instant class="predictive-search-result group">
       {%- if product.featured_media -%}
         {{- product.featured_media | image_url: width: product.featured_media.width | image_tag: sizes: '96px', widths: '96,192' -}}
       {%- endif -%}
