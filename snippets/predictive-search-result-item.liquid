@@ -34,7 +34,7 @@ Supported variables
           </span>
 
           {%- render 'price-list', product: product -%}
-          <span>{{ variant.sku }}</span>
+          <span>{{ product.selected_or_first_available_variant }}</span>
         </div>
       </div>
     </a>
