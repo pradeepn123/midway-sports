@@ -4283,7 +4283,7 @@ var PredictiveSearch = class extends HTMLElement {
    */
   async _doPredictiveSearch() {
     await this._transitionToSlot("loading");
-    const queryParams = `q=${this._queryInput.value}&section_id=${this.getAttribute("section-id")}&resources[limit]=10&resources[limit_scope]=each`;
+    const queryParams = `q=${this._queryInput.value}&section_id=${this.getAttribute("section-id")}&resources[limit]=10&resources[limit_scope]=each&resources[options][fields]=variants.sku`;
     const nodeElement = new DOMParser().parseFromString(await (await cachedFetch(`${window.Shopify.routes.root}search/suggest?${queryParams}`, { signal: this._abortController.signal })).text(), "text/html");
     this.querySelector('[slot="results"]').replaceWith(document.importNode(nodeElement.querySelector('[slot="results"]'), true));
     return this._transitionToSlot("results");
