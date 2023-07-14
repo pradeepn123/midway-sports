@@ -36,7 +36,7 @@ Supported variables
           {%- render 'price-list', product: product -%}
 
           {% assign current_variant = product.selected_or_first_available_variant %}
-          <span class="variant-sku">{{ current_variant.sku }}</span>
+          <span >{{ current_variant.sku }}</span>
         </div>
       </div>
     </a>
