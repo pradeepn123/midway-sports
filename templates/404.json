@@ -2,11 +2,49 @@
   "sections": {
     "main": {
       "type": "main-not-found",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "e1ed7f27-19cd-4ab4-95d0-4988ba72e429": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--14760302575721__e1ed7f27-19cd-4ab4-95d0-4988ba72e429-1689754905769fae17-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AURORA_CW5584-100_PHCTH001-2000.jpg",
+            "media_width": 45,
+            "media_position": "start",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Oops!",
+            "content": "<p>We couldn't seem to find the page you are looking for.<\/p>",
+            "link_text": "Return to Main Page",
+            "link_url": "\/",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14760302575721__e1ed7f27-19cd-4ab4-95d0-4988ba72e429-1689754905769fae17-0"
+      ],
+      "settings": {
+        "sec__pad_top": 0,
+        "sec__pad_btm": 0,
+        "full_width": false,
+        "spacing": "small"
       }
     },
     "fa899671-86dc-4500-a6a9-dcdbc92ea3cb": {
       "type": "recently-viewed-products",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "products_count": 6,
@@ -15,7 +53,7 @@
         "products_per_row_mobile": "1",
         "products_per_row_desktop": 3,
         "subheading": "",
-        "title": "Recently viewed products",
+        "title": "Trending Products",
         "content": "",
         "background": "",
         "background_gradient": "",
@@ -29,6 +67,7 @@
   },
   "order": [
     "main",
+    "e1ed7f27-19cd-4ab4-95d0-4988ba72e429",
     "fa899671-86dc-4500-a6a9-dcdbc92ea3cb"
   ]
 }
