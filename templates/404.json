@@ -44,6 +44,7 @@
     },
     "fa899671-86dc-4500-a6a9-dcdbc92ea3cb": {
       "type": "recently-viewed-products",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "products_count": 6,
@@ -62,11 +63,39 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "c57afdcf-c8a4-41ea-8790-962e4737c219": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "custom-apparel",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Trending Products",
+        "content": "",
+        "link_url": "shopify:\/\/collections\/custom-apparel",
+        "link_text": "View All",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "e1ed7f27-19cd-4ab4-95d0-4988ba72e429",
-    "fa899671-86dc-4500-a6a9-dcdbc92ea3cb"
+    "fa899671-86dc-4500-a6a9-dcdbc92ea3cb",
+    "c57afdcf-c8a4-41ea-8790-962e4737c219"
   ]
 }
