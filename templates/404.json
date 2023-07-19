@@ -44,7 +44,6 @@
     },
     "fa899671-86dc-4500-a6a9-dcdbc92ea3cb": {
       "type": "recently-viewed-products",
-      "disabled": true,
       "settings": {
         "full_width": true,
         "products_count": 6,
