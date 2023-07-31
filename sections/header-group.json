@@ -18,11 +18,19 @@
             "text": "HASSLE-FREE Returns within 14 days of your delivery",
             "url": "shopify:\/\/policies\/refund-policy"
           }
+        },
+        "665cdc4f-5373-46bd-bf8f-60b2f6fb04a1": {
+          "type": "message",
+          "settings": {
+            "text": "BACK TO SCHOOL SALE IS HERE! Use code school15 for 15% off your order!",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "message",
-        "96e614cc-5ce4-4e4d-8524-41bb2ce0df62"
+        "96e614cc-5ce4-4e4d-8524-41bb2ce0df62",
+        "665cdc4f-5373-46bd-bf8f-60b2f6fb04a1"
       ],
       "custom_css": [
 
