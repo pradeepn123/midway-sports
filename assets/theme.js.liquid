@@ -3694,6 +3694,7 @@ var VariantPicker = class extends HTMLElement {
      
           var variant_id_now =  variantElm.dataset.variantId;
           var variant_id_stock =  variantElm.dataset.variantInventoryQty;
+            console.log(variantElms);
             
           if( variant_id_now == variant_id ){
             if( variant_id_stock <= 0 ){
