@@ -3689,7 +3689,7 @@ var VariantPicker = class extends HTMLElement {
           var available = variant.available;
           var variantElms = document.querySelectorAll('.product-variant');
           let variantsObj = [];
-                 console.log(variantElms)
+                 console.log(variantElms);
           variantElms.forEach(function(variantElm) {
      
           var variant_id_now =  variantElm.dataset.variantId;
@@ -3697,7 +3697,7 @@ var VariantPicker = class extends HTMLElement {
            
             
           if( variant_id_now == variant_id ){
-      ;
+      
             if( variant_id_stock <= 0 ){
               var form_data = new FormData();
               form_data.append('variant_id', variant_id);
