@@ -3698,7 +3698,8 @@ var VariantPicker = class extends HTMLElement {
             
           if( variant_id_now == variant_id ){
              console.log(variant_id_now);
-      console.log(variant_id_stock);
+             console.log(variant_id_stock);
+            
             if( variant_id_stock <= 0 ){
               var form_data = new FormData();
               form_data.append('variant_id', variant_id);
@@ -3725,14 +3726,14 @@ var VariantPicker = class extends HTMLElement {
                            $(".stock_available").text("Out of stock - No restock date is available");
                            $("#pre_order").attr("name"," ");
                          }
-                }else{
+                 }else{
                        if(!available){
                           $(".stock_available").text("Out of stock - No restock date is available");  
                           $(".apolo_buy  button").text("Sold Out");
                           $(".apolo_buy  button").addClass("button--subdued");
                           $(".apolo_buy  button").attr('disabled', true);
                        }  
-                 }
+                  }
               }
             });
               return false;
