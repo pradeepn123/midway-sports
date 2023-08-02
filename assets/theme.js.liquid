@@ -3719,7 +3719,7 @@ var VariantPicker = class extends HTMLElement {
                            $(".apolo_buy button").text("Pre-order");
                          }  
                          if(stock != "0" ){
-                           $(".stock_available").text("Out of Stock - "+stock+" item available on "+date); 
+                           $(".stock_available").text("Out of Stock - "+stock+" item available on "+date+", Restock date is subject to change"); 
                            $("#pre_order").attr("name","properties[Pre Order]");
                            $("#pre_order").val("This preorder has an estimated ship date of "+date+", but it is subject to change");
                          }else{
