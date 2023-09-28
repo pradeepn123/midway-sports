@@ -48,7 +48,15 @@
     "checkout_button_color": "#1a1a1a",
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "14724428607702905366": {
+        "type": "shopify:\/\/apps\/webrex-seo\/blocks\/webrexSeoEmbed\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Sound": {
