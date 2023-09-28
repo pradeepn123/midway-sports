@@ -57,6 +57,101 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
     {{- 'custom.css' | asset_url | stylesheet_tag: preload: true -}}
   {% capture boostersnippet %}{% include "booster-apps-common" %}{% endcapture %}{% unless boostersnippet contains "Liquid error" %}{{ boostersnippet }}{% endunless %}
+<script type="application/ld+json">
+{
+"@context": "http://schema.org",
+"@type": "LocalBusiness",
+"image": "https://midwaysports.com/cdn/shop/files/midway-logo-spacing.png?v=1684500886&width=100",
+"@id": "https://midwaysports.com/",
+"address": {
+"@type": "PostalAddress",
+    "streetAddress": "6400 S Dixie Hwy #4",
+    "addressLocality": "Miami",
+    "addressRegion": "Florida",
+    "postalCode": "FL 33143",
+    "addressCountry": "United States"
+},
+"description": "Midway Sports is your ultimate destination for all things sports. From top-notch team uniforms to premium sporting gear, we have everything you need to fuel your passion and dominate the game.",
+"name": "Midway Sports",
+"brand": "Midway Sports",
+"email": "contact@midwaysports.com",
+"url": "https://midwaysports.com/",
+"priceRange": "0 - 0",
+"telephone": "+1 786-353-2005",
+"hasMap": "https://www.google.com/maps/place/Midway+Sports/@25.6975959,-80.2972933,15z/data=!4m2!3m1!1s0x0:0xc0fc7e084ef6fb28?sa=X&ved=2ahUKEwi01q-O5M2BAxVs2gIHHXlrB0cQ_BJ6BQiRARAA&hl=en&ved=2ahUKEwi01q-O5M2BAxVs2gIHHXlrB0cQ_BJ6BQi0ARAJ",
+"openingHours": "Mo,Tu,We,Th,Fr 10:00-19:00",
+"geo": {
+"@type": "GeoCoordinates",
+"latitude": "25.6975959",
+"longitude": "-80.2972933"
+},
+"sameAs" : ["https://www.facebook.com/midwaysports/",
+"https://twitter.com/midwaysports",
+	"https://www.instagram.com/midwaysportinggoods/"]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "https://midwaysports.com/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://query.midwaysports.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "name": "Midway Sports",
+  "alternateName": "Midway Sports",
+  "url": "https://midwaysports.com/"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "url": "https://midwaysports.com/",
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+1 786-353-2005",
+    "contactType": "customer service",
+	"availableLanguage": "English",
+    "areaServed": "ZA"
+  }]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "Midway Sports",
+  "url": "https://midwaysports.com/",
+"sameAs" : ["https://www.facebook.com/midwaysports/",
+"https://twitter.com/midwaysports",
+	"https://www.instagram.com/midwaysportinggoods/"]
+}
+</script>
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "AggregateRating",
+      "itemReviewed": {
+        "@type": "ProfessionalService",
+        "image": "https://midwaysports.com/cdn/shop/files/midway-logo-spacing.png?v=1684500886&width=100",
+        "name": "Midway Sports",
+        "priceRange": "$$$",
+        "email": "contact@midwaysports.com"
+      },
+      "ratingValue": "3.7",
+      "bestRating": "5",
+      "ratingCount": "146"
+    }
+</script>
 </head>
 
   <body class="{% if settings.show_page_transition %}page-transition{% endif %} {% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}">
