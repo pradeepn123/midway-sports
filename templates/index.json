@@ -244,6 +244,61 @@
         "product_card_text_color": ""
       }
     },
+    "collection-list": {
+      "type": "collection-list",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "basketball-shoes",
+            "image": "shopify:\/\/shop_images\/AURORA_FD4116-201_PHSYM002-2000.jpg",
+            "subheading": "",
+            "title": "SPORTSWEAR APPAREL",
+            "url": "shopify:\/\/collections\/mens-sportswear-apparel",
+            "heading_tag": "h2",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15
+          }
+        },
+        "52b12d89-bf23-46c0-a1d6-eeb492a3caec": {
+          "type": "collection",
+          "settings": {
+            "collection": "mens-basketball-apparel",
+            "image": "shopify:\/\/shop_images\/basketball-apprel.jpg",
+            "subheading": "",
+            "title": "Basketball apparel",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "52b12d89-bf23-46c0-a1d6-eeb492a3caec"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_collections": false,
+        "collections_per_row": 2,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "d1f6cd81-fd38-4328-95a6-9af841336c2f": {
       "type": "text-with-icons",
       "blocks": {
@@ -341,61 +396,6 @@
         "background": "#f5f5f5",
         "background_gradient": "",
         "text_color": "#000000"
-      }
-    },
-    "collection-list": {
-      "type": "collection-list",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "basketball-shoes",
-            "image": "shopify:\/\/shop_images\/DC1975-004-PHCFH001.jpg",
-            "subheading": "",
-            "title": "Basketball shoes",
-            "url": "shopify:\/\/collections\/basketball-shoes",
-            "heading_tag": "h2",
-            "text_position": "place-self-end-start text-start",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 15
-          }
-        },
-        "52b12d89-bf23-46c0-a1d6-eeb492a3caec": {
-          "type": "collection",
-          "settings": {
-            "collection": "mens-basketball-apparel",
-            "image": "shopify:\/\/shop_images\/basketball-apprel.jpg",
-            "subheading": "",
-            "title": "Basketball apparel",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-end-start text-start",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 15
-          }
-        }
-      },
-      "block_order": [
-        "collection-1",
-        "52b12d89-bf23-46c0-a1d6-eeb492a3caec"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_collections": false,
-        "collections_per_row": 2,
-        "show_progress_bar": false,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
       }
     },
     "7575ef94-79a6-48b5-8bb2-559b3871d236": {
@@ -1023,8 +1023,8 @@
     "featured-collection",
     "d992f206-9633-4d9c-9667-c93cb521b503",
     "8af10d46-b9ec-4e95-a57f-974573cbbb97",
-    "d1f6cd81-fd38-4328-95a6-9af841336c2f",
     "collection-list",
+    "d1f6cd81-fd38-4328-95a6-9af841336c2f",
     "7575ef94-79a6-48b5-8bb2-559b3871d236",
     "media-grid",
     "e948df1e-578e-4c3d-99c4-942feb283cfc",
