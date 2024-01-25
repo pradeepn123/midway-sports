@@ -9876,3 +9876,41 @@ split-lines {
     margin: 0px auto;
     display: block;
 }
+
+/* App content css */
+.app-wrapper .page-width{
+  padding: 0 40px;
+}
+
+@media only screen and (min-width: 769px){
+  .app-wrapper #store-contents .medium-up--one-quarter {
+    width: 25%;
+  }
+  .app-wrapper #store-contents .medium-up--three-quarters {
+    width: 75%;
+}
+}
+.grid__item {
+  float: left;
+  padding-left: 22px;
+  width: 100%;
+  min-height: 1px;
+}
+.app-wrapper #store-contents .grid__image-ratio--square:before {
+  padding-bottom: 100%;
+}
+.app-wrapper #store-contents .grid__image-ratio:before {
+  content: "";
+  display: block;
+  height: 0;
+  width: 100%;
+}
+.app-wrapper #store-contents .grid__image-ratio{
+  /* background-image: attr(data-image url); */
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  background-color: #fff;
+  background-color: var(--colorSmallImageBg);
+}
