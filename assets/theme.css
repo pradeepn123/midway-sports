@@ -9881,20 +9881,45 @@ split-lines {
 .app-wrapper .page-width{
   padding: 0 40px;
 }
-
+.app-wrapper #store-contents{
+  margin-bottom: 100px;
+}
 @media only screen and (min-width: 769px){
   .app-wrapper #store-contents .medium-up--one-quarter {
     width: 25%;
   }
   .app-wrapper #store-contents .medium-up--three-quarters {
     width: 75%;
+  }
 }
+@media only screen and (max-width: 768px){
+  .app-wrapper #store-contents .grid__item .small--one-half{
+    width: 50%;
+  }
 }
+.app-wrapper #store-contents .grid__item .filter-group h4{
+  font-size: 16px;
+  font-weight: 600;
+}
+.app-wrapper #store-contents .grid__item .filter-group .scroll-content li{
+  font-size: 14px;
+}
+
 .grid__item {
   float: left;
   padding-left: 22px;
   width: 100%;
   min-height: 1px;
+}
+.app-wrapper #store-contents .grid__item .grid-product__content .grid-product__title, .app-wrapper #store-contents .grid__item .grid-product__content .grid-product__price{
+  font-size: 16px;
+  text-align: center;
+}
+.app-wrapper #store-contents .grid__item .grid-product__content .grid-product__meta{
+  margin-top: 10px;
+}
+.app-wrapper #store-contents .grid__item .grid-product__content .grid-product__title{
+  line-height: 1.5;
 }
 .app-wrapper #store-contents .grid__image-ratio--square:before {
   padding-bottom: 100%;
