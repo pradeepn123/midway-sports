@@ -587,6 +587,7 @@
         "7f1e4cbb-03d9-4373-ba9b-1eed93822705",
         "80d89976-af38-4ad6-95b9-2d9556e60aa7"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_collections": false,
