@@ -401,7 +401,7 @@
     "7575ef94-79a6-48b5-8bb2-559b3871d236": {
       "type": "featured-collection",
       "settings": {
-        "collection": "basketball-shoes",
+        "collection": "basketball-uniforms",
         "products": [
 
         ],
@@ -412,7 +412,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "subheading": "TOP SELLING",
-        "title": "Basketball shoes",
+        "title": "Basketball Uniforms",
         "content": "",
         "link_url": "shopify:\/\/collections\/basketball-shoes",
         "link_text": "View all",
