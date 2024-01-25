@@ -6,20 +6,20 @@
         "template--14754144485481__c954cc68-cef4-4395-887f-2862a953772b-168439958168a73e3d-0": {
           "type": "subheading",
           "settings": {
-            "text": "Unleash Your Potential"
+            "text": "UNLEASH YOUR POTENTIAL"
           }
         },
         "template--14754144485481__c954cc68-cef4-4395-887f-2862a953772b-168439958168a73e3d-1": {
           "type": "heading",
           "settings": {
-            "text": "Fuel your passion, Dominate the game",
+            "text": "Fuel your passion, dominate the game",
             "heading_tag": "h1"
           }
         },
         "template--14754144485481__c954cc68-cef4-4395-887f-2862a953772b-168439958168a73e3d-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Midway Sports is your ultimate destination for all things sports. From top-notch team uniforms to premium sporting gear, we have everything you need to fuel your passion and dominate the game.<\/p>"
+            "content": ""
           }
         },
         "e451e8b2-3154-4073-a5ec-fd4a8e34b84e": {
@@ -76,32 +76,10 @@
             "background": "",
             "background_gradient": ""
           }
-        },
-        "b45f6362-0b22-4e57-9e15-debae5aecb7b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/world-series-cap-banner.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center-start text-start",
-            "desktop_text_position": "sm:place-self-center-start sm:text-start",
-            "subheading": "Represent Your Team",
-            "title": "World baseball classic",
-            "heading_tag": "h1",
-            "button_text": "SHOP BASEBALL CLASSIC",
-            "button_link": "shopify:\/\/collections\/world-baseball-classic",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 15,
-            "background": "",
-            "background_gradient": ""
-          }
         }
       },
       "block_order": [
-        "template--14754144485481__0951c3e6-9b1f-49d5-8582-b52791341314-1684408460d301b7dd-0",
-        "b45f6362-0b22-4e57-9e15-debae5aecb7b"
+        "template--14754144485481__0951c3e6-9b1f-49d5-8582-b52791341314-1684408460d301b7dd-0"
       ],
       "settings": {
         "full_width": true,
@@ -206,7 +184,7 @@
         "template--14754144485481__d992f206-9633-4d9c-9667-c93cb521b503-1684408072541725ef-0": {
           "type": "subheading",
           "settings": {
-            "text": "The 2023 baseball gloves are here."
+            "text": "The 2024 baseball gloves are here."
           }
         },
         "3b6c0d59-76a5-488c-a92f-47a264748036": {
@@ -436,7 +414,7 @@
         "subheading": "TOP SELLING",
         "title": "Basketball shoes",
         "content": "",
-        "link_url": "shopify:\/\/collections\/baseball-bat",
+        "link_url": "shopify:\/\/collections\/basketball-shoes",
         "link_text": "View all",
         "background": "",
         "background_gradient": "",
@@ -563,7 +541,6 @@
           "type": "collection",
           "settings": {
             "collection": "gifts-hell-love",
-            "image": "shopify:\/\/shop_images\/AURORA_DM6829-247_PHSYM011-2000.jpg",
             "subheading": "",
             "title": "For Men",
             "url": "",
