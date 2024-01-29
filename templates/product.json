@@ -176,6 +176,7 @@
       "block_order": [
         "rebuy_personalization_engine_rebuy_widget_HPa6UR"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,

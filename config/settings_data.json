@@ -31,7 +31,7 @@
     "heading_apparition": "split_fade",
     "color_swatch_style": "round",
     "show_vendor": true,
-    "show_quick_buy": false,
+    "show_quick_buy": true,
     "show_product_rating": false,
     "product_color_display": "hide",
     "product_image_aspect_ratio": "square",
@@ -50,10 +50,49 @@
 
     ],
     "blocks": {
-      "14724428607702905366": {
-        "type": "shopify:\/\/apps\/webrex-seo\/blocks\/webrexSeoEmbed\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
-        "disabled": false,
+      "6174324309569838175": {
+        "type": "shopify:\/\/apps\/smile-loyalty-rewards\/blocks\/smile-shopify-app\/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
+        "disabled": true,
         "settings": {
+        }
+      },
+      "7527060306931716863": {
+        "type": "shopify:\/\/apps\/aftership-returns\/blocks\/app-embed\/5662b508-7909-4cab-9bd2-9fd183f178fe",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "14724428607702905366": {
+        "type": "shopify:\/\/apps\/webrex-seo-optimizer\/blocks\/webrexSeoEmbed\/b26797ad-bb4d-48f5-8ef3-7c561521049c",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "15683396631634586217": {
+        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": true,
+        "settings": {
+          "button_color": "#000000",
+          "secondary_color": "#FFFFFF",
+          "button_icon": "chat_bubble",
+          "button_text": "no_text",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "lowest",
+          "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
+        }
+      },
+      "15885745614559378752": {
+        "type": "shopify:\/\/apps\/accessibly\/blocks\/app-embed\/4b59303e-1141-4c8a-945f-bf4adb516864",
+        "disabled": true,
+        "settings": {
+          "themeColor": "#1a1a1a",
+          "iconColor": "#1a1a1a",
+          "showLogo": true,
+          "topBottomPosition": 10,
+          "rightLeftPosition": 10,
+          "iconSize": "small",
+          "iconCustomSize": 64,
+          "position": "bottom-left"
         }
       }
     }
