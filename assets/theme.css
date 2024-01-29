@@ -9933,6 +9933,9 @@ split-lines {
   padding: 7px 7px 7px 9px;
   line-height: 1.2;
 }
+line-item .line-item__info .list-disc .text-subdued{
+  list-style: none;
+}
 .app-wrapper #store-contents .grid__image-ratio--square:before {
   padding-bottom: 100%;
 }

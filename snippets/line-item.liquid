@@ -57,11 +57,9 @@ Supported variables
           {%- endif -%}
 
           <li class="text-sm text-subdued">
-            {%- if property.last contains '/uploads/' -%}
+            {%- unless property.last contains '/uploads/' -%}
               <a href="{{ property.last }}" class="link">{{ property.last | split: '/' | last }}</a>
-            {%- else -%}
-              {{ property.first }}: {{ property.last }}
-            {%- endif -%}
+            {%- endunless -%}
           </li>
         {%- endfor -%}
       </ul>
