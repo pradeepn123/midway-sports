@@ -160,28 +160,6 @@
         "product_card_text_color": ""
       }
     },
-    "9fb22706-25a9-4268-b1ce-689fb91ddaaf": {
-      "type": "recently-viewed-products",
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "products_count": 6,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 5,
-        "subheading": "",
-        "title": "Recently viewed products",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
     "1706520074e224910d": {
       "type": "apps",
       "blocks": {
@@ -211,12 +189,34 @@
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
       }
+    },
+    "9fb22706-25a9-4268-b1ce-689fb91ddaaf": {
+      "type": "recently-viewed-products",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "products_count": 6,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "Recently viewed products",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "9fb22706-25a9-4268-b1ce-689fb91ddaaf",
-    "1706520074e224910d"
+    "1706520074e224910d",
+    "9fb22706-25a9-4268-b1ce-689fb91ddaaf"
   ]
 }
