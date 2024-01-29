@@ -28,7 +28,7 @@
         "3c4ef090-f35d-4d8b-88e8-5aa587db0824": {
           "type": "liquid",
           "settings": {
-            "liquid": "{% for tag in product.tags %}\n{% if tag contains 'Stock uniform' %}\n<p>*This item ships directly from the manufacturer. All sales are final.<\/p>\n{% break %}\n{% endif %}\n\n{% if tag contains 'stock uniform' %}\n<p>*This item ships directly from the manufacturer. All sales are final.<\/p>\n{% break %}\n{% endif %}\n\n\n{% if tag contains 'Team Apparel' %}\n<p>*This item ships directly from the manufacturer. All sales are final.<\/p>\n{% break %}\n{% endif %}\n\n{% if tag contains 'team apparel' %}\n<p>*This item ships directly from the manufacturer. All sales are final.<\/p>\n{% break %}\n{% endif %}\n{% endfor %}"
+            "liquid": "{% for tag in product.tags %}\n{% if tag contains 'Stock uniform' %}\n<p>*This item ships directly from the manufacturer. All sales are final.<\/p>\n{% break %}\n{% endif %}\n\n{% if tag contains 'stock uniform' %}\n<p>*This item ships directly from the manufacturer. All sales are final.<\/p>\n{% break %}\n{% endif %}\n\n\n{% if tag contains 'Team Apparel' %}\n<p>*This item ships directly from the manufacturer. All sales are final.<\/p>\n{% break %}\n{% endif %}\n\n{% if tag contains 'team apparel' %}\n<p>*This item ships directly from the manufacturer. All sales are final.<\/p>\n{% break %}\n{% endif %}\n\n{% if tag contains 'Direct' %}\n<p>*This item ships directly from the manufacturer. All sales are final.<\/p>\n{% break %}\n{% endif %}\n{% endfor %}"
           }
         },
         "rating": {
@@ -90,7 +90,14 @@
           "type": "collapsible_text",
           "settings": {
             "title": "Shipping Details",
-            "content": "<h6><strong>STORE PRODUCTS<\/strong><\/h6><p>All items that are sold as \"in stock\" items will be shipped within 1 business day.<\/p><h6>TEAM STORE<\/h6><p>Team Store orders take 3-5 business days to process and another 3-5 days to embellish the items.<\/p><h6>STOCK UNIFORMS<\/h6><p>All stock uniform orders are shipped directly from the manufacturers and can take up to 1-2 business days to process.<br\/><br\/>Expedited shipping is not available for stock uniforms.<br\/><br\/>All sales are final and cancellations, returns or exchanges are not available for this item unless the item is defected.<br\/><br\/>Please note that this item may have a backorder date if no inventory is currently available.<br\/><br\/>If backordered, you will receive an email notification from us with the expected ship date.<br\/><br\/>If item is completely out of stock we will refund your money.<\/p>"
+            "content": "<h6><strong>MIDWAY STORE PRODUCTS<\/strong><\/h6><p>All items listed as \"In stock\" will be processed within 1-2 business days and shipped via economy ground service unless expedited shipping is added in the checkout process.<\/p><p><strong>MANUFACTURER DIRECT PRODUCTS<\/strong><\/p><p>All manufacturer direct orders listed as \"In stock\" are shipped directly from the manufacturers and can take up to 1-2 business days to process and be shipped via economy ground service. Expedited shipping is not available for these products.<\/p><p><strong>Note:<\/strong> All sales are final for manufacturer direct products, and cancellations, returns, or exchanges are not available unless the item is defective. Please be aware that manufacturer direct products may have a backorder date if no inventory is currently available. If backordered, you will receive an email notification from us with the expected ship date. If the item is completely out of stock, we will promptly refund your money.<\/p><p><\/p><p><strong>STORE POLICIES<\/strong><\/p><ul><li><a href=\"https:\/\/midwaysports.com\/policies\/privacy-policy\" target=\"_blank\" title=\"https:\/\/midwaysports.com\/policies\/privacy-policy\">Privacy Policy<\/a><\/li><li><a href=\"https:\/\/midwaysports.com\/policies\/terms-of-service\" target=\"_blank\" title=\"https:\/\/midwaysports.com\/policies\/terms-of-service\">Terms of Services<\/a><\/li><li><a href=\"https:\/\/midwaysports.com\/policies\/shipping-policy\" title=\"https:\/\/midwaysports.com\/policies\/shipping-policy\">Shipping Policy<\/a><\/li><li><a href=\"https:\/\/midwaysports.com\/policies\/refund-policy\" target=\"_blank\" title=\"https:\/\/midwaysports.com\/policies\/refund-policy\">Refund Policy<\/a><\/li><li><a href=\"https:\/\/midwaysports.com\/pages\/stock-uniform-items-policy\" target=\"_blank\" title=\"https:\/\/midwaysports.com\/pages\/stock-uniform-items-policy\">Manufacturer Direct Items Policy<\/a><\/li><\/ul>"
+          }
+        },
+        "db60c7c4-db6d-485c-8a21-85a82fd064ab": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Inventory Clarification",
+            "content": "<p>We aim to clarify the distinction between \"In stock\" items stored in our warehouse, available for immediate shipment, and those labeled as \"In stock\" items from manufacturers.<\/p><p><strong>WAREHOUSE INVENTORY<\/strong><\/p><p>Items labeled as \"In stock\" and available for immediate shipment are physically present in our warehouse. These items will be shipped within 1 business day of placing your order.<\/p><p><strong>MANUFACTURER DIRECT  INVENTORY<\/strong><\/p><p>For certain products, we collaborate with manufacturers to display their inventory as \"In stock\" on our platform. These items are not housed in our warehouse but are readily available at the manufacturer's facility. Orders for manufacturer direct items will be processed within 1-2 business days, and shipping will be directly handled by the manufacturer. <\/p><p>Expedited shipping is not available for these items.<\/p><p><strong>Important Notes Regarding Manufacturer Direct Items:<\/strong><\/p><ul><li><strong>Shipping Origin:<\/strong><br\/>Manufacturer direct items will be shipped directly from the respective manufacturer's facility.<\/li><li><strong>Backorders:<\/strong> If inventory is not available at the manufacturer's facility, there may be a backorder date. In such cases, you will receive an email notification with the expected ship date.<\/li><li><strong>Out of Stock:<\/strong> If an item is completely out of stock at the manufacturer's facility, you will be notified, and a prompt refund will be issued.<\/li><\/ul><p><strong>Note for Manufacturer Direct Items:<\/strong><\/p><p>All manufacturer direct items display a message on the product page: \"*This item ships directly from the manufacturer. All sales are final.\"<\/p><p>We aim to provide transparent information about the availability and origin of our products. If you have any specific questions about the status of your order or the inventory location, please feel free to contact our Customer Service Team at <a href=\"mailto:contact@midwaysports.com\" title=\"mailto:contact@midwaysports.com\">contact@midwaysports.com<\/a> or through our Chat.<\/p><p><\/p><p><strong>STORE POLICIES<\/strong><\/p><ul><li><a href=\"https:\/\/midwaysports.com\/policies\/privacy-policy\" target=\"_blank\" title=\"https:\/\/midwaysports.com\/policies\/privacy-policy\">Privacy Policy<\/a><\/li><li><a href=\"https:\/\/midwaysports.com\/policies\/terms-of-service\" target=\"_blank\" title=\"https:\/\/midwaysports.com\/policies\/terms-of-service\">Terms of Services<\/a><\/li><li><a href=\"https:\/\/midwaysports.com\/policies\/shipping-policy\" title=\"https:\/\/midwaysports.com\/policies\/shipping-policy\">Shipping Policy<\/a><\/li><li><a href=\"https:\/\/midwaysports.com\/policies\/refund-policy\" target=\"_blank\" title=\"https:\/\/midwaysports.com\/policies\/refund-policy\">Refund Policy<\/a><\/li><li><a href=\"https:\/\/midwaysports.com\/pages\/stock-uniform-items-policy\" target=\"_blank\" title=\"https:\/\/midwaysports.com\/pages\/stock-uniform-items-policy\">Manufacturer Direct Items Policy<\/a><\/li><\/ul><p><\/p>"
           }
         }
       },
@@ -108,7 +115,8 @@
         "buy_buttons",
         "payment_terms",
         "description",
-        "97174f4e-5cda-4dc0-8cfe-143829016925"
+        "97174f4e-5cda-4dc0-8cfe-143829016925",
+        "db60c7c4-db6d-485c-8a21-85a82fd064ab"
       ],
       "settings": {
         "full_width": true,
@@ -131,14 +139,14 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "recommendations_count": 4,
+        "recommendations_count": 8,
         "products": [
 
         ],
         "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "subheading": "",
         "title": "You may also like",
