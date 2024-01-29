@@ -12,8 +12,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 })
 
+
 xs.updateCartCount = (params) => {
     document.querySelector("cart-drawer")._onCartRefresh().then(() => {
         document.querySelector("[data-no-instant]").click()
+        const cartCount = document.querySelector('#cart-drawer .cart-drawer__top cart-count').innerHTML
+        document.querySelectorAll("cart-count").forEach((el) => {
+            el.itemCount = cartCount
+        })
     })
   }
