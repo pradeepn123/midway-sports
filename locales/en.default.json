@@ -65,6 +65,11 @@
       "open_cart": "Open cart"
     }
   },
+  "products": {
+    "product": {
+      "sold_out": "Sold Out"
+    }
+  },
   "product": {
     "general": {
       "description": "Description",
