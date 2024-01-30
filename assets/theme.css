@@ -9894,11 +9894,17 @@ split-lines {
 }
 @media only screen and (max-width: 768px){
   .app-wrapper #store-contents .grid__item .small--one-half{
-    width: 50%;
+    width: 100%;
   }
   .app-wrapper .page-width{
     padding: 0 10px;
   }
+  .app-wrapper #store-contents .xs-store-collection .grid ul.grid--collection{
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
   .app-wrapper #store-contents .xs-store-collection .grid .grid__item{
     padding-left: 0;
   }
