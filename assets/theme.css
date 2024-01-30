@@ -9989,3 +9989,6 @@ line-item .line-item__info .list-disc .text-subdued{
     padding-right: 1.5em;
     background-size: 20px;
 }
+.xs-drawer.open .xs-drawer-inner [data-close-drawer]{
+  height: 20px;
+}
