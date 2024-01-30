@@ -3675,10 +3675,11 @@ var VariantPicker = class extends HTMLElement {
    * Detect if a specific variant is selectable. This is used when the "hide sold out variant" option is enabled, to allow
    * returning true only if the variant is actually available
    */
-  _isVariantSelectable(variant) {
+    _isVariantSelectable(variant) {
       if(!variant){
         return false;
       } else {
+      
           $(".apolo_buy  button").attr('disabled', false);
           $(".apolo_buy  button").removeClass("button--subdued");
           $("#pre_order").attr("name"," ");
@@ -3694,55 +3695,53 @@ var VariantPicker = class extends HTMLElement {
      
           var variant_id_now =  variantElm.dataset.variantId;
           var variant_id_stock =  variantElm.dataset.variantInventoryQty;
-           
-            
+
           if( variant_id_now == variant_id ){
-             console.log(variant_id_now);
-             console.log(variant_id_stock);
-            
-            if( variant_id_stock <= 0 ){
-              var form_data = new FormData();
-              form_data.append('variant_id', variant_id);
-              $(".stock_available").text(" ");
-              $.ajax({
-              type: 'POST',
-              url: "https://primegearbox.com/api-midway/api/product/get_data_stock_available",
-              data: form_data,
-              processData: false,
-              contentType: false,
-              dataType: "json",
-              success: function(response){
-                if(response != "0" ){ 
-                      var stock = response.quantity;
-                      var date = response.available;
-                         if(available){
-                           $(".apolo_buy button").text("Pre-order");
-                         }  
-                         if(stock != "0" ){
-                           $(".stock_available").text("Out of Stock - "+stock+" item available on "+date+", Restock date is subject to change"); 
-                           $("#pre_order").attr("name","properties[Pre Order]");
-                           $("#pre_order").val("This preorder has an estimated ship date of "+date+", but it is subject to change");
+                 if( variant_id_stock <= 0 ){
+                      var form_data = new FormData();
+                      form_data.append('variant_id', variant_id);
+                      $(".stock_available").text(" ");
+                      $.ajax({
+                      type: 'POST',
+                      url: "https://primegearbox.com/api-midway/api/product/get_data_stock_available",
+                      data: form_data,
+                      processData: false,
+                      contentType: false,
+                      dataType: "json",
+                      success: function(response){
+                        if(response != "0" ){ 
+                              var stock = response.quantity;
+                              var date = response.available;
+                                 if(available){
+                                   $(".apolo_buy button").text("Pre-order");
+                                 }  
+                                 if(stock != "0" ){
+                                   $(".stock_available").text("Out of Stock - "+stock+" item available on "+date+", Restock date is subject to change"); 
+                                   $("#pre_order").attr("name","properties[Pre Order]");
+                                   $("#pre_order").val("This preorder has an estimated ship date of "+date+", but it is subject to change");
+                                 }else{
+                                   $(".stock_available").text("Out of stock - No restock date is available");
+                                   $("#pre_order").attr("name"," ");
+                                 }
                          }else{
-                           $(".stock_available").text("Out of stock - No restock date is available");
-                           $("#pre_order").attr("name"," ");
-                         }
-                 }else{
-                    
-                          $(".stock_available").text("Out of stock - No restock date is available");  
-                          $(".apolo_buy  button").text("Sold Out");
-                          $(".apolo_buy  button").addClass("button--subdued");
-                          $(".apolo_buy  button").attr('disabled', true);
-                       
-                  }
-              }
-            });
-              return false;
-          }
+                            if(available){
+                            //       return false;
+                                  $(".stock_available").text("Out of stock - No restock date is available");  
+                                  $(".apolo_buy  button").text("Sold Out");
+                                  $(".apolo_buy  button").addClass("button--subdued");
+                                  $(".apolo_buy  button").attr('disabled', true);
+                            }
+                               
+                          }
+                      }
+                    });   
+                   return false;
+                }
           }
           
         });
-        
-        return variant["available"] || !this.hideSoldOutVariants && !variant["available"];
+      
+         return variant["available"] || !this.hideSoldOutVariants && !variant["available"];
       }
   }
   
