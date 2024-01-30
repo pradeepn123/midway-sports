@@ -9,7 +9,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "show_collection_title": true,
-        "show_collection_description": true,
+        "show_collection_description": false,
         "show_collection_image": true,
         "collection_title_size": "h0",
         "image_size": "auto",
@@ -53,7 +53,7 @@
         "products_per_row_desktop": 3,
         "filter_layout": "sidebar",
         "show_sort_by": true,
-        "enable_infinite_scroll": true,
+        "enable_infinite_scroll": false,
         "show_filters": true,
         "show_filter_group_name": false,
         "show_color_swatch": true,
@@ -61,10 +61,65 @@
         "show_filter_values_count": true,
         "open_first_filter_group": true
       }
+    },
+    "banner1": {
+      "type": "collection-banner",
+      "settings": {
+        "sec--pad-start": 1,
+        "sec--pad-end": 1,
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "show_collection_title": false,
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "collection_title_size": "h0",
+        "image_size": "auto",
+        "image_size_mob": "auto",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "1706631936f04e0f6b": {
+      "type": "apps",
+      "blocks": {
+        "rebuy_personalization_engine_rebuy_widget_dc43je": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "132116",
+            "product_id_enabled": false,
+            "collection_id_enabled": true
+          }
+        }
+      },
+      "block_order": [
+        "rebuy_personalization_engine_rebuy_widget_dc43je"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "banner1",
+    "1706631936f04e0f6b"
   ]
 }
