@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         } 
     });
+    document.querySelector("cart-drawer")._onCartRefresh()
 })
 
 

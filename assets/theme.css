@@ -9896,6 +9896,12 @@ split-lines {
   .app-wrapper #store-contents .grid__item .small--one-half{
     width: 50%;
   }
+  .app-wrapper .page-width{
+    padding: 0 10px;
+  }
+  .app-wrapper #store-contents .xs-store-collection .grid .grid__item{
+    padding-left: 0;
+  }
 }
 .app-wrapper #store-contents .grid__item .filter-group h4{
   font-size: 16px;
