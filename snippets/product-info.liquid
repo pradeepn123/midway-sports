@@ -203,7 +203,21 @@
         <div class="product-info__inventory {{ block.shopify_attributes }}">
           {%- render 'inventory', product: product, low_threshold: block.settings.low_inventory_threshold, form_id: product_form_id -%}
         </div>
+      {% comment %}
+      {% assign active_collection = false %}
+      {% for collection in product.collections %}
+        {% if collection.handle contains "under-armour"%}
+          {% assign active_collection = true %}
+          {% endif %}
+      {% endfor %}
 
+        {% unless active_collection %}
+        <div class="product-info__inventory {{ block.shopify_attributes }}">
+          {%- render 'inventory', product: product, low_threshold: block.settings.low_inventory_threshold, form_id: product_form_id -%}
+        </div>
+        {% endunless %}
+      {% endcomment %}
+  
       {%- when 'buy_buttons' -%}
        <span class="stock_available"></span> 
         {%- assign main_form_exists = true -%}
