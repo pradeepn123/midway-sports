@@ -9966,6 +9966,20 @@ line-item .line-item__info .list-disc .text-subdued{
   background-color: #fff;
   background-color: var(--colorSmallImageBg);
 }
+@media (min-width: 768px){
+  .grid--uniform{
+    display: flex;
+    justify-content: space-between;
+  }
+  .app-wrapper #store-contents .medium-up--three-quarters .grid--collection{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .app-wrapper #store-contents .medium-up--three-quarters .medium-up--one-quarter{
+    width: 100%;
+  }
+}
+
 .xs-drawer .xs-v-selection select.form-control {
   -webkit-appearance: none;
   background-position: right 50%;
