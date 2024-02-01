@@ -9895,6 +9895,9 @@ split-lines {
 .app-wrapper #store-contents{
   margin-bottom: 100px;
 }
+.app-wrapper #store-contents .xs-store-collection .grid ul.grid--collection{
+  gap: 2rem 0.5rem;
+}
 @media only screen and (min-width: 769px){
   .app-wrapper #store-contents .medium-up--one-quarter {
     width: 25%;
