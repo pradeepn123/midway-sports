@@ -9925,9 +9925,11 @@ split-lines {
     justify-content: space-between;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 2rem 0.5rem;
   }
   .app-wrapper #store-contents .xs-store-collection .grid .grid__item{
     padding-left: 0;
+    padding-top: 30px;
   }
   cart-drawer [slot="footer"] form.buy-buttons--compact{
     display: flex;
@@ -9955,7 +9957,7 @@ split-lines {
 }
 .filter-group ul li a:before{
   appearance: none;
-  background: rgb(var(--text-color) / .15) var(--checkmark-svg-url) no-repeat center;
+  background: rgb(var(--text-color) / .15) no-repeat center;
   background-size: 0;
   border-radius: 2px;
   flex-shrink: 0;
@@ -9968,8 +9970,8 @@ split-lines {
   border: 0 !important;
 }
 .filter-group ul li a.xs-active-filter:before{
-  background: rgb(var(--text-color)) var(--checkmark-svg-url) no-repeat center !important;
-  background-color: #000 !important;
+  background: #1a1a1a var(--checkmark-svg-url) no-repeat center !important;
+  /* background-color: #000 !important; */
 }
 .xs-store-front .xs-store-title {
   font-size: 64px;
