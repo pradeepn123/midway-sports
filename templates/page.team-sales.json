@@ -316,7 +316,6 @@
     },
     "7780ce4b-982c-43c3-aa64-757ecaca6a06": {
       "type": "text-with-icons",
-      "disabled": true,
       "blocks": {
         "template--14760302444649__7780ce4b-982c-43c3-aa64-757ecaca6a06-1686638967e32ef80b-0": {
           "type": "item",
@@ -375,6 +374,7 @@
         "template--14760302444649__7780ce4b-982c-43c3-aa64-757ecaca6a06-1686638967e32ef80b-0",
         "4017d8fc-78c8-4bfa-9f9e-6ac743ea28f4"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
