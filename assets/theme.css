@@ -9927,7 +9927,7 @@ split-lines {
     grid-template-columns: 1fr 1fr;
     gap: 2rem 0.5rem;
   }
-  .app-wrapper #store-contents .xs-store-collection .grid .grid__item{
+  .app-wrapper #store-contents .xs-store-collection .grid .grid__item.medium-up--three-quarters{
     padding-left: 0;
     padding-top: 30px;
   }
@@ -9974,11 +9974,11 @@ split-lines {
   /* background-color: #000 !important; */
 }
 .xs-store-front .xs-store-title {
-  font-size: 64px;
+  font-size: 48px;
   padding: 20px;
   font-weight: bolder;
   text-transform: uppercase;
-  margin: 4rem 0;
+  margin: 2rem 0;
 }
 .xs-store-front .store-logo{
   display: none;
@@ -10067,10 +10067,18 @@ line-item .line-item__info .list-disc .text-subdued{
   .app-wrapper #store-contents .medium-up--three-quarters .medium-up--one-quarter{
     width: 100%;
   }
+  .xs-store-front .xs-store-title{
+    font-size: 64px;
+    margin: 3rem 0;
+  }
 }
 @media (min-width: 1200px){
   .app-wrapper #store-contents .medium-up--three-quarters .grid--collection{
     grid-template-columns: repeat(3, 1fr);
+  }
+  .xs-store-front .xs-store-title{
+    font-size: 80px;
+    margin: 4rem 0;
   }
 }
 .xs-drawer .xs-v-selection select.form-control {
