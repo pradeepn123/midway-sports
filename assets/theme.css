@@ -9896,7 +9896,15 @@ split-lines {
   margin-bottom: 100px;
 }
 .app-wrapper #store-contents .xs-store-collection .grid ul.grid--collection{
-  gap: 2rem 0.5rem;
+  gap: 3rem 1.5rem;
+}
+.app-wrapper #store-contents .xs-store-collection .grid .grid__item{
+  padding-left: 10px;
+}
+@media (max-width: 1149px){
+  .app-wrapper #store-contents .xs-store-collection .grid .grid__item{
+    padding: 0;
+  }
 }
 @media only screen and (min-width: 769px){
   .app-wrapper #store-contents .medium-up--one-quarter {
@@ -9963,7 +9971,23 @@ split-lines {
   background: rgb(var(--text-color)) var(--checkmark-svg-url) no-repeat center !important;
   background-color: #000 !important;
 }
-
+.xs-store-front .xs-store-title {
+  font-size: 64px;
+  padding: 20px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin: 4rem 0;
+}
+.xs-store-front .store-logo{
+  display: none;
+}
+.xs-store-front #store-timer{
+  display: none;
+}
+.grid--uniform .filter-group-category{
+  border-bottom: 1px solid;
+  border-color: rgb(var(--text-color) / .12);
+}
 .grid__item {
   float: left;
   padding-left: 22px;
@@ -9994,6 +10018,7 @@ split-lines {
 .page-width #store-contents .grid__item .grid-product__content .grid-product__tag{
   position: absolute;
   font-size: 12px;
+  font-weight: bold;
   left: 5%;
   z-index: 2;
   background-color: #000;
@@ -10026,7 +10051,8 @@ line-item .line-item__info .list-disc .text-subdued{
     /* display: flex;
     justify-content: space-between; */
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 4fr;
+    gap: 3rem;
   }
   .app-wrapper #store-contents .medium-up--one-quarter, .app-wrapper #store-contents .medium-up--three-quarters{
     width: unset;
