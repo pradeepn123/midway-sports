@@ -97,3 +97,10 @@ li:last-child
 .multi-column-store .multi-column.scroll-area .aligning--items--format img{
   margin: 0 auto;
 }
+.sale-badge-api{
+  padding-block-start: 0 !important;
+  padding-block-end: 0 !important;
+}
+.sale-price-custom{
+  color: #f83a3a;
+}
