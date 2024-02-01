@@ -9959,6 +9959,10 @@ split-lines {
   height: 16px !important;
   border: 0 !important;
 }
+.filter-group ul li a.xs-active-filter:before{
+  background: rgb(var(--text-color)) var(--checkmark-svg-url) no-repeat center !important;
+  background-color: #000 !important;
+}
 
 .grid__item {
   float: left;
