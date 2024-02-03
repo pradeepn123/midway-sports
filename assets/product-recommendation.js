@@ -21,6 +21,11 @@ async function initProductRecommendation(selector) {
     var discount = "";
     var customClass = "";
     var discountCustomClass = "";
+    let secondaryImage;
+    let secondaryImageAlt;
+    let secondaryImageDisplay;
+    let secondaryImageAltDisplay;
+
     if(compareAtPrice === null || compareAtPrice === 'null' ){
       compareAtPrice = '';
       customClass = 'sale-badge-api';
@@ -32,6 +37,17 @@ async function initProductRecommendation(selector) {
       discount = `Save $${discount}`;
       discountCustomClass = 'sale-price-custom';
     }
+
+    if (product.images[1] !== undefined) {
+      secondaryImage = product.images[1].src;
+      secondaryImageAlt = product.images[1].alt;
+    } else {
+      secondaryImage = product.image.src;
+      secondaryImageAlt = product.image.alt; 
+    }
+
+    secondaryImageDisplay = secondaryImage || '';
+    secondaryImageAltDisplay = secondaryImageAlt || '';
 
     const productcard = `
        <product-card
@@ -51,8 +67,8 @@ async function initProductRecommendation(selector) {
                sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1800px) / 4 - (24px / 4 * 3))"
                class="product-card__image product-card__image--primary  aspect-square"
              ><img
-               src="${product.images[1].src}"
-               alt="${product.images[1].alt}"
+               src="${secondaryImageDisplay}"
+               alt="${secondaryImageAltDisplay}"
                width="1024"
                height="768"
                loading="eager"
