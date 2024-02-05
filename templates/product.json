@@ -217,7 +217,7 @@
     "custom_product_recommendation_rNHtRR": {
       "type": "custom-product-recommendation",
       "settings": {
-        "recommendations_count": 6,
+        "recommendations_count": 4,
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": true,
