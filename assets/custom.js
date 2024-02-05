@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } 
     });
     document.querySelector("cart-drawer")._onCartRefresh()
+    document.querySelector('.app-wrapper.xs-app-wrapper .page-width.xs-store-front').setAttribute('style', 'max-width: unset !important;')
 })
 
 
