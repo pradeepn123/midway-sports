@@ -225,13 +225,13 @@
         "subheading": "hhhh",
         "title": "You may also like 2",
         "content": "<p>dmdf,dfdfmdfm,fd<\/p>",
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
+        "background": "#c59797",
+        "background_gradient": "linear-gradient(46deg, rgba(52, 133, 236, 1) 13%, rgba(170, 248, 219, 1) 86%)",
+        "text_color": "#e30712",
+        "heading_color": "#803cee",
+        "heading_gradient": "linear-gradient(180deg, rgba(255, 211, 226, 1), rgba(168, 255, 251, 1) 100%)",
+        "product_card_background": "#b47777",
+        "product_card_text_color": "#e30712"
       }
     }
   },
