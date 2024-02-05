@@ -37,7 +37,7 @@ LIQUID
 {%- endcomment -%}
 
 <div {% render 'section-properties' %}>
-  <div class="section-stack" style="{% if section.settings.hide_section %} display: none; {% endif %}">
+  <div class="section-stack">
     {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, heading_color: section.settings.heading_color, heading_gradient: section.settings.heading_gradient, content: section.settings.content -%}
 
     <div class="{% if section.settings.show_progress_bar %}scrollable-with-controls{% else %}floating-controls-container{% endif %}">
@@ -118,12 +118,6 @@ LIQUID
     {
       "type": "paragraph",
       "content": "Dynamic recommendations change and improve with time. Create manual product recommendations using the Shopify Search & Discovery app. [Learn more](https://help.shopify.com/en/manual/online-store/search-and-discovery/product-recommendations)."
-    },
-    {
-      "type": "checkbox",
-      "id": "hide_section",
-      "label": "Hide section",
-      "default": false
     },
     {
       "type": "range",
