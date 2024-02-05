@@ -218,7 +218,7 @@
       "type": "custom-product-recommendation",
       "settings": {
         "recommendations_count": 10,
-        "full_width": false,
+        "full_width": true,
         "stack_products": true,
         "show_progress_bar": true,
         "products_per_row_mobile": "2",
