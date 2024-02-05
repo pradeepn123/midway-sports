@@ -138,6 +138,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "recommendations_count": 10,
         "products": [
@@ -216,22 +217,22 @@
     "custom_product_recommendation_rNHtRR": {
       "type": "custom-product-recommendation",
       "settings": {
-        "recommendations_count": 4,
+        "recommendations_count": 5,
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": true,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
-        "subheading": "hhhh",
-        "title": "You may also like 2",
-        "content": "<p>dmdf,dfdfmdfm,fd<\/p>",
-        "background": "#c59797",
-        "background_gradient": "linear-gradient(46deg, rgba(52, 133, 236, 1) 13%, rgba(170, 248, 219, 1) 86%)",
-        "text_color": "#e30712",
-        "heading_color": "#803cee",
-        "heading_gradient": "linear-gradient(180deg, rgba(255, 211, 226, 1), rgba(168, 255, 251, 1) 100%)",
-        "product_card_background": "#b47777",
-        "product_card_text_color": "#e30712"
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "You may also like",
+        "content": "",
+        "background": "#f5f5f5",
+        "background_gradient": "linear-gradient(46deg, rgba(NaN, NaN, NaN, 0) 13%, rgba(170, 248, 219, 1) 86%)",
+        "text_color": "#1a1a1a",
+        "heading_color": "#1a1a1a",
+        "heading_gradient": "",
+        "product_card_background": "#ffffff",
+        "product_card_text_color": "#1a1a1a"
       }
     }
   },
