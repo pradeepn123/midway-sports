@@ -151,13 +151,13 @@
         "subheading": "",
         "title": "You may also like",
         "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
+        "background": "#b47777",
+        "background_gradient": "linear-gradient(89deg, rgba(219, 149, 250, 1) 7%, rgba(148, 88, 255, 1) 94%)",
+        "text_color": "#00a341",
+        "heading_color": "#e30712",
+        "heading_gradient": "radial-gradient(rgba(255, 154, 98, 1), rgba(255, 204, 75, 1) 100%)",
+        "product_card_background": "#ffb74a",
+        "product_card_text_color": "#b47777"
       }
     },
     "1706520074e224910d": {
