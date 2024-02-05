@@ -226,7 +226,7 @@
         "subheading": "hhhh",
         "title": "You may also like 2",
         "content": "<p>dmdf,dfdfmdfm,fd<\/p>",
-        "background": "#978b8b",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
