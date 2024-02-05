@@ -143,8 +143,8 @@
         "products": [
 
         ],
-        "full_width": true,
-        "stack_products": false,
+        "full_width": false,
+        "stack_products": true,
         "show_progress_bar": true,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
@@ -216,14 +216,14 @@
     "custom_product_recommendation_rNHtRR": {
       "type": "custom-product-recommendation",
       "settings": {
-        "recommendations_count": 10,
-        "full_width": false,
-        "stack_products": true,
+        "recommendations_count": 6,
+        "full_width": true,
+        "stack_products": false,
         "show_progress_bar": true,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
         "subheading": "",
-        "title": "You may also like 2",
+        "title": "You may also like",
         "content": "",
         "background": "",
         "background_gradient": "",
