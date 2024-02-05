@@ -4,9 +4,10 @@ async function initProductRecommendation(selector) {
   const productLimit = selector.dataset.productRecommendationLimit;
   const cardBackground = selector.dataset.cardBackground;
   const textColor = selector.dataset.textColor;
+  const dataSourceId = selector.dataset.sourceId;
 
   const response = await fetch(
-    `https://rebuyengine.com/api/v1/products/recommended?shopify_product_ids=${productId}&limit=${productLimit}&key=3c31af894205d709aacd3e8da2ed30b19782df83`,
+    `https://rebuyengine.com/api/v1/custom/id/${dataSourceId}?shopify_product_ids=${productId}&limit=${productLimit}&key=3c31af894205d709aacd3e8da2ed30b19782df83`,
     {
       method: 'GET',
     }

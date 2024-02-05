@@ -49,7 +49,7 @@
       heading_gradient: section.settings.heading_gradient,
       content: section.settings.content
     -%}
-    <script type="text/html" id="custom-product-recommendation-template" data-product-recommendation data-product-id="{{product.id}}" data-product-recommendation-limit="{{ section.settings.recommendations_count }}" data-card-background="{{ section.settings.product_card_background }}" data-text-color="{{ section.settings.product_card_text_color }}">
+    <script type="text/html" id="custom-product-recommendation-template" data-product-recommendation data-product-id="{{product.id}}" data-product-recommendation-limit="{{ section.settings.recommendations_count }}" data-card-background="{{ section.settings.product_card_background }}" data-text-color="{{ section.settings.product_card_text_color }}" data-source-id="{{ section.settings.rebuy_id }}">
       <div class="{% if section.settings.show_progress_bar %}scrollable-with-controls{% else %}floating-controls-container{% endif %}">
         {%- assign scroll_area_id = 'scroll-area-' | append: section.id -%}
         <scroll-carousel
@@ -109,6 +109,12 @@
       "type": "paragraph",
       "content": "Dynamic recommendations change and improve with time. Create manual product recommendations using the Shopify Search & Discovery app. [Learn more](https://help.shopify.com/en/manual/online-store/search-and-discovery/product-recommendations)."
     },
+    {
+      "type": "number",
+      "id": "rebuy_id",
+      "label": "Rebuy data source id",
+      "default": 142476
+    },    
     {
       "type": "range",
       "id": "recommendations_count",
