@@ -2,6 +2,8 @@
 async function initProductRecommendation(selector) {
   const productId = selector.dataset.productId; 
   const productLimit = selector.dataset.productRecommendationLimit;
+  const cardBackground = selector.dataset.cardBackground;
+  const textColor = selector.dataset.textColor;
 
   const response = await fetch(
     `https://rebuyengine.com/api/v1/products/recommended?shopify_product_ids=${productId}&limit=${productLimit}&key=3c31af894205d709aacd3e8da2ed30b19782df83`,
@@ -54,7 +56,7 @@ async function initProductRecommendation(selector) {
        <product-card
          handle="${product.handle}"
          class="product-card product-card--blends product-card--show-secondary-media bg-custom text-custom"
-         style="--background: 255 255 255; --text-color: 26 26 26; opacity: 1; transform: translateY(0px);">
+         style="background:${cardBackground}; --text-color: 26 26 26; opacity: 1; transform: translateY(0px);">
          <div class="product-card__badge-list"><on-sale-badge discount-mode="saving" class="badge badge--on-sale ${customClass}">${discount}</on-sale-badge></div>
          <div class="product-card__figure">
            <a
@@ -79,11 +81,11 @@ async function initProductRecommendation(selector) {
            ></a>
          </div>
          <div class="product-card__info ">
-           <a href="/collections/vendors?q=${product.vendor}" class="text-xs link-faded">${product.vendor}</a>
+           <a href="/collections/vendors?q=${product.vendor}" class="text-xs link-faded" style="color:${textColor}">${product.vendor}</a>
            <div class="v-stack gap-0.5 w-full ">
-             <span class="product-card__title"><a href='${product.link}' class='bold'>${product.title}</a></span
+             <span class="product-card__title"><a href='${product.link}' class='bold' style="color:${textColor}">${product.title}</a></span
              ><price-list class="price-list  "
-               ><sale-price class="text-subdued ${discountCustomClass}"> <span class="sr-only">Sale price</span>$${product.variants[0].price} USD</sale-price>
+               ><sale-price class="text-subdued ${discountCustomClass}" style="color:${textColor}"> <span class="sr-only">Sale price</span>$${product.variants[0].price} USD</sale-price>
                <compare-at-price class="text-subdued line-through">
                    <span class="sr-only">Regular price</span>${compareAtPrice}</compare-at-price>
                </price-list
