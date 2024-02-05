@@ -138,6 +138,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "recommendations_count": 8,
         "products": [
@@ -145,12 +146,12 @@
         ],
         "full_width": true,
         "stack_products": false,
-        "show_progress_bar": false,
+        "show_progress_bar": true,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
-        "subheading": "hhhhhh",
+        "products_per_row_desktop": 4,
+        "subheading": "",
         "title": "You may also like",
-        "content": "<p>hhhhhhhhhh<\/p>",
+        "content": "",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -217,9 +218,9 @@
       "type": "custom-product-recommendation",
       "settings": {
         "recommendations_count": 10,
-        "full_width": false,
+        "full_width": true,
         "stack_products": false,
-        "show_progress_bar": true,
+        "show_progress_bar": false,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 3,
         "subheading": "hhhh",
