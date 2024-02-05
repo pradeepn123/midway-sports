@@ -81,12 +81,12 @@ async function initProductRecommendation(selector) {
                sizes="(max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, 1800px) / 4 - (24px / 4 * 3))"
            ></a>
          </div>
-         <div class="product-card__info " style="padding: 1rem;">
+         <div class="product-card__info " style="padding: 1.2rem;">
            <a href="/collections/vendors?q=${product.vendor}" class="text-xs link-faded" style="color:${textColor}">${product.vendor}</a>
            <div class="v-stack gap-0.5 w-full ">
              <span class="product-card__title"><a href='${product.link}' class='bold' style="color:${textColor}">${product.title}</a></span
              ><price-list class="price-list  "
-               ><sale-price class="text-subdued ${discountCustomClass}" style="color:${textColor}"> <span class="sr-only">Sale price</span>$${product.variants[0].price} USD</sale-price>
+               ><sale-price class="text-subdued ${discountCustomClass}" style="color:${textColor}; opacity: 0.75;"> <span class="sr-only">Sale price</span>$${product.variants[0].price} USD</sale-price>
                <compare-at-price class="text-subdued line-through">
                    <span class="sr-only">Regular price</span>${compareAtPrice}</compare-at-price>
                </price-list

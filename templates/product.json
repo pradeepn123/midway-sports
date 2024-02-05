@@ -138,6 +138,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "recommendations_count": 10,
         "products": [
@@ -216,6 +217,7 @@
     "custom_product_recommendation_rNHtRR": {
       "type": "custom-product-recommendation",
       "settings": {
+        "rebuy_id": 142476,
         "recommendations_count": 5,
         "full_width": true,
         "stack_products": false,
@@ -230,8 +232,8 @@
         "text_color": "#1a1a1a",
         "heading_color": "#1a1a1a",
         "heading_gradient": "",
-        "product_card_background": "#8994c4",
-        "product_card_text_color": "#b47777"
+        "product_card_background": "#ffffff",
+        "product_card_text_color": "#1a1a1a"
       }
     }
   },
