@@ -139,6 +139,7 @@
     "related-products": {
       "type": "related-products",
       "settings": {
+        "hide_section": false,
         "recommendations_count": 8,
         "products": [
 
@@ -217,14 +218,11 @@
       "type": "custom-product-recommendation",
       "settings": {
         "recommendations_count": 6,
-        "products": [
-
-        ],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": true,
         "products_per_row_mobile": "1",
-        "products_per_row_desktop": 3,
+        "products_per_row_desktop": 4,
         "subheading": "",
         "title": "You may also like",
         "content": "",
