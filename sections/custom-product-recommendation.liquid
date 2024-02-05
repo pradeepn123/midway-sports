@@ -49,29 +49,50 @@
       heading_gradient: section.settings.heading_gradient,
       content: section.settings.content
     -%}
+    <script type="text/html" id="custom-product-recommendation-template" data-product-recommendation data-product-id="{{product.id}}" data-product-recommendation-limit="{{ section.settings.recommendations_count }}">
+      <div class="{% if section.settings.show_progress_bar %}scrollable-with-controls{% else %}floating-controls-container{% endif %}">
+        {%- assign scroll_area_id = 'scroll-area-' | append: section.id -%}
+        <scroll-carousel
+          selector="product-card"
+          id="{{ scroll_area_id }}"
+          class="scroll-area bleed {% if section.settings.recommendations_count > section.settings.products_per_row_desktop %}is-scrollable{% endif %}"
+        >
+          <reveal-items selector=".product-list > *">
+            <product-list class="product-list">
+            </product-list>
+          </reveal-items>
+        </scroll-carousel>
 
-    <div class="scrollable-with-controls">
-      {%- assign scroll_area_id = 'scroll-area-' | append: section.id -%}
-      <scroll-carousel
-        selector="product-card"
-        id="{{ scroll_area_id }}"
-        class="scroll-area bleed {% if section.settings.products.count > section.settings.products_per_row_desktop %}is-scrollable{% endif %}"
-      >
-        <reveal-items selector=".product-list > *">
-          <product-list class="product-list" data-product-recommendation data-product-id="{{product.id}}">
-          </product-list>
-        </reveal-items>
-      </scroll-carousel>
+        {%- if section.settings.stack_products == false -%}
+          {%- if section.settings.show_progress_bar -%}
+            {%- assign default_progress = section.settings.products_per_row_desktop
+              | times: 1.0
+              | divided_by: section.settings.recommendations_count
+            -%}
+            {%- render 'scrollbar', observes: scroll_area_id, default_progress: default_progress, show_buttons: true -%}
+          {%- else -%}
+            <button
+              is="prev-button"
+              class="circle-button circle-button--lg circle-button--fill border group"
+              aria-controls="{{ scroll_area_id }}"
+              disabled
+            >
+              <span class="sr-only">{{ 'general.accessibility.previous' | t }}</span>
+              <span class="animated-arrow animated-arrow--reverse"></span>
+            </button>
 
-
-          {%- assign default_progress = section.settings.products_per_row_desktop
-            | times: 1.0
-            | divided_by: section.settings.products.count
-          -%}
-          {%- render 'scrollbar', observes: scroll_area_id, default_progress: default_progress, show_buttons: true -%}
-
-
-    </div>
+            <button
+              is="next-button"
+              class="circle-button circle-button--lg circle-button--fill border group"
+              aria-controls="{{ scroll_area_id }}"
+            >
+              <span class="sr-only">{{ 'general.accessibility.next' | t }}</span>
+              <span class="animated-arrow"></span>
+            </button>
+          {%- endif -%}
+        {%- endif -%}
+      </div>
+    </script>
   </div>
 </div>
 
@@ -97,13 +118,6 @@
       "default": 6
     },
     {
-      "type": "product_list",
-      "id": "products",
-      "limit": 20,
-      "label": "Manual recommendations",
-      "info": "Replaces automatic recommendations when selected."
-    },
-    {
       "type": "checkbox",
       "id": "full_width",
       "label": "Full width",
@@ -113,13 +127,13 @@
       "type": "checkbox",
       "id": "stack_products",
       "label": "Stack products",
-      "default": true
+      "default": false
     },
     {
       "type": "checkbox",
       "id": "show_progress_bar",
       "label": "Show carousel progress bar",
-      "default": false
+      "default": true
     },
     {
       "type": "select",
@@ -209,3 +223,11 @@
   ]
 }
 {% endschema %}
+
+{% comment %} {
+  "type": "product_list",
+  "id": "products",
+  "limit": 20,
+  "label": "Manual recommendations",
+  "info": "Replaces automatic recommendations when selected."
+}, {% endcomment %}
