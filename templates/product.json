@@ -139,7 +139,7 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "recommendations_count": 8,
+        "recommendations_count": 10,
         "products": [
 
         ],
@@ -149,7 +149,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 3,
         "subheading": "",
-        "title": "You may also like 1",
+        "title": "You may also like",
         "content": "",
         "background": "",
         "background_gradient": "",
@@ -218,20 +218,20 @@
       "settings": {
         "recommendations_count": 5,
         "full_width": true,
-        "stack_products": false,
+        "stack_products": true,
         "show_progress_bar": true,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "You may also like",
-        "content": "",
+        "products_per_row_desktop": 3,
+        "subheading": "hhhh",
+        "title": "You may also like 2",
+        "content": "<p>dmdf,dfdfmdfm,fd<\/p>",
         "background": "rgba(0,0,0,0)",
         "background_gradient": "",
-        "text_color": "#1a1a1a",
+        "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "product_card_background": "#ffffff",
-        "product_card_text_color": "#1a1a1a"
+        "product_card_background": "",
+        "product_card_text_color": ""
       }
     }
   },
