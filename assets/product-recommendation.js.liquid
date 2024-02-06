@@ -22,9 +22,6 @@ async function initProductRecommendation(selector) {
   let productCards = await Promise.all(fetchProductCards);
   productCards.forEach(productcard=>productListEl.insertAdjacentHTML("beforeend", productcard));
   selector.closest(".section-stack").appendChild(recommendationDOM.body.firstChild);
-
-  console.log("recommendationDOM.body.firstChild",recommendationDOM.body.firstChild);
-  
   selector.remove();
 }
 
