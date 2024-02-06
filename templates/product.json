@@ -235,6 +235,28 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "custom_product_recommendation_xfraDa": {
+      "type": "custom-product-recommendation",
+      "settings": {
+        "rebuy_id": 142476,
+        "recommendations_count": 6,
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "You may also like",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
@@ -242,6 +264,7 @@
     "related-products",
     "1706520074e224910d",
     "9fb22706-25a9-4268-b1ce-689fb91ddaaf",
-    "custom_product_recommendation_rNHtRR"
+    "custom_product_recommendation_rNHtRR",
+    "custom_product_recommendation_xfraDa"
   ]
 }
