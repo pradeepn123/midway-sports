@@ -138,27 +138,26 @@
     },
     "related-products": {
       "type": "related-products",
-      "disabled": true,
       "settings": {
-        "recommendations_count": 10,
+        "recommendations_count": 8,
         "products": [
 
         ],
         "full_width": true,
         "stack_products": false,
-        "show_progress_bar": true,
+        "show_progress_bar": false,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 3,
-        "subheading": "",
+        "subheading": "hhhhhh",
         "title": "You may also like",
-        "content": "",
-        "background": "#b47777",
-        "background_gradient": "linear-gradient(89deg, rgba(219, 149, 250, 1) 7%, rgba(148, 88, 255, 1) 94%)",
-        "text_color": "#00a341",
-        "heading_color": "#e30712",
-        "heading_gradient": "radial-gradient(rgba(255, 154, 98, 1), rgba(255, 204, 75, 1) 100%)",
-        "product_card_background": "#ffb74a",
-        "product_card_text_color": "#b47777"
+        "content": "<p>hhhhhhhhhh<\/p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
       }
     },
     "1706520074e224910d": {
@@ -217,23 +216,22 @@
     "custom_product_recommendation_rNHtRR": {
       "type": "custom-product-recommendation",
       "settings": {
-        "rebuy_id": 142476,
-        "recommendations_count": 6,
-        "full_width": true,
-        "stack_products": false,
+        "recommendations_count": 10,
+        "full_width": false,
+        "stack_products": true,
         "show_progress_bar": true,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "You may also like",
-        "content": "",
-        "background": "#f5f5f5",
-        "background_gradient": "linear-gradient(46deg, rgba(NaN, NaN, NaN, 0) 13%, rgba(170, 248, 219, 1) 86%)",
-        "text_color": "#1a1a1a",
-        "heading_color": "#1a1a1a",
+        "products_per_row_desktop": 3,
+        "subheading": "hhhh",
+        "title": "You may also like 2",
+        "content": "<p>dmdf,dfdfmdfm,fd<\/p>",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
         "heading_gradient": "",
-        "product_card_background": "#ffffff",
-        "product_card_text_color": "#1a1a1a"
+        "product_card_background": "",
+        "product_card_text_color": ""
       }
     }
   },
