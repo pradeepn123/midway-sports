@@ -31,7 +31,7 @@
     "heading_apparition": "split_fade",
     "color_swatch_style": "round",
     "show_vendor": true,
-    "show_quick_buy": false,
+    "show_quick_buy": true,
     "show_product_rating": false,
     "product_color_display": "hide",
     "product_image_aspect_ratio": "square",
