@@ -238,6 +238,7 @@
     },
     "custom_product_recommendation_xfraDa": {
       "type": "custom-product-recommendation",
+      "disabled": true,
       "settings": {
         "rebuy_id": 142476,
         "recommendations_count": 6,
