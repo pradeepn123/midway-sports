@@ -1,4 +1,3 @@
-<script src="{{'product-recommendation.js' | asset_url}}" defer></script>
 {% comment %}2 srcset="${ product.image.alt };width=200 200w, ${ product.image.alt };width=300 300w, ${ product.image.alt };width=400 400w, ${ product.image.alt };width=500 500w, ${ product.image.alt };width=600 600w, ${ product.image.alt };width=700 700w, ${ product.image.alt };width=800 800w, ${ product.image.alt };width=1000 1000w" {% endcomment %}
 {% comment %} 1srcset="${product.image.src};width=200 200w, ${product.image.src};width=300 300w, ${product.image.src};width=400 400w, ${product.image.src};width=500 500w, ${ product.image.alt };width=600 600w, ${ product.image.alt };width=700 700w, ${ product.image.alt };width=800 800w, ${ product.image.alt };width=1000 1000w" {% endcomment %}
 
@@ -16,6 +15,25 @@
     --product-list-items-per-row: {{ section.settings.products_per_row_mobile | times: 1 }};
     --product-list-carousel-item-width: 74vw;
     --product-list-grid: {% if section.settings.stack_products %}auto / repeat(var(--product-list-items-per-row), minmax(0, 1fr)){% else %}auto / auto-flow var(--product-list-carousel-item-width){% endif %};
+  }
+  .custom-related-products-{{ section.id }} .product-card__title, .custom-related-products-{{ section.id }} .product-card__info a, .custom-related-products-{{ section.id }} .price-list .text-subdued{
+    color: {{ section.settings.product_card_text_color }};
+  }
+  .custom-related-products-{{ section.id }} .price-list .text-subdued.line-through{
+    color: #1A1A1AB3;
+  }
+  .custom-related-products-{{ section.id }} .product-card__info{
+    padding: 1rem !important;
+  }
+
+  @media (min-width: 1024px) {
+    .custom-related-products-{{ section.id }} .product-card__info{
+      padding: 1.4rem !important;
+    }
+  }
+
+  .custom-related-products-{{ section.id }} .product-card{
+    background: {{ section.settings.product_card_background }};
   }
 
   @media screen and (min-width: 700px) {
@@ -41,7 +59,7 @@
 {%- endcomment -%}
 
 <div {% render 'section-properties' %}>
-  <div class="section-stack">
+  <div class="section-stack custom-related-products-{{ section.id }}">
     {%- render 'section-header',
       subheading: section.settings.subheading,
       heading: section.settings.title,
@@ -229,11 +247,3 @@
   ]
 }
 {% endschema %}
-
-{% comment %} {
-  "type": "product_list",
-  "id": "products",
-  "limit": 20,
-  "label": "Manual recommendations",
-  "info": "Replaces automatic recommendations when selected."
-}, {% endcomment %}
