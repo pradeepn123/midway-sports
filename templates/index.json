@@ -5,6 +5,7 @@
       "blocks": {
         "template--14754144485481__0951c3e6-9b1f-49d5-8582-b52791341314-1684408460d301b7dd-0": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/air_jordan_1_low_g_-_2.webp",
             "content_max_width": 780,
@@ -45,17 +46,40 @@
             "background": "",
             "background_gradient": ""
           }
+        },
+        "image_9qXFVm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/midway_shoes_web_1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/midway_shoes_1.jpg",
+            "content_max_width": 500,
+            "mobile_text_position": "place-self-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "Feel the Power at Your Feet",
+            "title": "Elevate Your Play, Steal the Show!",
+            "heading_tag": "h1",
+            "button_text": "SHOP BASEBALL FOOTWEAR",
+            "button_link": "shopify:\/\/collections\/baseball-footwear",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 31,
+            "background": "",
+            "background_gradient": ""
+          }
         }
       },
       "block_order": [
         "template--14754144485481__0951c3e6-9b1f-49d5-8582-b52791341314-1684408460d301b7dd-0",
-        "image_dd4jGB"
+        "image_dd4jGB",
+        "image_9qXFVm"
       ],
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
-        "image_size": "md",
-        "controls_type": "dots",
+        "image_size": "lg",
+        "controls_type": "numbers",
         "transition_type": "fade_with_text",
         "autoplay": true,
         "cycle_speed": 5,
