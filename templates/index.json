@@ -64,7 +64,7 @@
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 31,
+            "overlay_opacity": 0,
             "background": "",
             "background_gradient": ""
           }
