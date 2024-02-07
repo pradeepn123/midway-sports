@@ -138,6 +138,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "recommendations_count": 8,
         "products": [
@@ -145,12 +146,12 @@
         ],
         "full_width": true,
         "stack_products": false,
-        "show_progress_bar": true,
+        "show_progress_bar": false,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "",
+        "products_per_row_desktop": 3,
+        "subheading": "hhhhhh",
         "title": "You may also like",
-        "content": "",
+        "content": "<p>hhhhhhhhhh<\/p>",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -212,12 +213,59 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
+    },
+    "custom_product_recommendation_rNHtRR": {
+      "type": "custom-product-recommendation",
+      "settings": {
+        "rebuy_id": 142476,
+        "recommendations_count": 8,
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "You may also like",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "custom_product_recommendation_UFMex9": {
+      "type": "custom-product-recommendation",
+      "disabled": true,
+      "settings": {
+        "rebuy_id": 142476,
+        "recommendations_count": 6,
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "You may also like",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "related-products",
     "1706520074e224910d",
-    "9fb22706-25a9-4268-b1ce-689fb91ddaaf"
+    "9fb22706-25a9-4268-b1ce-689fb91ddaaf",
+    "custom_product_recommendation_rNHtRR",
+    "custom_product_recommendation_UFMex9"
   ]
 }
