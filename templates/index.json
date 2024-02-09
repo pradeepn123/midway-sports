@@ -145,7 +145,7 @@
       "type": "scrolling-text",
       "settings": {
         "full_width": true,
-        "text": "Unleash your potential. Dominate the game. Midway Sports",
+        "text": "Unleash your potential. Dominate the game.",
         "text_size": "medium",
         "text_style": "fill",
         "scrolling_mode": "auto",
