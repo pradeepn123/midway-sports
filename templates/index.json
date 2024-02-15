@@ -922,7 +922,7 @@
           "type": "collection",
           "settings": {
             "collection": "mens-apparel",
-            "image": "shopify:\/\/shop_images\/essentials-men.jpg",
+            "image": "shopify:\/\/shop_images\/collection-list_Link.webp",
             "subheading": "",
             "title": "Men's",
             "url": "",
@@ -937,7 +937,7 @@
           "type": "collection",
           "settings": {
             "collection": "womens-apparel",
-            "image": "shopify:\/\/shop_images\/essentials-women.jpg",
+            "image": "shopify:\/\/shop_images\/collection-list_Link-1.webp",
             "subheading": "",
             "title": "Women's",
             "url": "",
@@ -952,7 +952,7 @@
           "type": "collection",
           "settings": {
             "collection": "kids-apparel",
-            "image": "shopify:\/\/shop_images\/essentials-kid2.jpg",
+            "image": "shopify:\/\/shop_images\/collection-list_Link-2.webp",
             "subheading": "",
             "title": "Kid's",
             "url": "",
