@@ -501,7 +501,7 @@
         "item-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/home-uniform-football.jpg",
+            "image": "shopify:\/\/shop_images\/Artboard_2_copy_4.webp",
             "title": "Football uniforms",
             "heading_tag": "h2",
             "link_url": "shopify:\/\/collections\/football-uniforms",
@@ -523,7 +523,7 @@
         "item-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/home-uniform-basketball.jpg",
+            "image": "shopify:\/\/shop_images\/Artboard_3_copy_3.webp",
             "title": "Basketball uniforms",
             "heading_tag": "h5",
             "link_url": "shopify:\/\/collections\/basketball-uniforms",
@@ -545,7 +545,7 @@
         "item-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/home-uniform-soccer.jpg",
+            "image": "shopify:\/\/shop_images\/Artboard_3_copy_4.webp",
             "title": "Soccer uniforms",
             "heading_tag": "h5",
             "link_url": "shopify:\/\/collections\/soccer-uniforms",
@@ -567,7 +567,7 @@
         "29246d34-c6e0-4373-84f6-b15e57736a00": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/home-uniform-baseball.jpg",
+            "image": "shopify:\/\/shop_images\/Artboard_4_copy_2.webp",
             "title": "Baseball uniforms",
             "heading_tag": "h2",
             "link_url": "shopify:\/\/collections\/baseball-uniforms",
