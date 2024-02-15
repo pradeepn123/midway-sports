@@ -595,7 +595,7 @@
       ],
       "settings": {
         "media_sec_top": 1,
-        "media_sec_btm": 1,
+        "media_sec_btm": 50,
         "full_width": true,
         "reduce_width": false,
         "desktop_row_height": 350,
