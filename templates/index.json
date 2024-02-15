@@ -600,7 +600,7 @@
         "reduce_width": false,
         "desktop_row_height": 350,
         "mobile_row_height": 150,
-        "background": "#000000",
+        "background": "#ffffff",
         "background_gradient": ""
       }
     },
