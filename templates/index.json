@@ -259,11 +259,11 @@
         "image_size": "md",
         "image": "shopify:\/\/shop_images\/baseball_gloves_0e039429-637c-4c3c-a84f-9516cf826d24.webp",
         "mobile_image": "shopify:\/\/shop_images\/baseball_gloves.webp",
-        "mobile_text_position": "place-self-center-start text-start",
+        "mobile_text_position": "place-self-end-center text-center",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "8af10d46-b9ec-4e95-a57f-974573cbbb97": {
