@@ -115,6 +115,7 @@
 
       ],
       "settings": {
+        "cont_mar_btn": 40,
         "full_width": false,
         "subheading": "",
         "title": "We are here to help",
@@ -132,12 +133,35 @@
         "button_text_color": "",
         "form_bg_color": "#ffffff"
       }
+    },
+    "custom_product_recommendation_7qMT7T": {
+      "type": "custom-product-recommendation",
+      "settings": {
+        "rebuy_id": 142449,
+        "recommendations_count": 8,
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Top Sellers",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
     "main",
     "12659b45-1546-4698-a963-7d27bc57deff",
     "26bc45d0-67ce-4e42-9f29-65c9d0aa80e7",
-    "contact"
+    "contact",
+    "custom_product_recommendation_7qMT7T"
   ]
 }
