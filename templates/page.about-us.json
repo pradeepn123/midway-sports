@@ -373,6 +373,28 @@
         "background_gradient": ""
       }
     },
+    "custom_product_recommendation_N9tgfn": {
+      "type": "custom-product-recommendation",
+      "settings": {
+        "rebuy_id": 142451,
+        "recommendations_count": 8,
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Top Sellers",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "recently_viewed_products_DcTN3r": {
       "type": "recently-viewed-products",
       "settings": {
@@ -406,6 +428,7 @@
     "c7f1c41a-a216-4cfe-8fdc-5885e87ef507",
     "2a65616d-f0d8-4a9e-9618-2a45219f0c77",
     "1522b287-6bfe-456e-b686-a26514f47fc3",
+    "custom_product_recommendation_N9tgfn",
     "recently_viewed_products_DcTN3r"
   ]
 }
