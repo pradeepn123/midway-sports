@@ -156,6 +156,28 @@
         "text_gradient": ""
       }
     },
+    "custom_product_recommendation_aNMi3q": {
+      "type": "custom-product-recommendation",
+      "settings": {
+        "rebuy_id": 142451,
+        "recommendations_count": 8,
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Top Sellers",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "9ea6b81c-dfad-4107-b6bf-0dd8f8434be9": {
       "type": "media-with-text",
       "blocks": {
@@ -1120,6 +1142,7 @@
     "0951c3e6-9b1f-49d5-8582-b52791341314",
     "c954cc68-cef4-4395-887f-2862a953772b",
     "scrolling-text",
+    "custom_product_recommendation_aNMi3q",
     "9ea6b81c-dfad-4107-b6bf-0dd8f8434be9",
     "featured-collection",
     "d992f206-9633-4d9c-9667-c93cb521b503",
