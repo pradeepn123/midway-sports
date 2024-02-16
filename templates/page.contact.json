@@ -137,7 +137,7 @@
     "custom_product_recommendation_7qMT7T": {
       "type": "custom-product-recommendation",
       "settings": {
-        "rebuy_id": 142449,
+        "rebuy_id": 142451,
         "recommendations_count": 8,
         "full_width": true,
         "stack_products": false,
