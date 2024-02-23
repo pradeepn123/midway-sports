@@ -305,12 +305,3 @@
 }
 
 
-//rebuy cart
-:root {
-  --rebuy-padding: 4px;
-}
-
-.rebuy-cart__header-custom {
-  padding-top: var(--rebuy-padding);
-  padding-bottom: var(--rebuy-padding);
-}
