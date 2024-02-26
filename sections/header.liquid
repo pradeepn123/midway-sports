@@ -270,7 +270,7 @@ the underlying logic of the menu.
             {%- render 'icon' with 'cart' -%}
 
             <div class="header__cart-count">
-              <cart-count class="count-bubble {% if cart.item_count == 0 %}opacity-0{% endif %}" aria-hidden="true">
+              <cart-count class="count-bubble {% if cart.item_count == 0 %}opacity-0{% endif %} cart-count" aria-hidden="true">
                 {{- cart.item_count -}}
               </cart-count>
             </div>
