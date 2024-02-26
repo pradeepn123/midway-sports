@@ -2901,6 +2901,7 @@ var ProductForm = class extends HTMLFormElement {
       }
       const cartContent = await (await fetch(`${Shopify.routes.root}cart.js`)).json();
       cartContent["sections"] = responseJson["sections"];
+      if(window.Rebuy.SmartCart.cart) return;
       this.dispatchEvent(new CustomEvent("variant:add", {
         bubbles: true,
         detail: {
