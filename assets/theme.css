@@ -10127,6 +10127,8 @@ line-item .line-item__info .list-disc .text-subdued{
   padding: calc(var(--rebuy-padding) * 2) 0;
   font-weight: bold;
   border-bottom: 1px solid #e3e3e3;
+  text-align: left;
+  font-size: 18px;
 }
 .flyout-recommendations-sticky .rebuy-widget .rebuy-widget-content .flickity-viewport{
   /* max-width: 80%; */
@@ -10169,12 +10171,36 @@ line-item .line-item__info .list-disc .text-subdued{
 .rebuy-cart__flyout-footer.rebuy-cart__flyout-footer-padding .rebuy-cart__checkout_container{
   padding: calc(var(--rebuy-padding) * 3) calc(var(--rebuy-padding) * 5);
 }
+.rebuy-cart__flyout-empty-cart.emptyCart-center-align{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.rebuy-cart__flyout-empty-cart-footer.emptyCart-padding{
+  padding: 0;
+}
+.rebuy-cart__flyout-empty-cart.emptyCart-center-align h4, 
+.rebuy-cart__flyout-empty-cart.emptyCart-center-align p{
+  font-size: 16px;
+}
+.rebuy-cart__flyout-empty-cart.emptyCart-center-align p:last-child{
+  margin-top: 10px;
+}
+.rebuy-cart__flyout-empty-cart.emptyCart-center-align p:last-child a{
+  padding: 5px 10px;
+}
 @media (max-width: 540px){
+  
   .rebuy-cart__flyout-header.rebuy-cart__header-custom{
     padding: var(--rebuy-padding) calc(var(--rebuy-padding) * 5);
   }
   .rebuy-cart__flyout-actions-padding .rebuy-button{
     padding: 0;
+  }
+  .flyout-recommendations-sticky .rebuy-widget .rebuy-widget-content .primary-title{
+    font-size: 16px;
   }
   .flyout-recommendations-sticky .rebuy-widget .rebuy-widget-content .flickity-viewport .flickity-slider .rebuy-product-block{
     padding: 0 calc(var(--rebuy-padding) * 4);
