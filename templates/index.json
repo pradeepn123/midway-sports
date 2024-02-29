@@ -27,6 +27,7 @@
         },
         "image_dd4jGB": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Midway-gif_1.gif",
             "mobile_image": "shopify:\/\/shop_images\/Midway-mobile-gif.gif",
@@ -49,7 +50,6 @@
         },
         "image_9qXFVm": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/midway_shoes_web_1.jpg",
             "mobile_image": "shopify:\/\/shop_images\/Artboard_17_copy.jpg",
