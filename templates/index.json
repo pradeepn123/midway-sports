@@ -185,6 +185,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/under_armour_banner_pc4.webp",
+            "mobile_image": "shopify:\/\/shop_images\/Working-Out-With-Chalk.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
