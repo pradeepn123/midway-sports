@@ -1,0 +1,8 @@
+
+{%  assign reviews_count = product.metafields.okendo.summaryData.size %}
+{%  if reviews_count > 0 %} 
+ {{ product.metafields.okendo.summaryData | json}}
+ {%  else %}
+   {}
+{%  endif %}
+

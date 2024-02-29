@@ -29,7 +29,20 @@ CSS
     #block-{{ section.id }}-{{ block.id }} {
       --media-with-text-item-icon-width: {{ block.settings.icon_width }}px;
     }
-
+    .media-with-text__media--desktop{
+      display: none;
+    }
+    .media-with-text__media--mobile{
+      display: block;
+    }
+    @media (min-width: 768px){
+      .media-with-text__media--desktop{
+        display: block;
+      }
+      .media-with-text__media--mobile{
+        display: none;
+      }
+    }
     @media screen and (min-width: 1000px) {
       #block-{{ section.id }}-{{ block.id }} {
         --media-with-text-item-grid-template: {% if block.settings.media_position == 'start' %}"media content" / minmax(0, {{ media_ratio }}fr) minmax(0, {{ content_ratio }}fr){% else %}"content media" / minmax(0, {{ content_ratio }}fr) minmax(0, {{ media_ratio }}fr){% endif %};
@@ -48,9 +61,9 @@ LIQUID
   <media-with-text class="media-with-text {% if section.settings.spacing == 'none' %}{% if section.settings.full_width %}full-bleed{% else %}rounded{% endif %}{% endif %}">
     {%- for block in section.blocks -%}
       <div id="block-{{ section.id }}-{{ block.id }}" class="media-with-text__item" {{ block.shopify_attributes }}>
-        <div class="media-with-text__media {% unless section.settings.spacing == 'none' %}rounded{% endunless %}" reveal-on-scroll="true">
+        <div class="media-with-text__media media-with-text__media--desktop {% unless section.settings.spacing == 'none' %}rounded{% endunless %}" reveal-on-scroll="true">
           {%- if block.type == 'image' -%}
-            {%- if block.settings.image != blank -%}
+            {%- if block.settings.image -%}
               {%- assign width_ratio = 100.0 | divided_by: block.settings.media_width -%}
               {%- assign maximum_image_width = settings.page_width | divided_by: width_ratio -%}
 
@@ -59,6 +72,64 @@ LIQUID
               {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600' -}}
             {%- else -%}
               {{- 'image' | placeholder_svg_tag: 'aspect-short placeholder' -}}
+            {%- endif -%}
+          {%- else -%}
+            {%- capture poster -%}
+              {%- assign poster_image = block.settings.poster_image | default: block.settings.video.preview_image -%}
+
+              {%- if poster_image -%}
+                {{- poster_image | image_url: width: poster_image.width | image_tag: loading: 'lazy', sizes: '(max-width: 699px) 400px, 800px', widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', class: 'rounded' -}}
+              {%- else -%}
+                {{ 'image' | placeholder_svg_tag: 'rounded' }}
+              {%- endif -%}
+            {%- endcapture -%}
+
+            {%- if block.settings.video -%}
+              <video-media {% if block.settings.autoplay %}autoplay{% else %}show-play-button{% endif %}>
+                {%- unless block.settings.autoplay -%}
+                  {{- poster -}}
+                {%- endunless -%}
+
+                {%- if block.settings.autoplay -%}
+                  {{- block.settings.video | video_tag: playslinline: true, muted: true, loop: true, preload: 'metadata' -}}
+                {%- else -%}
+                  {{- block.settings.video | video_tag: playslinline: true, controls: true, muted: false, loop: false, preload: 'metadata' -}}
+                {%- endif -%}
+              </video-media>
+            {%- else -%}
+              <video-media host="{{ block.settings.external_video_url.type }}" {% if block.settings.autoplay %}autoplay{% else %}show-play-button{% endif %}>
+                {%- unless block.settings.autoplay -%}
+                  {{- poster -}}
+                {%- endunless -%}
+
+                <template>
+                  {%- if block.settings.external_video_url.type == 'youtube' -%}
+                    <iframe src="https://www.youtube.com/embed/{{ block.settings.external_video_url.id }}?playsinline=1&autoplay=1&controls=0&mute=1&loop=1&playlist={{ block.settings.external_video_url.id }}&enablejsapi=1&rel=0&modestbranding=1&origin={{ 'https://' | append: request.host | url_encode }}" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
+                  {%- elsif block.settings.external_video_url.type == 'vimeo' -%}
+                    <iframe src="https://player.vimeo.com/video/{{ block.settings.external_video_url.id }}?autoplay=1&autopause=1&background=1&loop=1&muted=1&transparent=0&responsive=1&portrait=0&title=0&byline=0&color={{ settings.text_color | remove_first: '#' }}" allow="autoplay; encrypted-media;" allowfullscreen="allowfullscreen"></iframe>
+                  {%- endif -%}
+                </template>
+              </video-media>
+            {%- endif -%}
+          {%- endif -%}
+        </div>
+
+        <div class="media-with-text__media media-with-text__media--mobile {% unless section.settings.spacing == 'none' %}rounded{% endunless %}" reveal-on-scroll="true">
+          {%- if block.type == 'image' -%}
+            {%- if block.settings.mobile_image -%}
+              {%- assign width_ratio = 100.0 | divided_by: block.settings.media_width -%}
+              {%- assign maximum_image_width = settings.page_width | divided_by: width_ratio -%}
+
+              {%- capture sizes -%}(max-width: 999px) 100vw, min({{ maximum_image_width | ceil }}px, {{ block.settings.media_width }}vw){% endcapture %}
+
+              {{- block.settings.mobile_image | image_url: width: block.settings.mobile_image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600' -}}
+            {%- else -%}
+              {%- assign width_ratio = 100.0 | divided_by: block.settings.media_width -%}
+              {%- assign maximum_image_width = settings.page_width | divided_by: width_ratio -%}
+
+              {%- capture sizes -%}(max-width: 999px) 100vw, min({{ maximum_image_width | ceil }}px, {{ block.settings.media_width }}vw){% endcapture %}
+
+              {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600' -}}
             {%- endif -%}
           {%- else -%}
             {%- capture poster -%}
@@ -205,7 +276,13 @@ LIQUID
           "type": "image_picker",
           "id": "image",
           "label": "Image",
-          "info": "1500 x 1500px .jpg recommended"
+          "info": "1200px x 1000px .jpg recommended"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile_image",
+          "label": "Image for mobile",
+          "info": "800px x 1000px .jpg recommended"
         },
         {
           "type": "range",

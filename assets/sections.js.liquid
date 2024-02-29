@@ -737,13 +737,15 @@ var MediaWithText = class extends HTMLElement {
     }
   }
   reveal(item) {
-    const media = item.querySelector(".media-with-text__media");
-    imageLoaded2(media.querySelector("img")).then(() => {
-      timeline7([
-        [media, { opacity: [0, 1] }, { duration: 0.3 }],
-        [media.querySelector("img, video-media"), { transform: ["scale(1.05)", "scale(1)"] }, { duration: 0.3, at: "<" }]
-      ]);
-    });
+    const media = item.querySelectorAll(".media-with-text__media");
+    media.forEach(media => {
+      imageLoaded2(media.querySelector("img")).then(() => {
+        timeline7([
+          [media, { opacity: [0, 1] }, { duration: 0.3 }],
+          [media.querySelector("img, video-media"), { transform: ["scale(1.05)", "scale(1)"] }, { duration: 0.3, at: "<" }]
+        ]);
+      });
+    })
     animate5(item.querySelector(".media-with-text__content > .prose"), { opacity: [0, 1] }, { duration: 0.2, delay: 0.3 });
   }
 };

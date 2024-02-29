@@ -23,6 +23,7 @@ Supported variables
 {%- endcomment -%}
 
 {{- 'product-card.css' | asset_url | stylesheet_tag: preload: true -}}
+{{- 'product-card-custom.css' | asset_url | stylesheet_tag: preload: true -}}
 
 {% assign randomNumber = "now" | date: "%N" | modulo: 1000000 | plus: 0 %}
 {% assign generated_section_id = section.id | default: randomNumber %}
@@ -134,17 +135,26 @@ Supported variables
   {%- endcomment -%}
 
   <div class="product-card__info {% if text_alignment == 'center' %}product-card__info--center{% endif %}">
+    
     {%- if show_vendor and product.vendor != blank -%}
-      {%- if show_rating and text_alignment != 'center' -%}
-        <div class="rating-with-text w-full">
+      <div class="vendor_rating_wrapper">
+        {%- if show_rating and text_alignment != 'center' -%}
+          <div class="rating-with-text w-full">
+            {%- render 'vendor' with product.vendor, class: 'text-xs' -%}
+            {%- capture rating_class -%}{% if mobile_reduced %}hidden sm:flex{% endif %}{%- endcapture -%}
+            {%- render 'product-rating', product: product, class: rating_class, display_mode: settings.product_rating_mode -%}
+          </div>
+        {%- else -%}
           {%- render 'vendor' with product.vendor, class: 'text-xs' -%}
-
-          {%- capture rating_class -%}{% if mobile_reduced %}hidden sm:flex{% endif %}{%- endcapture -%}
-          {%- render 'product-rating', product: product, class: rating_class, display_mode: settings.product_rating_mode -%}
-        </div>
-      {%- else -%}
-        {%- render 'vendor' with product.vendor, class: 'text-xs' -%}
-      {%- endif -%}
+        {%- endif -%}
+        <product-rating>
+          <script id="product-card-rating-data" type="application/json">
+            {
+              "data": {% render 'JSON-product-rating-data', product: product %}
+            }
+          </script>
+        </product-rating>
+      </div>
     {%- endif -%}
 
     <div class="v-stack gap-0.5 w-full {% if text_alignment == 'center' %}justify-items-center{% endif %}">
@@ -226,4 +236,6 @@ Supported variables
       {%- endfor -%}
     {%- endif -%}
   </div>
+
+
 </product-card>

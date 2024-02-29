@@ -16,3 +16,9 @@
 .product-list .product-card__figure a img{
     width: 100%;
 }
+
+.product-card__info .vendor_rating_wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,9 @@
+.product-rating {
+    &__wrapper {
+        display: flex;
+        gap: 5px;
+    }
+    &__review-count{
+        font-size: 12px;
+    }
+}
