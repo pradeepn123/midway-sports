@@ -27,15 +27,14 @@
         },
         "image_dd4jGB": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Midway-gif_1.gif",
-            "mobile_image": "shopify:\/\/shop_images\/Midway-mobile-gif.gif",
+            "image": "shopify:\/\/shop_images\/midway_tshirt_web.webp",
+            "mobile_image": "shopify:\/\/shop_images\/Artboard_16_copy_3.webp",
             "content_max_width": 500,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "Command the Diamond",
-            "title": "Shop Stock Uniforms",
+            "title": "Shop Stock Baseball Uniforms",
             "heading_tag": "h3",
             "button_text": "SHOP NOW",
             "button_link": "shopify:\/\/collections\/stock-uniforms",
