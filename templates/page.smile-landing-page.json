@@ -218,6 +218,23 @@
             "description_text": "Earn reward points on every purchase. Redeem for discounts on future purchases."
           }
         },
+        "smile_loyalty_rewards_smile_landing_page_how_it_works_m4phgM": {
+          "type": "shopify:\/\/apps\/smile-loyalty-rewards\/blocks\/smile-landing-page-how-it-works\/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
+          "settings": {
+            "primary_colour": "#333",
+            "secondary_colour": "#fff",
+            "title_text": "How it works"
+          }
+        },
+        "smile_loyalty_rewards_smile_landing_page_earning_rule_highlight_wL9LQU": {
+          "type": "shopify:\/\/apps\/smile-loyalty-rewards\/blocks\/smile-landing-page-earning-rule-highlight\/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
+          "settings": {
+            "primary_colour": "#333",
+            "secondary_colour": "#fff",
+            "title_text": "Earn points for every order placed",
+            "description_text": "The more you spend, the more you save."
+          }
+        },
         "smile_loyalty_rewards_smile_landing_page_redeeming_rule_highlight_qgLBPe": {
           "type": "shopify:\/\/apps\/smile-loyalty-rewards\/blocks\/smile-landing-page-redeeming-rule-highlight\/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
           "settings": {
@@ -230,6 +247,8 @@
       },
       "block_order": [
         "smile_loyalty_rewards_smile_landing_page_header_A3Fcak",
+        "smile_loyalty_rewards_smile_landing_page_how_it_works_m4phgM",
+        "smile_loyalty_rewards_smile_landing_page_earning_rule_highlight_wL9LQU",
         "smile_loyalty_rewards_smile_landing_page_redeeming_rule_highlight_qgLBPe"
       ],
       "settings": {
