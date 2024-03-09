@@ -8,23 +8,17 @@
     "c954cc68-cef4-4395-887f-2862a953772b": {
       "type": "image-with-text-overlay",
       "blocks": {
-        "template--14754144485481__c954cc68-cef4-4395-887f-2862a953772b-168439958168a73e3d-0": {
-          "type": "subheading",
-          "settings": {
-            "text": "UNLEASH YOUR POTENTIAL"
-          }
-        },
         "template--14754144485481__c954cc68-cef4-4395-887f-2862a953772b-168439958168a73e3d-1": {
           "type": "heading",
           "settings": {
-            "text": "Earn reward points on every purchase. Redeem for discounts on future purchases.",
+            "text": "Earn reward points on every purchase.",
             "heading_tag": "h3"
           }
         },
         "template--14754144485481__c954cc68-cef4-4395-887f-2862a953772b-168439958168a73e3d-2": {
           "type": "richtext",
           "settings": {
-            "content": ""
+            "content": "<p>Redeem for discounts on future purchases.<\/p>"
           }
         },
         "e451e8b2-3154-4073-a5ec-fd4a8e34b84e": {
@@ -40,7 +34,6 @@
         }
       },
       "block_order": [
-        "template--14754144485481__c954cc68-cef4-4395-887f-2862a953772b-168439958168a73e3d-0",
         "template--14754144485481__c954cc68-cef4-4395-887f-2862a953772b-168439958168a73e3d-1",
         "template--14754144485481__c954cc68-cef4-4395-887f-2862a953772b-168439958168a73e3d-2",
         "e451e8b2-3154-4073-a5ec-fd4a8e34b84e"
@@ -61,18 +54,54 @@
     },
     "scrolling-text": {
       "type": "scrolling-text",
-      "disabled": true,
       "settings": {
         "full_width": true,
         "text": "Unleash your potential. Dominate the game.",
-        "text_size": "medium",
+        "text_size": "xsmall",
         "text_style": "fill",
         "scrolling_mode": "auto",
-        "scrolling_speed": 7,
+        "scrolling_speed": 10,
         "background": "",
         "background_gradient": "",
         "text_color": "#000000",
         "text_gradient": ""
+      }
+    },
+    "9ea6b81c-dfad-4107-b6bf-0dd8f8434be9": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--14754144485481__9ea6b81c-dfad-4107-b6bf-0dd8f8434be9-1684400930673bdee8-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/smile-landing-page-earning-rule-highlight-default-image.webp",
+            "mobile_image": "shopify:\/\/shop_images\/smile-landing-page-earning-rule-highlight-default-image.webp",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Earn points for every order placed",
+            "content": "<p>The more you spend, the more you save.<\/p>",
+            "link_text": "WAYS TO EARN",
+            "link_url": "#shopify-section-template--15142997393513__d1f6cd81-fd38-4328-95a6-9af841336c2f",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "template--14754144485481__9ea6b81c-dfad-4107-b6bf-0dd8f8434be9-1684400930673bdee8-0"
+      ],
+      "settings": {
+        "sec__pad_top": 0,
+        "sec__pad_btm": 0,
+        "full_width": true,
+        "spacing": "none"
       }
     },
     "d1f6cd81-fd38-4328-95a6-9af841336c2f": {
@@ -177,44 +206,6 @@
         "text_color": "#000000"
       }
     },
-    "9ea6b81c-dfad-4107-b6bf-0dd8f8434be9": {
-      "type": "media-with-text",
-      "blocks": {
-        "template--14754144485481__9ea6b81c-dfad-4107-b6bf-0dd8f8434be9-1684400930673bdee8-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/under_armour_banner_pc4.webp",
-            "mobile_image": "shopify:\/\/shop_images\/under_armour_banner_pc4.webp",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "UNDER AMOMOUR HEATGEAR",
-            "title": "Performance Baselayer",
-            "content": "<p>Stay Cool and Perform at Your Best with Under Armour HeatGear!<\/p>",
-            "link_text": "SHOP HEATGEAR",
-            "link_url": "shopify:\/\/collections\/heatgear",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "template--14754144485481__9ea6b81c-dfad-4107-b6bf-0dd8f8434be9-1684400930673bdee8-0"
-      ],
-      "disabled": true,
-      "settings": {
-        "sec__pad_top": 0,
-        "sec__pad_btm": 50,
-        "full_width": true,
-        "spacing": "none"
-      }
-    },
     "1710025633d8122bbe": {
       "type": "apps",
       "blocks": {
@@ -225,23 +216,6 @@
             "secondary_colour": "#fff",
             "title_text": "Welcome to our rewards page",
             "description_text": "Earn reward points on every purchase. Redeem for discounts on future purchases."
-          }
-        },
-        "smile_loyalty_rewards_smile_landing_page_how_it_works_m4phgM": {
-          "type": "shopify:\/\/apps\/smile-loyalty-rewards\/blocks\/smile-landing-page-how-it-works\/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
-          "settings": {
-            "primary_colour": "#333",
-            "secondary_colour": "#fff",
-            "title_text": "How it works"
-          }
-        },
-        "smile_loyalty_rewards_smile_landing_page_earning_rule_highlight_wL9LQU": {
-          "type": "shopify:\/\/apps\/smile-loyalty-rewards\/blocks\/smile-landing-page-earning-rule-highlight\/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
-          "settings": {
-            "primary_colour": "#333",
-            "secondary_colour": "#fff",
-            "title_text": "Earn points for every order placed",
-            "description_text": "The more you spend, the more you save."
           }
         },
         "smile_loyalty_rewards_smile_landing_page_redeeming_rule_highlight_qgLBPe": {
@@ -256,8 +230,6 @@
       },
       "block_order": [
         "smile_loyalty_rewards_smile_landing_page_header_A3Fcak",
-        "smile_loyalty_rewards_smile_landing_page_how_it_works_m4phgM",
-        "smile_loyalty_rewards_smile_landing_page_earning_rule_highlight_wL9LQU",
         "smile_loyalty_rewards_smile_landing_page_redeeming_rule_highlight_qgLBPe"
       ],
       "settings": {
@@ -279,8 +251,8 @@
     "smile-landing-page",
     "c954cc68-cef4-4395-887f-2862a953772b",
     "scrolling-text",
-    "d1f6cd81-fd38-4328-95a6-9af841336c2f",
     "9ea6b81c-dfad-4107-b6bf-0dd8f8434be9",
+    "d1f6cd81-fd38-4328-95a6-9af841336c2f",
     "1710025633d8122bbe"
   ]
 }
