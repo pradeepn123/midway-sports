@@ -82,8 +82,63 @@
           "type": "item",
           "settings": {
             "icon": "picto-gift",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
+            "custom_icon": "shopify:\/\/shop_images\/signup.svg",
+            "mobile_icon_width": 44,
+            "icon_width": 44,
+            "icon_background_type": "none",
+            "icon_background": "#000000",
+            "icon_color": "#1a1a1a",
+            "title": "Join",
+            "content": "<p>Sign up or log in to start earning straight away.<\/p>",
+            "style": "fill",
+            "size": "lg",
+            "text": "",
+            "url": "",
+            "background": "",
+            "text_color": "",
+            "styles": "fill",
+            "sizes": "lg",
+            "texts": "Button text",
+            "urls": "",
+            "backgrounds": "",
+            "text_colors": "",
+            "content-button": ""
+          }
+        },
+        "item_CNnXah": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-gift",
+            "custom_icon": "shopify:\/\/shop_images\/earn-more-points.svg",
+            "mobile_icon_width": 44,
+            "icon_width": 44,
+            "icon_background_type": "none",
+            "icon_background": "#000000",
+            "icon_color": "#1a1a1a",
+            "title": "Earn",
+            "content": "<p>Automatically collect points with every purchase.<\/p>",
+            "style": "fill",
+            "size": "lg",
+            "text": "",
+            "url": "",
+            "background": "",
+            "text_color": "",
+            "styles": "fill",
+            "sizes": "lg",
+            "texts": "Button text",
+            "urls": "",
+            "backgrounds": "",
+            "text_colors": "",
+            "content-button": ""
+          }
+        },
+        "item_6FRATH": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-gift",
+            "custom_icon": "shopify:\/\/shop_images\/custom.svg",
+            "mobile_icon_width": 44,
+            "icon_width": 44,
             "icon_background_type": "none",
             "icon_background": "#000000",
             "icon_color": "#1a1a1a",
@@ -103,69 +158,17 @@
             "text_colors": "",
             "content-button": ""
           }
-        },
-        "template--14754144485481__d1f6cd81-fd38-4328-95a6-9af841336c2f-168447975561c5ff62-1": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-happy",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "circle",
-            "icon_background": "#000000",
-            "icon_color": "#ffffff",
-            "title": "Customization expertise",
-            "content": "<p>Our team of experts specializes in designing custom uniforms that reflect your team's unique style and personality.<\/p>",
-            "style": "fill",
-            "size": "lg",
-            "text": "Button text",
-            "url": "",
-            "background": "",
-            "text_color": "",
-            "styles": "fill",
-            "sizes": "lg",
-            "texts": "Button text",
-            "urls": "",
-            "backgrounds": "",
-            "text_colors": "",
-            "content-button": ""
-          }
-        },
-        "template--14754144485481__d1f6cd81-fd38-4328-95a6-9af841336c2f-168447975561c5ff62-2": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-star",
-            "mobile_icon_width": 24,
-            "icon_width": 32,
-            "icon_background_type": "circle",
-            "icon_background": "#000000",
-            "icon_color": "#ffffff",
-            "title": "Commitment to quality",
-            "content": "<p>We carefully curate our inventory to offer items that deliver durability, reliability, and performance to athletes nationwide.<\/p>",
-            "style": "fill",
-            "size": "lg",
-            "text": "Button text",
-            "url": "",
-            "background": "",
-            "text_color": "",
-            "styles": "fill",
-            "sizes": "lg",
-            "texts": "Button text",
-            "urls": "",
-            "backgrounds": "",
-            "text_colors": "",
-            "content-button": ""
-          }
         }
       },
       "block_order": [
         "template--14754144485481__d1f6cd81-fd38-4328-95a6-9af841336c2f-168447975561c5ff62-0",
-        "template--14754144485481__d1f6cd81-fd38-4328-95a6-9af841336c2f-168447975561c5ff62-1",
-        "template--14754144485481__d1f6cd81-fd38-4328-95a6-9af841336c2f-168447975561c5ff62-2"
+        "item_CNnXah",
+        "item_6FRATH"
       ],
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
-        "title": "",
+        "title": "How it works",
         "heading_tag": "h5",
         "text_alignment": "center",
         "icon_spacing": "medium",
@@ -232,11 +235,31 @@
             "secondary_colour": "#fff",
             "title_text": "How it works"
           }
+        },
+        "smile_loyalty_rewards_smile_landing_page_earning_rule_highlight_wL9LQU": {
+          "type": "shopify:\/\/apps\/smile-loyalty-rewards\/blocks\/smile-landing-page-earning-rule-highlight\/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
+          "settings": {
+            "primary_colour": "#333",
+            "secondary_colour": "#fff",
+            "title_text": "Earn points for every order placed",
+            "description_text": "The more you spend, the more you save."
+          }
+        },
+        "smile_loyalty_rewards_smile_landing_page_redeeming_rule_highlight_qgLBPe": {
+          "type": "shopify:\/\/apps\/smile-loyalty-rewards\/blocks\/smile-landing-page-redeeming-rule-highlight\/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
+          "settings": {
+            "primary_colour": "#333",
+            "secondary_colour": "#fff",
+            "title_text": "Redeem points for rewards",
+            "description_text": "Redeem points on your next purchase, or save them up for higher value rewards."
+          }
         }
       },
       "block_order": [
         "smile_loyalty_rewards_smile_landing_page_header_A3Fcak",
-        "smile_loyalty_rewards_smile_landing_page_how_it_works_m4phgM"
+        "smile_loyalty_rewards_smile_landing_page_how_it_works_m4phgM",
+        "smile_loyalty_rewards_smile_landing_page_earning_rule_highlight_wL9LQU",
+        "smile_loyalty_rewards_smile_landing_page_redeeming_rule_highlight_qgLBPe"
       ],
       "settings": {
         "full_width": true,
