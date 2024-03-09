@@ -28,8 +28,8 @@
             "size": "lg",
             "text": "SHOP NOW",
             "url": "https:\/\/midwaysports.com\/collections",
-            "background": "",
-            "text_color": ""
+            "background": "#ffffff",
+            "text_color": "#1a1a1a"
           }
         }
       },
