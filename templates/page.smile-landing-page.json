@@ -67,43 +67,6 @@
         "text_gradient": ""
       }
     },
-    "9ea6b81c-dfad-4107-b6bf-0dd8f8434be9": {
-      "type": "media-with-text",
-      "blocks": {
-        "template--14754144485481__9ea6b81c-dfad-4107-b6bf-0dd8f8434be9-1684400930673bdee8-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/smile-landing-page-earning-rule-highlight-default-image.webp",
-            "mobile_image": "shopify:\/\/shop_images\/smile-landing-page-earning-rule-highlight-default-image.webp",
-            "media_width": 50,
-            "media_position": "end",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Earn points for every order placed",
-            "content": "<p>The more you spend, the more you save.<\/p>",
-            "link_text": "WAYS TO EARN",
-            "link_url": "#smile-points-activity-rules",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "template--14754144485481__9ea6b81c-dfad-4107-b6bf-0dd8f8434be9-1684400930673bdee8-0"
-      ],
-      "settings": {
-        "sec__pad_top": 0,
-        "sec__pad_btm": 0,
-        "full_width": true,
-        "spacing": "none"
-      }
-    },
     "d1f6cd81-fd38-4328-95a6-9af841336c2f": {
       "type": "text-with-icons",
       "blocks": {
@@ -206,63 +169,78 @@
         "text_color": "#000000"
       }
     },
-    "1710025633d8122bbe": {
-      "type": "apps",
+    "9ea6b81c-dfad-4107-b6bf-0dd8f8434be9": {
+      "type": "media-with-text",
       "blocks": {
-        "smile_loyalty_rewards_smile_landing_page_header_A3Fcak": {
-          "type": "shopify:\/\/apps\/smile-loyalty-rewards\/blocks\/smile-landing-page-header\/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
+        "template--14754144485481__9ea6b81c-dfad-4107-b6bf-0dd8f8434be9-1684400930673bdee8-0": {
+          "type": "image",
           "settings": {
-            "primary_colour": "#333",
-            "secondary_colour": "#fff",
-            "title_text": "Welcome to our rewards page",
-            "description_text": "Earn reward points on every purchase. Redeem for discounts on future purchases."
-          }
-        },
-        "smile_loyalty_rewards_smile_landing_page_how_it_works_m4phgM": {
-          "type": "shopify:\/\/apps\/smile-loyalty-rewards\/blocks\/smile-landing-page-how-it-works\/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
-          "settings": {
-            "primary_colour": "#333",
-            "secondary_colour": "#fff",
-            "title_text": "How it works"
-          }
-        },
-        "smile_loyalty_rewards_smile_landing_page_earning_rule_highlight_wL9LQU": {
-          "type": "shopify:\/\/apps\/smile-loyalty-rewards\/blocks\/smile-landing-page-earning-rule-highlight\/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
-          "settings": {
-            "primary_colour": "#333",
-            "secondary_colour": "#fff",
-            "title_text": "Earn points for every order placed",
-            "description_text": "The more you spend, the more you save."
-          }
-        },
-        "smile_loyalty_rewards_smile_landing_page_redeeming_rule_highlight_qgLBPe": {
-          "type": "shopify:\/\/apps\/smile-loyalty-rewards\/blocks\/smile-landing-page-redeeming-rule-highlight\/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
-          "settings": {
-            "primary_colour": "#333",
-            "secondary_colour": "#fff",
-            "title_text": "Redeem points for rewards",
-            "description_text": "Redeem points on your next purchase, or save them up for higher value rewards."
+            "image": "shopify:\/\/shop_images\/smile-landing-page-earning-rule-highlight-default-image.webp",
+            "mobile_image": "shopify:\/\/shop_images\/smile-landing-page-earning-rule-highlight-default-image.webp",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Earn points for every order placed",
+            "content": "<p>The more you spend, the more you save.<\/p>",
+            "link_text": "WAYS TO EARN",
+            "link_url": "#smile-points-activity-rules",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "#1a1a1a",
+            "button_text_color": "#ffffff"
           }
         }
       },
       "block_order": [
-        "smile_loyalty_rewards_smile_landing_page_header_A3Fcak",
-        "smile_loyalty_rewards_smile_landing_page_how_it_works_m4phgM",
-        "smile_loyalty_rewards_smile_landing_page_earning_rule_highlight_wL9LQU",
-        "smile_loyalty_rewards_smile_landing_page_redeeming_rule_highlight_qgLBPe"
+        "template--14754144485481__9ea6b81c-dfad-4107-b6bf-0dd8f8434be9-1684400930673bdee8-0"
       ],
       "settings": {
+        "sec__pad_top": 0,
+        "sec__pad_btm": 0,
         "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
+        "spacing": "none"
+      }
+    },
+    "media_with_text_F7nCTK": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_LPKPAW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/smile-landing-page-redeeming-rule-highlight-default-image.webp",
+            "mobile_image": "shopify:\/\/shop_images\/smile-landing-page-redeeming-rule-highlight-default-image.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Redeem points for rewards",
+            "content": "<p>Redeem points on your next purchase, or save them up for higher value rewards.<\/p>",
+            "link_text": "WAYS TO REDEEM",
+            "link_url": "#smile-points-products",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "#1a1a1a",
+            "button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_LPKPAW"
+      ],
+      "settings": {
+        "sec__pad_top": 0,
+        "sec__pad_btm": 0,
+        "full_width": true,
+        "spacing": "none"
       }
     }
   },
@@ -270,8 +248,8 @@
     "smile-landing-page",
     "c954cc68-cef4-4395-887f-2862a953772b",
     "scrolling-text",
-    "9ea6b81c-dfad-4107-b6bf-0dd8f8434be9",
     "d1f6cd81-fd38-4328-95a6-9af841336c2f",
-    "1710025633d8122bbe"
+    "9ea6b81c-dfad-4107-b6bf-0dd8f8434be9",
+    "media_with_text_F7nCTK"
   ]
 }
